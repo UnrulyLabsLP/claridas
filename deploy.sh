@@ -16,6 +16,10 @@ npm run build
 # Fault-tolerant rail: only deploy if the build produced output + the CNAME.
 [ -f dist/index.html ] || { echo "ABORT: build produced no dist/index.html"; exit 1; }
 [ -f dist/CNAME ] || echo "claridas.com" > dist/CNAME
+# GitHub Pages runs Jekyll, which strips any folder starting with "_" — including
+# Astro's _astro/ asset dir (all CSS/JS). .nojekyll disables Jekyll so assets serve.
+# Without this the site renders UNSTYLED (every _astro/*.css 404s). MANDATORY.
+touch dist/.nojekyll
 
 echo "→ publishing dist/ to gh-pages…"
 cd dist
