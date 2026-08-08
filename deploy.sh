@@ -31,4 +31,22 @@ git -c user.name="Forge" -c user.email="forge@claridas.com" \
     commit -q -m "Deploy $(date -u +%Y-%m-%dT%H:%M:%SZ)"
 git push -q --force "$REMOTE" gh-pages
 rm -rf .git
-echo "✓ deployed to gh-pages. GitHub Pages serves it (set Pages source = gh-pages branch, custom domain claridas.com)."
+cd "$REPO_DIR"
+echo "✓ pushed to gh-pages. Verifying the live site actually serves its CSS (Pages rebuild is async)…"
+
+# Right-and-tight gate: a deploy that leaves the site UNSTYLED (CSS 404) is a failure,
+# not a success. Poll the live homepage's referenced stylesheet until it returns 200.
+IP=185.199.108.153
+CSS_REF=$(grep -oE '/_astro/[^"]+\.css' dist/index.html | head -1 || true)
+if [ -z "$CSS_REF" ]; then
+  echo "  note: no external _astro CSS referenced (CSS may be inlined) — skipping asset check."
+else
+  ok=0
+  for i in $(seq 1 9); do
+    code=$(curl -s -o /dev/null -w "%{http_code}" --resolve claridas.com:443:$IP "https://claridas.com$CSS_REF" || true)
+    if [ "$code" = "200" ]; then ok=1; echo "  ✓ live CSS $CSS_REF → 200 (styled)."; break; fi
+    echo "  …waiting for Pages rebuild (attempt $i, css=$code)"; sleep 20
+  done
+  [ "$ok" = "1" ] || echo "  ⚠ WARNING: live CSS still 404 after polling — site may be UNSTYLED. Check .nojekyll + Pages build."
+fi
+echo "✓ deploy complete. GitHub Pages serves gh-pages, custom domain claridas.com."
