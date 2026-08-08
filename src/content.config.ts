@@ -34,6 +34,15 @@ const articles = defineCollection({
     crossLlmVerdict: z.string().optional(),
     // Public correction (correction protocol): rendered as a visible banner on the article.
     correction: z.string().optional(),
+    // Geo tags for ZIP-based "local news near you" filtering. Local (and any place-specific)
+    // articles list the place(s) they cover; statewide pieces set statewide:true.
+    places: z.array(z.object({
+      city: z.string().optional(),
+      state: z.string(),
+      lat: z.number(),
+      lng: z.number(),
+      statewide: z.boolean().optional(),
+    })).optional(),
     // Disclosure wall (Travel/Fashion affiliate).
     affiliateDisclosure: z.string().optional(),
   }),
