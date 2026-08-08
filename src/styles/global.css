@@ -9,7 +9,7 @@
   --accent: #7a1f1f;         /* oxblood — masthead + section marks */
   --verified: #1f6b3a;
   --modeled: #8a6d1f;
-  --speculative: #7a1f1f;
+  --speculative: #566572;  /* slate — honest uncertainty, NEVER red (red=error) */
   --serif: 'Georgia', 'Times New Roman', serif;
   --sans: -apple-system, 'Helvetica Neue', Arial, sans-serif;
   --wrap: 1180px;
@@ -18,8 +18,12 @@
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0; background: var(--paper); color: var(--ink);
-  font-family: var(--serif); font-size: 18px; line-height: 1.55;
+  /* Body = clean sans (system stack) for mobile readability + instant load (no webfont block).
+     Headlines/masthead stay serif for trust/gravitas — the dual serif/sans system (BBC/Guardian). */
+  font-family: var(--sans); font-size: 18px; line-height: 1.6;
 }
+h1, h2, h3, .masthead__brand, .lede h1, .article h1 { font-family: var(--serif); }
+@media (max-width: 720px) { body { font-size: 17px; } }
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 20px; }
@@ -27,7 +31,9 @@ a:hover { text-decoration: underline; }
 /* Masthead */
 .masthead { border-bottom: 2px solid var(--ink); }
 .masthead__top { display: flex; align-items: baseline; justify-content: space-between; padding: 14px 0 10px; }
-.masthead__brand { font-family: var(--serif); font-weight: 700; letter-spacing: .04em; font-size: 2.1rem; color: var(--ink); }
+.masthead__brand { font-family: var(--serif); font-weight: 700; letter-spacing: .04em; font-size: 2.1rem; color: var(--ink); display: inline-flex; align-items: center; gap: 11px; }
+.masthead__brand:hover { text-decoration: none; }
+.seal { flex: 0 0 auto; }
 .masthead__tag { font-family: var(--sans); font-size: .72rem; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); }
 .masthead__date { font-family: var(--sans); font-size: .72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .1em; }
 .nav { display: flex; gap: 0; border-top: 1px solid var(--rule); font-family: var(--sans); }

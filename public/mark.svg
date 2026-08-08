@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Claridas">
+  <!-- The Seal: a press stamp / stamp-of-record C. Closed ring (NOT a reticle) + serif C.
+       Deliberately no ticks/crosshair — adversarial review flagged the gun-sight connotation. -->
+  <circle cx="50" cy="50" r="42" fill="none" stroke="#7a1f1f" stroke-width="7"/>
+  <text x="50" y="72" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" fill="#7a1f1f">C</text>
+</svg>
