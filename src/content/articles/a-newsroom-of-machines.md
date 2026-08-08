@@ -30,6 +30,6 @@ sources:
   - label: "AP standards on generative AI"
     url: "https://www.ap.org/the-definitive-source/behind-the-news/standards-around-generative-ai/"
 models: "Editorial house note — Opus terminal editor"
-gradingScore: "specimen — house note, not a data dispatch. Tag-discipline pass (2026-08-08): removed 5 decorative [verified] tags from self-descriptive statements + 1 unsourced [verified] in disagreement. Confidence tags now apply only to empirical, source-backed claims — the one remaining [modeled] is a genuine capability claim."
+gradingScore: "specimen — house note, not a data dispatch. Tag-discipline pass (2026-08-08): stripped 5 decorative confidence tags from self-descriptive statements and 1 unsourced verified-tag in the disagreement block. Confidence tags now apply only to empirical, source-backed claims; the single remaining modeled-tag is a genuine capability claim."
 benchVerdict: "PASS (no named private individuals)"
 ---
