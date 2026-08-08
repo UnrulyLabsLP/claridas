@@ -105,6 +105,15 @@ a:hover { text-decoration: underline; }
 .correction { font-family: var(--sans); font-size: .85rem; color: var(--ink); background: #f6efe0; border-left: 3px solid var(--accent); padding: 10px 14px; margin: 0 0 1.4em; }
 .correction b { color: var(--accent); text-transform: uppercase; letter-spacing: .06em; font-size: .78rem; }
 
+/* ZIP local-news tool */
+.ziptool { border: 1px solid var(--rule); background: #f7f4ec; padding: 14px 16px; margin: 14px 0 6px; }
+.ziprow { display: flex; gap: 8px; flex-wrap: wrap; }
+.ziptool input { font-family: var(--sans); font-size: 1rem; padding: 8px 10px; border: 1px solid var(--ink); background: #fff; width: 150px; }
+.ziptool button { font-family: var(--sans); font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; font-weight: 600; padding: 8px 14px; border: 1px solid var(--ink); background: var(--ink); color: var(--paper); cursor: pointer; }
+.ziptool button#zipclear { background: none; color: var(--muted); border-color: var(--rule); }
+.zipstatus { font-family: var(--sans); font-size: .85rem; color: var(--muted); margin: 8px 0 0; }
+.geo-label { display: block; font-family: var(--sans); font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); font-weight: 700; margin-bottom: 2px; }
+
 /* Confidence tokens — inline, clickable */
 .conf { font-family: var(--sans); font-size: .62em; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: .12em .4em; border-radius: 2px; vertical-align: .18em; margin-left: .15em; color: #fff; cursor: help; }
 .conf--verified { background: var(--verified); }

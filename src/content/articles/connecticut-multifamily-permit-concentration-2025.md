@@ -3,6 +3,8 @@ headline: "Connecticut authorized 4,837 units in 5-plus-unit buildings in 2025 â
 subhed: "We pulled the Census Building Permits Survey 2025 annual place file for every Connecticut permit-issuing jurisdiction and tallied each housing-type column. The state authorized 7,273 new residential units; 4,837 sat in buildings of 5 or more units, and Stamford alone accounted for 1,524 of them â€” 31.5%. Of 172 jurisdictions, 134 authorized zero large-multifamily units, 115 of them while reporting a full 12 months."
 vertical: local
 published: 2026-08-08
+places:
+  - { state: "CT", lat: 41.6032, lng: -72.7554, statewide: true }
 facts: |
   The Census Building Permits Survey (BPS) publishes, with no key or login, an annual place-level file recording every residential building permit authorized by each permit-issuing jurisdiction, split by structure size: 1-unit, 2-unit, 3-4 unit, and 5-or-more-unit buildings. Pulled this run (retrieved 2026-08-08) from the 2025 annual Northeast file, filtered to Connecticut (state FIPS 09), the record is as follows.
 

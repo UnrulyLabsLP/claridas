@@ -3,6 +3,9 @@ headline: "Two city councils, 502 listed public meetings, 1,763 legislative item
 subhed: "Across the full public legislative records of Seattle and Oakland for the 12 months ending June 30, 2026, we counted every listed meeting and every matter introduced: 502 meetings across 24 active bodies in each city, 1,763 matters. Seattle marked 75 of its 327 meetings cancelled. The same free Legistar API returns no Seattle-comparable record for San Francisco after September 2020 or Long Beach after November 2023."
 vertical: local
 published: 2026-08-08
+places:
+  - { city: "Seattle", state: "WA", lat: 47.6062, lng: -122.3321 }
+  - { city: "Oakland", state: "CA", lat: 37.8044, lng: -122.2712 }
 facts: |
   The Granicus Legistar InSite API exposes each participating city's full legislative record — every governing body, every meeting, every matter — with no key required. Pulled this run (retrieved 2026-08-08) for a fixed 12-month window, July 1, 2025 through June 30, 2026, two cities publishing live records return the following.
 
