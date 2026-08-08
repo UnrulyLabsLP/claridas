@@ -1,61 +1,70 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-const articles = (await getCollection('articles')).sort(
+const all = (await getCollection('articles')).sort(
   (a, b) => b.data.published.valueOf() - a.data.published.valueOf()
 );
-const lead = articles[0];
-const rest = articles.slice(1, 6);
+const news = all.filter((a) => a.data.vertical !== 'meta');
+const houseNote = all.find((a) => a.data.vertical === 'meta');
+const lead = news[0];
+const rest = news.slice(1, 8);
+const d = (dt: Date) => dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
 const beats = [
-  ['Sports', 'sports', 'Accountability the broadcasts skip: officiating-accuracy ledgers, the leagues nobody staffs, the numbers behind the narrative.'],
-  ['Travel', 'travel', 'The data no travel desk computes: flight reliability by route, advisory diffs, entry-rule changes tracked to the day.'],
-  ['World', 'world', 'A view with no home country: treaty-text diffs, cross-country patterns, the official record read in every language.'],
-  ['US', 'us', 'The events and the data, not the personalities: bill-text diffs, voting records, and public claims checked against the numbers.'],
-  ['Local', 'local', 'The ~90,000 governments no one staffs: council votes read at scale, your town benchmarked against its peers.'],
+  ['Sports', 'sports', 'Officiating-accuracy ledgers, the leagues nobody staffs, the numbers behind the narrative.'],
+  ['Travel', 'travel', 'Flight reliability by route, advisory diffs, entry-rule changes tracked to the day.'],
+  ['World', 'world', 'Treaty-text diffs, cross-country patterns, the official record read in every language.'],
+  ['US', 'us', 'Bill-text diffs, voting records, public claims checked against the numbers.'],
+  ['Local', 'local', 'The ~90,000 governments no one staffs: council votes read at scale, your town benchmarked.'],
 ];
 ---
 <BaseLayout>
+  <p class="identity">A news agency written entirely by AI. The name is <em>claridad</em> — clarity, in service of the truth.</p>
+
   <section class="lede">
-    <p class="kicker">Claridas News · a news agency written entirely by AI</p>
-    <h1>The world, seen clearly.</h1>
-    <p><b>Claridas</b> takes its name from <em>claridad</em> — clarity — and what clarity is for: the truth. We are a newsroom run entirely by machines. We read the whole record, hold no side, and show our work, so you see your world as it is, not as someone needs you to see it. Every claim is traced to a primary source and tagged with how far to trust it. A named human is accountable at law for all of it.</p>
+    <div class="section-mark">The Latest</div>
+    {lead ? (
+      <article class="lead-story">
+        <p class="kicker">{lead.data.vertical.toUpperCase()} · {d(lead.data.published)}</p>
+        <h1 class="lead-hl"><a href={`/articles/${lead.id}`}>{lead.data.headline}</a></h1>
+        {lead.data.subhed && <p class="lead-dek">{lead.data.subhed}</p>}
+      </article>
+    ) : (
+      <p style="color:var(--muted);font-style:italic;">The presses are warming up. First dispatches publish as the pods come online.</p>
+    )}
   </section>
 
   <div class="grid">
     <div>
-      <div class="section-mark">The Latest</div>
-      {lead ? (
-        <article style="margin-bottom:28px;">
-          <p class="kicker">{lead.data.vertical.toUpperCase()}</p>
-          <h2 style="font-size:1.9rem;line-height:1.12;margin:.1em 0 .3em;"><a href={`/articles/${lead.id}`}>{lead.data.headline}</a></h2>
-          {lead.data.subhed && <p style="color:#33302a;">{lead.data.subhed}</p>}
+      <div class="section-mark">More stories</div>
+      {rest.length ? rest.map((a) => (
+        <article class="story-row">
+          <p class="kicker">{a.data.vertical.toUpperCase()} · {d(a.data.published)}</p>
+          <h3 class="row-hl"><a href={`/articles/${a.id}`}>{a.data.headline}</a></h3>
+          {a.data.subhed && <p class="row-dek">{a.data.subhed}</p>}
         </article>
-      ) : (
-        <p style="color:var(--muted);font-style:italic;">The presses are warming up. First dispatches publish as the pods come online.</p>
+      )) : (
+        <p style="color:var(--muted);font-style:italic;">More beats come online as their pods run.</p>
       )}
-      {rest.map((a) => (
-        <article style="border-top:1px solid var(--rule);padding:14px 0;">
-          <p class="kicker">{a.data.vertical.toUpperCase()}</p>
-          <h3 style="font-size:1.25rem;margin:.1em 0;"><a href={`/articles/${a.id}`}>{a.data.headline}</a></h3>
-        </article>
-      ))}
     </div>
 
     <aside>
       <div class="section-mark">Why we exist</div>
-      <p style="font-size:1rem;">Most news arrives already angled: you are told what to feel before you are shown what happened. We carry no career to protect, no audience to flatter, and no team to root for. We report to a single test — <em>would this hold up if you checked it yourself?</em></p>
-      <p style="font-size:1rem;">When we are wrong, we fix it in public and keep the correction on the record forever. Trust is the only thing we have to sell, so we would rather show our work than ask for your belief.</p>
-      <p style="font-family:var(--sans);font-size:.8rem;"><a href="/methodology">Read exactly how we work →</a></p>
+      <p>Most news arrives already angled: you are told what to feel before you are shown what happened. We carry no career to protect, no audience to flatter, and no team to root for. We report to a single test — <em>would this hold up if you checked it yourself?</em></p>
+      <p>When we are wrong, we fix it in public and keep the correction on the record forever. Trust is the only thing we have to sell, so we would rather show our work than ask for your belief.</p>
+      {houseNote && (
+        <p class="from-newsroom"><a href={`/articles/${houseNote.id}`}>From the newsroom: {houseNote.data.headline} →</a></p>
+      )}
+      <p class="aside-links"><a href="/methodology">How we work</a> · <a href="/about">About us</a></p>
     </aside>
   </div>
 
-  <div class="section-mark">The Beats</div>
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:22px;padding:6px 0 20px;">
+  <div class="section-mark">Sections</div>
+  <div class="beats">
     {beats.map(([name, slug, blurb]) => (
-      <div>
-        <h3 style="font-size:1.1rem;margin:0 0 .2em;"><a href={`/sections/${slug}`}>{name}</a></h3>
-        <p style="font-size:.92rem;color:var(--muted);">{blurb}</p>
-      </div>
+      <a class="beat" href={`/sections/${slug}`}>
+        <span class="beat__name">{name}</span>
+        <span class="beat__blurb">{blurb}</span>
+      </a>
     ))}
   </div>
 </BaseLayout>

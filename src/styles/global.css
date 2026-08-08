@@ -57,6 +57,37 @@ a:hover { text-decoration: underline; }
 @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } .lede h1 { font-size: 2.1rem; } }
 .section-mark { font-family: var(--sans); font-size: .72rem; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); font-weight: 700; border-bottom: 2px solid var(--ink); padding-bottom: 4px; margin: 8px 0 14px; }
 
+/* Nav: beats left, utility (About/How we work/Contact) right */
+.nav__links { display: flex; align-items: center; flex-wrap: wrap; width: 100%; }
+.nav__util { margin-left: auto; display: inline-flex; }
+.nav__util a { color: var(--muted); }
+.nav__util a:first-child { border-left: 1px solid var(--rule); padding-left: 16px; }
+@media (max-width: 720px) {
+  .masthead__top { flex-direction: column; align-items: flex-start; gap: 4px; }
+  .nav__util { margin-left: 0; flex-direction: column; }
+  .nav__util a:first-child { border-left: 0; padding-left: 0; }
+}
+
+/* Homepage: news-first hierarchy */
+.identity { font-family: var(--sans); font-size: .82rem; color: var(--muted); margin: 12px 0 2px; }
+.lede { padding: 20px 0 24px; }
+.lead-story { margin: 2px 0; }
+.lead-hl { font-size: 2.6rem; line-height: 1.06; margin: .12em 0 .18em; }
+.lead-hl a, .row-hl a { color: var(--ink); }
+.lead-hl a:hover, .row-hl a:hover { color: var(--accent); text-decoration: none; }
+.lead-dek { font-size: 1.2rem; color: #33302a; max-width: 40em; }
+.story-row { border-top: 1px solid var(--rule); padding: 14px 0; }
+.row-hl { font-size: 1.3rem; line-height: 1.14; margin: .1em 0 .15em; }
+.row-dek { font-size: .98rem; color: var(--muted); max-width: 42em; margin: 0; }
+.from-newsroom { font-family: var(--sans); font-size: .82rem; border-top: 1px solid var(--rule); padding-top: 12px; margin-top: 14px; }
+.aside-links { font-family: var(--sans); font-size: .8rem; }
+.beats { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 2px; padding: 4px 0 26px; }
+.beat { display: block; padding: 12px 14px; border: 1px solid var(--rule); }
+.beat:hover { background: #f2efe8; text-decoration: none; }
+.beat__name { display: block; font-family: var(--serif); font-weight: 700; font-size: 1.05rem; color: var(--ink); }
+.beat__blurb { display: block; font-size: .86rem; color: var(--muted); margin-top: 3px; }
+@media (max-width: 860px) { .lead-hl { font-size: 2.05rem; } }
+
 /* Article */
 .article { max-width: 44em; margin: 0 auto; padding: 30px 0 60px; }
 .article h1 { font-size: 2.4rem; line-height: 1.1; margin: 0 0 .2em; }
