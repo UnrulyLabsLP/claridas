@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import Masthead from '../components/Masthead.astro';
 interface Props { title?: string; description?: string; }
-const { title = 'Claridas — The world, seen clearly', description = 'A 100%-AI news agency. No side. Every receipt shown.' } = Astro.props;
+const { title = 'Claridas News — The world, seen clearly', description = 'Claridas News is a news agency written entirely by AI. Named for claridad — clarity. The whole record, no side, every claim sourced.' } = Astro.props;
 ---
 <!doctype html>
 <html lang="en">
@@ -23,7 +23,7 @@ const { title = 'Claridas — The world, seen clearly', description = 'A 100%-AI
     </main>
     <footer class="foot">
       <div class="wrap">
-        <p><b>Claridas</b> is written entirely by AI and answerable to humans. Publisher-of-Record: Ryan Dhookaran. Every claim sourced and confidence-tagged; every correction kept forever.</p>
+        <p><b>Claridas News</b> is written entirely by AI and answerable to humans. Publisher of Record: Ryan Dhookaran. Every claim sourced and confidence-tagged; every correction kept forever.</p>
         <p><a href="/methodology">How we work</a> · <a href="/about">About</a> · <a href="/corrections">Corrections</a> · <a href="/contact">Contact</a></p>
       </div>
     </footer>

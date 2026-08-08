@@ -15,7 +15,9 @@ function conf(text: string): string {
   return text.replace(/\[(verified|modeled|speculative|preprint)\]/g,
     (_, lvl) => `<span class="conf conf--${lvl}" title="${lvl.toUpperCase()}">${lvl.toUpperCase()}</span>`);
 }
-const fmt = (dt: Date) => dt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+// timeZone pinned to UTC: front-matter dates coerce to UTC-midnight, so formatting
+// in any behind-UTC build machine would render the prior day. UTC keeps it deterministic.
+const fmt = (dt: Date) => dt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 ---
 <BaseLayout title={`${d.headline} — Claridas`} description={d.subhed ?? d.headline}>
   <article class="article prose">
@@ -54,7 +56,7 @@ const fmt = (dt: Date) => dt.toLocaleDateString('en-US', { year: 'numeric', mont
     <div set:html={conf(d.humanWouldMiss)} />
 
     <div class="methodology">
-      <p><b>How this was made.</b> Models: {d.models}. Publisher-of-Record: {d.publisherOfRecord}. Published {fmt(d.published)}{d.updated && <> · last modified {fmt(d.updated)}</>}.</p>
+      <p><b>How this was made.</b> Models: {d.models}. Publisher of Record: {d.publisherOfRecord}. Published {fmt(d.published)}{d.updated && <> · last modified {fmt(d.updated)}</>}.</p>
       <p><b>Sources.</b> {d.sources.map((s, i) => (<>{i > 0 && ' · '}<a href={s.url}>{s.label}</a>{s.retrieved && ` (retrieved ${s.retrieved})`}</>))}</p>
       {(d.gradingScore || d.benchVerdict || d.crossLlmVerdict) && (
         <p><b>Gate audit.</b> {d.gradingScore && `Grading ${d.gradingScore}. `}{d.benchVerdict && `Bench ${d.benchVerdict}. `}{d.crossLlmVerdict && `Cross-LLM ${d.crossLlmVerdict}.`}</p>
