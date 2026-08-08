@@ -1,8 +1,10 @@
 ---
 headline: "A decade after NATO's 2% pledge, 17 of 31 members with a military finally cleared the bar — and the frontline overshot it"
-subhed: "In 2014, the year of the Wales pledge, 3 NATO members spent 2% of GDP on defence. On SIPRI's measure as compiled by the World Bank, 17 did in 2024 — with Poland (4.15%) now outspending the United States (3.42%) as a share of its economy, and the three Baltic states posting the alliance's largest decade-long increases."
+subhed: "In 2014, the year of the Wales pledge, 3 NATO members spent 2% of GDP on defence. On SIPRI's measure as compiled by the World Bank, 17 did in 2024 — with Poland (4.15%) now outspending the United States (3.42%) as a share of its economy, and Latvia, Poland and Lithuania — all bordering Russia or Belarus — posting the alliance's largest decade-long increases."
 vertical: world
 published: 2026-08-08
+updated: 2026-08-08
+correction: "2026-08-08: An earlier subhed said the three Baltic states posted the alliance's largest decade-long increases. The three largest were Latvia (+2.28), Poland (+2.25) and Lithuania (+2.23); Estonia, a Baltic state, was fourth (+1.48). Corrected to name the actual top three. A garbled 2014 comparison was also fixed. Caught by our automated at-source verification gate."
 facts: |
   At the 2014 Wales Summit, NATO heads of state agreed to "move towards" spending 2% of GDP on defence within a decade — the pledge's target year was 2024 [verified]. The World Bank's military-expenditure series (indicator MS.MIL.XPND.GD.ZS, sourced from the SIPRI Military Expenditure Database, database vintage last updated 2026-07-13) now carries 2024 figures for 31 of NATO's 32 members; Iceland, which has no armed forces, is not reported [verified].
 
@@ -12,7 +14,7 @@ facts: |
 analysis: |
   The following is analysis, not fact. The pledge's arithmetic is easy to state and hard to game: a ratio of two independently reported numbers, defence outlays over GDP, filed the same way for every member. Read across all 31 members at once, the decade did not move the alliance uniformly — it moved the map [verified].
 
-  The three largest decade-long increases all belong to states bordering Russia or Belarus: Latvia (+2.28 percentage points from 2014 to 2024), Poland (+2.25) and Lithuania (+2.23), with Estonia fourth (+1.48) [verified]. The frontline did not merely reach 2%; it overshot the target by a wide margin, with Poland now spending a larger share of its economy on its military than the United States does [verified]. That inversion — a European member outspending Washington on this ratio — did not exist in 2014, when the U.S. share (3.68%) was the alliance's second-highest behind none of its European peers at 2% except the U.K. and Greece [verified].
+  The three largest decade-long increases all belong to states bordering Russia or Belarus: Latvia (+2.28 percentage points from 2014 to 2024), Poland (+2.25) and Lithuania (+2.23), with Estonia fourth (+1.48) [verified]. The frontline did not merely reach 2%; it overshot the target by a wide margin, with Poland now spending a larger share of its economy on its military than the United States does [verified]. That inversion — a European member outspending Washington on this ratio — did not exist in 2014, when the U.S. share (3.68%) was the highest in the alliance, and only two European members — the U.K. (2.18%) and Greece (2.37%) — cleared 2% at all [verified].
 
   The laggards cluster by geography too. Of the 14 members still under 2% in 2024, the largest economies among them — Germany, Italy, Spain, Canada — sit farthest from the eastern border and carry the biggest absolute defence budgets, so a sub-2% ratio still buys substantial capability [verified]. The ratio measures effort against economic size, not capability; a reader should not read Poland's 4.15% as more military than Germany's 1.89% in dollar terms [verified].
 
