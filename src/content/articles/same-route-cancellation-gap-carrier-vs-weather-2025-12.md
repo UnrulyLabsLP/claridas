@@ -3,6 +3,8 @@ headline: "Same route, same December weather: Delta cancelled 12.9% of its LaGua
 subhed: "Both airlines flew LaGuardia–O'Hare through the same storms. The gap wasn't the sky: 30 of Delta's 40 cancellations on the route were coded to the airline's own operations; every one of American's was coded weather — per the carriers' own filings with the Department of Transportation."
 vertical: travel
 published: 2026-08-08
+updated: 2026-08-08
+correction: "2026-08-08: An earlier version said 'every other carrier' with 500+ LGA departures coded cancellations overwhelmingly to weather. That held only for mainline carriers; Republic Airways — the regional operator with the most LGA departures — coded most of its cancellations to the air-traffic system (56%), not weather. Qualified to 'mainline' and added Republic. Caught by our automated at-source verification gate."
 facts: |
   The U.S. Department of Transportation's on-time database for December 2025 — the most recent month posted (file dated 2026-03-20) — records 582,304 scheduled domestic flights by the reporting carriers, of which 9,001 were cancelled, a cancellation rate of 1.55% [verified]. Nationally, of those cancelled flights, 55.8% were coded to weather, 34.7% to "Air Carrier," and 9.5% to the National Aviation System [verified].
 
@@ -12,7 +14,7 @@ facts: |
 analysis: |
   The following is analysis, not fact. Weather cancels flights; it does not usually cancel one airline's flights on a runway while sparing another's. American and Delta flew LGA–ORD through the same December weather; the divergence lives in the cause codes, not the sky [verified].
 
-  The pattern holds across the whole airport, not just one route. Across all 2,583 Delta departures from LaGuardia in December, Delta cancelled 7.43%, and 58.3% of those cancellations were coded to its own operations [verified]. Every other carrier with 500 or more LGA departures coded its cancellations overwhelmingly to weather: American cancelled 2.20% with zero carrier-coded cancellations (100% weather); United 2.48% (89.5% weather); Southwest 2.73% (89.3% weather); Spirit 6.32% (91.4% weather) [verified]. The weather was shared. The carrier-controlled cancellations were, almost entirely, one carrier's.
+  The pattern holds across the whole airport, not just one route. Across all 2,583 Delta departures from LaGuardia in December, Delta cancelled 7.43%, and 58.3% of those cancellations were coded to its own operations [verified]. Every other mainline carrier with 500 or more LGA departures coded its cancellations overwhelmingly to weather: American cancelled 2.20% with zero carrier-coded cancellations (100% weather); United 2.48% (89.5% weather); Southwest 2.73% (89.3% weather); Spirit 6.32% (91.4% weather) [verified]. The one carrier that broke the weather pattern the other way was Republic Airways, the regional operator that actually flew the most LGA departures of any airline (4,335): it coded 56% of its cancellations to the air-traffic system and only 37% to weather [verified] — congestion, not weather and not, as with Delta, its own operations. The weather was shared. The carrier-controlled cancellations were, almost entirely, one carrier's.
 
   LaGuardia was the concentrated version of a wider December. Among the four network carriers, Delta's system-wide mainline cancellation rate was 2.75% — the highest of the group, against American at 0.49%, United at 0.39%, and Southwest at 0.55% [verified].
 
