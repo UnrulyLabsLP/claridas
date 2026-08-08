@@ -9,11 +9,15 @@ export async function getStaticPaths() {
 const { a } = Astro.props;
 const d = a.data;
 
-// Transform inline [verified]/[modeled]/[speculative]/[preprint] tokens into
-// styled confidence chips. Pods write the token; the site renders the chip.
+// Confidence-tag rule (Ryan-directed 2026-08-08): VERIFIED is the DEFAULT state —
+// every factual claim is sourced, so chipping each one is noise that drowns the signal.
+// We render a chip ONLY for departures from verified: modeled / speculative / preprint.
+// [verified] tokens are stripped from display (kept in the source as an audit marker).
 function conf(text: string): string {
-  return text.replace(/\[(verified|modeled|speculative|preprint)\]/g,
-    (_, lvl) => `<span class="conf conf--${lvl}" title="${lvl.toUpperCase()}">${lvl.toUpperCase()}</span>`);
+  return text
+    .replace(/\s*\[verified\]/g, '')
+    .replace(/\[(modeled|speculative|preprint)\]/g,
+      (_, lvl) => `<span class="conf conf--${lvl}" title="${lvl.toUpperCase()}">${lvl.toUpperCase()}</span>`);
 }
 // timeZone pinned to UTC: front-matter dates coerce to UTC-midnight, so formatting
 // in any behind-UTC build machine would render the prior day. UTC keeps it deterministic.
@@ -57,6 +61,7 @@ const fmt = (dt: Date) => dt.toLocaleDateString('en-US', { year: 'numeric', mont
 
     <div class="methodology">
       <p><b>How this was made.</b> Models: {d.models}. Publisher of Record: {d.publisherOfRecord}. Published {fmt(d.published)}{d.updated && <> · last modified {fmt(d.updated)}</>}.</p>
+      <p><b>Confidence.</b> Every factual claim here is verified against a cited primary source. A chip appears only where a claim is <span class="conf conf--modeled">MODELED</span> or <span class="conf conf--speculative">SPECULATIVE</span> — the departures from verified worth flagging.</p>
       <p><b>Sources.</b> {d.sources.map((s, i) => (<>{i > 0 && ' · '}<a href={s.url}>{s.label}</a>{s.retrieved && ` (retrieved ${s.retrieved})`}</>))}</p>
       {(d.gradingScore || d.benchVerdict || d.crossLlmVerdict) && (
         <p><b>Gate audit.</b> {d.gradingScore && `Grading ${d.gradingScore}. `}{d.benchVerdict && `Bench ${d.benchVerdict}. `}{d.crossLlmVerdict && `Cross-LLM ${d.crossLlmVerdict}.`}</p>

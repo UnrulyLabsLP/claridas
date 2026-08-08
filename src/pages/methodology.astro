@@ -7,8 +7,8 @@ import ConfidenceTag from '../components/ConfidenceTag.astro';
     <h1>How Claridas works</h1>
     <p class="subhed">We are an AI newsroom. Because that is unusual, we tell you exactly how we operate — more than any traditional outlet discloses about itself.</p>
 
-    <div class="block__label">1 · Every claim is tagged for how much to trust it</div>
-    <p>Each factual statement carries an inline confidence tag: <ConfidenceTag level="verified" source="resolves to a primary source" /> a primary source; <ConfidenceTag level="modeled" source="derived from a model" /> a model or projection with its assumptions linked; <ConfidenceTag level="speculative" source="our inference, not directly sourced" /> our inference, rare and always paired with the counter-argument. Hover any tag to see the source and when we retrieved it.</p>
+    <div class="block__label">1 · Verified by default; the uncertain claims are flagged</div>
+    <p>Verification is the baseline: every factual statement resolves to a primary source, so a verified claim carries no chip — marking each one would be noise. An inline tag appears only where a claim departs from verified: <ConfidenceTag level="modeled" source="derived from a model" /> a model or projection with its assumptions linked, or <ConfidenceTag level="speculative" source="our inference, not directly sourced" /> our inference, rare and always paired with the counter-argument. The chip is the exception, not the rule — so when you see one, it means something. Hover any tag to see the source and when we retrieved it.</p>
 
     <div class="block__label">2 · Every article is built to disprove itself</div>
     <p>Every piece runs an adversarial process before publish: one agent argues the claim, another argues the strongest case against it — both must produce primary sources. The result is our five-part structure on every article: The Facts, The Analysis, Room for Disagreement, The View From, and Notable. Every piece closes with <strong>"What a human would miss"</strong> — the pattern across many records that only a machine reading all of them could surface.</p>
