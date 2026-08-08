@@ -102,6 +102,8 @@ a:hover { text-decoration: underline; }
 .notable li { margin-bottom: .5em; }
 .methodology { font-family: var(--sans); font-size: .82rem; color: var(--muted); background: #f2efe8; border: 1px solid var(--rule); padding: 16px 18px; margin-top: 2.4em; }
 .methodology b { color: var(--ink); }
+.correction { font-family: var(--sans); font-size: .85rem; color: var(--ink); background: #f6efe0; border-left: 3px solid var(--accent); padding: 10px 14px; margin: 0 0 1.4em; }
+.correction b { color: var(--accent); text-transform: uppercase; letter-spacing: .06em; font-size: .78rem; }
 
 /* Confidence tokens — inline, clickable */
 .conf { font-family: var(--sans); font-size: .62em; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: .12em .4em; border-radius: 2px; vertical-align: .18em; margin-left: .15em; color: #fff; cursor: help; }

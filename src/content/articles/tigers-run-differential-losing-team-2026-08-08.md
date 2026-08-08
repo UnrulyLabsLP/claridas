@@ -3,10 +3,12 @@ headline: "Detroit has the best run differential of any losing team in baseball"
 subhed: "The Tigers have outscored opponents by 77 runs — more than any other sub-.500 club, and wider than several playoff teams — yet sit at 56-60. No team in the majors is further from the record its scoring predicts."
 vertical: sports
 published: 2026-08-08
+updated: 2026-08-08
+correction: "2026-08-08: An earlier version said the Rays were '23 games better in the standings.' That figure was Tampa Bay's own games-over-.500 (69-46), not the gap between the clubs. Corrected to 13½ games ahead (13 more wins). Caught by our automated at-source verification gate."
 facts: |
   Through games of Aug. 8, the Detroit Tigers have scored 528 runs and allowed 451 — a run differential of +77 [verified]. Six clubs have a wider run margin, and all six hold winning records; Detroit is the only team in that high-differential group playing below .500 [verified]. Its +77 is also wider than that of several teams currently in a playoff position, including the division-leading Rays [verified]. Detroit's record is 56-60 [verified].
 
-  A run differential of +77 is the kind of margin that normally accompanies a comfortably winning team. The Tampa Bay Rays lead their division at 69-46 on a differential of +42 [verified]. That is 35 runs slimmer than Detroit's, and the Rays are 23 games better in the standings.
+  A run differential of +77 is the kind of margin that normally accompanies a comfortably winning team. The Tampa Bay Rays lead their division at 69-46 on a differential of +42 [verified]. That is 35 runs slimmer than Detroit's, and the Rays sit 13½ games ahead of Detroit in the standings — 13 more wins.
 analysis: |
   The gap between a team's record and the record its scoring implies is measured by the Pythagorean expectation — a formula that estimates wins from runs scored and allowed. On that model, Detroit's 528-for, 451-against profile projects to roughly 66 wins in 116 games; the Tigers have 56 [modeled]. That 10-win shortfall is the largest negative gap in Major League Baseball right now [modeled].
 

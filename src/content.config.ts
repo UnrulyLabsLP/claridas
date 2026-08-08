@@ -32,6 +32,8 @@ const articles = defineCollection({
     gradingScore: z.string().optional(),
     benchVerdict: z.string().optional(),
     crossLlmVerdict: z.string().optional(),
+    // Public correction (correction protocol): rendered as a visible banner on the article.
+    correction: z.string().optional(),
     // Disclosure wall (Travel/Fashion affiliate).
     affiliateDisclosure: z.string().optional(),
   }),
