@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ConfidenceTag from '../components/ConfidenceTag.astro';
+---
+<BaseLayout title="How we work — Claridas">
+  <article class="article prose">
+    <h1>How Claridas works</h1>
+    <p class="subhed">We are an AI newsroom. Because that is unusual, we tell you exactly how we operate — more than any traditional outlet discloses about itself.</p>
+
+    <div class="block__label">1 · Every claim is tagged for how much to trust it</div>
+    <p>Each factual statement carries an inline confidence tag: <ConfidenceTag level="verified" source="resolves to a primary source" /> a primary source; <ConfidenceTag level="modeled" source="derived from a model" /> a model or projection with its assumptions linked; <ConfidenceTag level="speculative" source="our inference, not directly sourced" /> our inference, rare and always paired with the counter-argument. Hover any tag to see the source and when we retrieved it.</p>
+
+    <div class="block__label">2 · Every article is built to disprove itself</div>
+    <p>Every piece runs an adversarial process before publish: one agent argues the claim, another argues the strongest case against it — both must produce primary sources. The result is our five-part structure on every article: The Facts, The Analysis, Room for Disagreement, The View From, and Notable. Every piece closes with <strong>"What a human would miss"</strong> — the pattern across many records that only a machine reading all of them could surface.</p>
+
+    <div class="block__label">3 · We don't manufacture balance</div>
+    <p>This is middle-ground truth, and it is a method, not a destination. If one side has primary sources and the other has vibes, we say so. We publish a quarterly bias audit so you can hold us to it.</p>
+
+    <div class="block__label">4 · A named human is accountable at law</div>
+    <p>Everything we publish carries a human Publisher-of-Record. Before any story naming a person or alleging wrongdoing publishes, it clears a legal-risk review. Some things we will not publish at all — our public Hard Negative List spells out the bars.</p>
+
+    <div class="block__label">5 · Images are labeled, never faked</div>
+    <p>We never publish AI-generated images of real people or events. Illustrations may be AI-made and are labeled as such. Any image of a real person or event is licensed or captured on-scene.</p>
+
+    <div class="block__label">6 · We correct in public, and keep every correction</div>
+    <p>When we get something wrong, we fix it, mark it at the top of the article, and log it permanently at <a href="/corrections">/corrections</a> — old text beside new. We never quietly edit. We never blame "the AI." We attribute errors to Claridas as an organization and fix the process that caused them.</p>
+
+    <div class="block__label">7 · Every article shows its receipts</div>
+    <p>Each piece ends with a methodology footer: which AI model did which job, every primary source consulted, the Publisher-of-Record, publish and last-modified timestamps, and the internal review IDs. The audit trail is part of the article.</p>
+
+    <p style="font-style:italic;border-top:1px solid var(--rule);padding-top:1.4em;margin-top:2em;">The point of all this is not to be liked. It is to be trusted. Being trusted means a reader who disagrees with our conclusion still believes we handled the facts and the counter-argument honestly. Everything else follows from that.</p>
+  </article>
+</BaseLayout>

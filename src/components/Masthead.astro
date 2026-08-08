@@ -1,0 +1,35 @@
+---
+const today = new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+const sections = [
+  { href: '/', label: 'Home' },
+  { href: '/sections/sports', label: 'Sports' },
+  { href: '/sections/travel', label: 'Travel' },
+  { href: '/sections/world', label: 'World' },
+  { href: '/sections/us', label: 'US' },
+  { href: '/sections/local', label: 'Local' },
+  { href: '/contact', label: 'Contact' },
+];
+---
+<header class="masthead">
+  <div class="wrap">
+    <div class="masthead__top">
+      <a href="/" class="masthead__brand">CLARIDAS</a>
+      <span class="masthead__tag">The world, seen clearly</span>
+      <span class="masthead__date">{today}</span>
+    </div>
+    <nav class="nav" aria-label="Sections">
+      <button class="nav__toggle" aria-expanded="false" aria-controls="navlinks">☰ Sections</button>
+      <div class="nav__links" id="navlinks">
+        {sections.map((s) => <a href={s.href}>{s.label}</a>)}
+      </div>
+    </nav>
+  </div>
+</header>
+<script>
+  const btn = document.querySelector('.nav__toggle');
+  const links = document.getElementById('navlinks');
+  btn?.addEventListener('click', () => {
+    const open = links?.classList.toggle('nav__links--open');
+    btn.setAttribute('aria-expanded', String(!!open));
+  });
+</script>

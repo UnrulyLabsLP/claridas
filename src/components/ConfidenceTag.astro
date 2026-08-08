@@ -1,0 +1,8 @@
+---
+// Inline confidence token: <ConfidenceTag level="verified" source="..." />
+// The signature Claridas UI element — transparent epistemics as design.
+interface Props { level: 'verified' | 'modeled' | 'speculative' | 'preprint'; source?: string; }
+const { level, source } = Astro.props;
+const label = level.toUpperCase();
+---
+<span class={`conf conf--${level}`} title={source ? `${label} — ${source}` : label}>{label}</span>

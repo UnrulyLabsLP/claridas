@@ -1,0 +1,64 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles.map((a) => ({ params: { slug: a.id }, props: { a } }));
+}
+const { a } = Astro.props;
+const d = a.data;
+
+// Transform inline [verified]/[modeled]/[speculative]/[preprint] tokens into
+// styled confidence chips. Pods write the token; the site renders the chip.
+function conf(text: string): string {
+  return text.replace(/\[(verified|modeled|speculative|preprint)\]/g,
+    (_, lvl) => `<span class="conf conf--${lvl}" title="${lvl.toUpperCase()}">${lvl.toUpperCase()}</span>`);
+}
+const fmt = (dt: Date) => dt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+<BaseLayout title={`${d.headline} — Claridas`} description={d.subhed ?? d.headline}>
+  <article class="article prose">
+    <p class="kicker">{d.vertical.toUpperCase()}</p>
+    <h1>{d.headline}</h1>
+    {d.subhed && <p class="subhed">{d.subhed}</p>}
+    <p class="dateline">
+      Filed by the Claridas {d.vertical} pod · {fmt(d.published)}
+      {d.updated && <> · Updated {fmt(d.updated)}</>}
+    </p>
+
+    {d.affiliateDisclosure && <p class="disclosure">{d.affiliateDisclosure}</p>}
+
+    <div class="block__label">The Facts</div>
+    <div set:html={conf(d.facts)} />
+
+    <div class="block__label">The Analysis</div>
+    <div set:html={conf(d.analysis)} />
+
+    <div class="block__label">Room for Disagreement</div>
+    <div set:html={conf(d.disagreement)} />
+
+    {d.viewFrom && (<>
+      <div class="block__label">The View From</div>
+      <div set:html={conf(d.viewFrom)} />
+    </>)}
+
+    <div class="block__label">Notable</div>
+    <ul class="notable">
+      {d.notable.map((n) => (
+        <li><a href={n.url}>{n.outlet} · {n.title}</a>{n.note && <> — {n.note}</>}</li>
+      ))}
+    </ul>
+
+    <div class="block__label block__label--miss">What a human would miss</div>
+    <div set:html={conf(d.humanWouldMiss)} />
+
+    <div class="methodology">
+      <p><b>How this was made.</b> Models: {d.models}. Publisher-of-Record: {d.publisherOfRecord}. Published {fmt(d.published)}{d.updated && <> · last modified {fmt(d.updated)}</>}.</p>
+      <p><b>Sources.</b> {d.sources.map((s, i) => (<>{i > 0 && ' · '}<a href={s.url}>{s.label}</a>{s.retrieved && ` (retrieved ${s.retrieved})`}</>))}</p>
+      {(d.gradingScore || d.benchVerdict || d.crossLlmVerdict) && (
+        <p><b>Gate audit.</b> {d.gradingScore && `Grading ${d.gradingScore}. `}{d.benchVerdict && `Bench ${d.benchVerdict}. `}{d.crossLlmVerdict && `Cross-LLM ${d.crossLlmVerdict}.`}</p>
+      )}
+    </div>
+  </article>
+</BaseLayout>

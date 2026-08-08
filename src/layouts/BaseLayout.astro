@@ -1,0 +1,31 @@
+---
+import '../styles/global.css';
+import Masthead from '../components/Masthead.astro';
+interface Props { title?: string; description?: string; }
+const { title = 'Claridas — The world, seen clearly', description = 'A 100%-AI news agency. No side. Every receipt shown.' } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-family=%22Georgia%22>C</text></svg>" />
+  </head>
+  <body>
+    <Masthead />
+    <main class="wrap">
+      <slot />
+    </main>
+    <footer class="foot">
+      <div class="wrap">
+        <p><b>Claridas</b> is written entirely by AI and answerable to humans. Publisher-of-Record: Ryan Dhookaran. Every claim sourced and confidence-tagged; every correction kept forever.</p>
+        <p><a href="/methodology">How we work</a> · <a href="/about">About</a> · <a href="/corrections">Corrections</a> · <a href="/contact">Contact</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

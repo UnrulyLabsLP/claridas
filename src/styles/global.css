@@ -1,0 +1,78 @@
+/* CLARIDAS — news-grade design. Wire-service density, serif headlines,
+   quiet authority. Deliberately NOT a blog: no cards, no rounded thumbs,
+   no "posted by" chrome. Reuters/AP/Semafor register. */
+:root {
+  --ink: #14110d;
+  --paper: #faf8f4;
+  --rule: #d8d2c6;
+  --muted: #6b6455;
+  --accent: #7a1f1f;         /* oxblood — masthead + section marks */
+  --verified: #1f6b3a;
+  --modeled: #8a6d1f;
+  --speculative: #7a1f1f;
+  --serif: 'Georgia', 'Times New Roman', serif;
+  --sans: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  --wrap: 1180px;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font-family: var(--serif); font-size: 18px; line-height: 1.55;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 20px; }
+
+/* Masthead */
+.masthead { border-bottom: 2px solid var(--ink); }
+.masthead__top { display: flex; align-items: baseline; justify-content: space-between; padding: 14px 0 10px; }
+.masthead__brand { font-family: var(--serif); font-weight: 700; letter-spacing: .04em; font-size: 2.1rem; color: var(--ink); }
+.masthead__tag { font-family: var(--sans); font-size: .72rem; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); }
+.masthead__date { font-family: var(--sans); font-size: .72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .1em; }
+.nav { display: flex; gap: 0; border-top: 1px solid var(--rule); font-family: var(--sans); }
+.nav a { padding: 9px 16px 9px 0; margin-right: 16px; font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink); font-weight: 600; }
+.nav a:hover { color: var(--accent); text-decoration: none; }
+/* hamburger (mobile) */
+.nav__toggle { display: none; }
+@media (max-width: 720px) {
+  .nav { flex-direction: column; }
+  .nav__toggle { display: block; font-family: var(--sans); font-size: .8rem; padding: 8px 0; background: none; border: 0; letter-spacing: .12em; text-transform: uppercase; cursor: pointer; }
+  .nav__links { display: none; flex-direction: column; }
+  .nav__links--open { display: flex; }
+}
+
+/* Front page hierarchy */
+.lede { padding: 26px 0; border-bottom: 1px solid var(--rule); }
+.lede h1 { font-size: 2.8rem; line-height: 1.08; margin: 0 0 .3em; }
+.lede p { font-size: 1.15rem; color: #33302a; max-width: 40em; }
+.kicker { font-family: var(--sans); font-size: .72rem; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+.grid { display: grid; grid-template-columns: 2fr 1fr; gap: 40px; padding: 26px 0; }
+@media (max-width: 860px) { .grid { grid-template-columns: 1fr; } .lede h1 { font-size: 2.1rem; } }
+.section-mark { font-family: var(--sans); font-size: .72rem; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); font-weight: 700; border-bottom: 2px solid var(--ink); padding-bottom: 4px; margin: 8px 0 14px; }
+
+/* Article */
+.article { max-width: 44em; margin: 0 auto; padding: 30px 0 60px; }
+.article h1 { font-size: 2.4rem; line-height: 1.1; margin: 0 0 .2em; }
+.article .subhed { font-size: 1.25rem; color: var(--muted); font-style: italic; margin-bottom: 1em; }
+.dateline { font-family: var(--sans); font-size: .74rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding: 8px 0; margin-bottom: 1.4em; }
+.block__label { font-family: var(--sans); font-size: .74rem; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); font-weight: 700; margin: 1.8em 0 .4em; }
+.block__label--miss { color: var(--ink); border-top: 2px solid var(--ink); padding-top: .8em; }
+.notable li { margin-bottom: .5em; }
+.methodology { font-family: var(--sans); font-size: .82rem; color: var(--muted); background: #f2efe8; border: 1px solid var(--rule); padding: 16px 18px; margin-top: 2.4em; }
+.methodology b { color: var(--ink); }
+
+/* Confidence tokens — inline, clickable */
+.conf { font-family: var(--sans); font-size: .62em; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: .12em .4em; border-radius: 2px; vertical-align: .18em; margin-left: .15em; color: #fff; cursor: help; }
+.conf--verified { background: var(--verified); }
+.conf--modeled { background: var(--modeled); }
+.conf--speculative { background: var(--speculative); }
+.conf--preprint { background: #4a4a6a; }
+
+/* Prose */
+.prose p { margin: 0 0 1em; }
+.disclosure { font-family: var(--sans); font-size: .8rem; color: var(--muted); border-left: 3px solid var(--rule); padding-left: 12px; margin: 1.4em 0; }
+
+/* Footer */
+.foot { border-top: 2px solid var(--ink); margin-top: 40px; padding: 24px 0 50px; font-family: var(--sans); font-size: .8rem; color: var(--muted); }
+.foot a { color: var(--muted); }

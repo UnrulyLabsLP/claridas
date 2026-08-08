@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const SECTIONS: Record<string, { name: string; blurb: string }> = {
+  sports: { name: 'Sports', blurb: 'Accountability the broadcasts skip — officiating-accuracy ledgers, the leagues nobody staffs, the numbers behind the narrative.' },
+  travel: { name: 'Travel', blurb: 'The data no travel desk computes — flight reliability by route, advisory diffs, entry-rule changes tracked to the day.' },
+  world: { name: 'World', blurb: 'A view with no home country — treaty-text diffs, cross-country patterns, the official record read in every language.' },
+  us: { name: 'US', blurb: 'The events and the data, not the personalities — bill-text diffs, voting records, public claims checked against the numbers.' },
+  local: { name: 'Local', blurb: 'The ~90,000 governments no one staffs — council votes read at scale, your town benchmarked against its peers.' },
+};
+
+export async function getStaticPaths() {
+  return ['sports', 'travel', 'world', 'us', 'local'].map((section) => ({ params: { section } }));
+}
+const { section } = Astro.params;
+const meta = SECTIONS[section!];
+const articles = (await getCollection('articles'))
+  .filter((a) => a.data.vertical === section)
+  .sort((a, b) => b.data.published.valueOf() - a.data.published.valueOf());
+---
+<BaseLayout title={`${meta.name} — Claridas`} description={meta.blurb}>
+  <div class="section-mark">{meta.name}</div>
+  <p style="font-size:1.05rem;color:var(--muted);max-width:42em;">{meta.blurb}</p>
+  {articles.length === 0 ? (
+    <p style="font-style:italic;color:var(--muted);padding:20px 0;">The {meta.name} pod publishes on its daily schedule. First dispatches appear here.</p>
+  ) : (
+    <div style="padding:10px 0;">
+      {articles.map((a) => (
+        <article style="border-top:1px solid var(--rule);padding:16px 0;">
+          <h2 style="font-size:1.4rem;margin:.1em 0;"><a href={`/articles/${a.id}`}>{a.data.headline}</a></h2>
+          {a.data.subhed && <p style="color:var(--muted);">{a.data.subhed}</p>}
+        </article>
+      ))}
+    </div>
+  )}
+</BaseLayout>
