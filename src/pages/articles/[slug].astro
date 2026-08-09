@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles');
@@ -8,6 +8,14 @@ export async function getStaticPaths() {
 }
 const { a } = Astro.props;
 const d = a.data;
+
+// Long-form INVESTIGATIVE FEATURES carry a rich markdown body (headings,
+// paragraphs, :::semaform callouts). Routine Semaform briefs have none — the
+// body is empty. When a body exists we render <Content/> as the narrative LEAD
+// above the structured record; when it's empty, layout is byte-for-byte the
+// prior Semaform-only behavior (no feature-body div, no divider).
+const hasBody = !!a.body?.trim();
+const { Content } = await render(a);
 
 // Confidence-tag rule (Ryan-directed 2026-08-08): VERIFIED is the DEFAULT state —
 // every factual claim is sourced, so chipping each one is noise that drowns the signal.
@@ -60,6 +68,11 @@ const articleLd = {
 
     {d.correction && <p class="correction"><b>Correction</b> — {d.correction}</p>}
     {d.affiliateDisclosure && <p class="disclosure">{d.affiliateDisclosure}</p>}
+
+    {hasBody && (<>
+      <div class="feature-body prose"><Content /></div>
+      <hr class="feature-rule" />
+    </>)}
 
     <div class="block__label">The Facts</div>
     <div set:html={conf(d.facts)} />

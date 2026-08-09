@@ -132,6 +132,153 @@ a:hover { text-decoration: underline; }
 .prose p { margin: 0 0 1em; }
 .disclosure { font-family: var(--sans); font-size: .8rem; color: var(--muted); border-left: 3px solid var(--rule); padding-left: 12px; margin: 1.4em 0; }
 
+/* ─────────────────────────────────────────────────────────────────────────
+   FEATURE BODY — long-form investigative narrative (the markdown <Content/>
+   lead that sits above the structured Semaform record). Only renders on pieces
+   that carry a body; routine briefs never see any of these rules.
+   ───────────────────────────────────────────────────────────────────────── */
+.feature-body {
+  max-width: 68ch;
+  margin: 0 auto 1em;
+  font-size: 1.12rem;
+  line-height: 1.75;
+  color: #26211b;
+}
+.feature-body > *:first-child { margin-top: 0; }
+.feature-body p { margin: 0 0 1.15em; }
+/* Drop cap on the opening paragraph — a premium feature-lead flourish. */
+.feature-body > p:first-of-type::first-letter {
+  font-family: var(--serif);
+  font-weight: 700;
+  float: left;
+  font-size: 3.6em;
+  line-height: .78;
+  padding: .04em .09em 0 0;
+  color: var(--brand);
+}
+.feature-body h2 {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 1.62rem;
+  line-height: 1.18;
+  color: var(--brand);
+  margin: 1.9em 0 .5em;
+  padding-bottom: .18em;
+  border-bottom: 1px solid var(--rule);
+}
+.feature-body h3 {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 1.24rem;
+  line-height: 1.22;
+  color: var(--accent);
+  margin: 1.5em 0 .4em;
+}
+.feature-body a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(122,31,31,.3); }
+.feature-body a:hover { border-bottom-color: var(--accent); }
+.feature-body strong { color: var(--ink); }
+.feature-body ul, .feature-body ol { margin: 0 0 1.15em; padding-left: 1.4em; }
+.feature-body li { margin: 0 0 .4em; }
+.feature-body blockquote {
+  margin: 1.5em 0;
+  padding: .2em 0 .2em 1.1em;
+  border-left: 3px solid var(--gold);
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.18rem;
+  color: #3a342b;
+}
+.feature-body blockquote p:last-child { margin-bottom: 0; }
+.feature-body code {
+  font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
+  font-size: .88em;
+  background: #f2efe8;
+  padding: .1em .35em;
+  border-radius: 2px;
+}
+
+/* Divider between the narrative lead and the structured Semaform record. */
+.feature-rule {
+  border: 0;
+  height: 0;
+  max-width: 68ch;
+  margin: 2.6em auto 2.2em;
+  border-top: 1px solid var(--rule);
+  position: relative;
+  overflow: visible;
+}
+.feature-rule::after {
+  content: "◆";
+  position: absolute;
+  top: -.72em;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--paper);
+  padding: 0 .5em;
+  color: var(--gold);
+  font-size: .8rem;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   SEMAFORM CALLOUTS — :::semaform{type=X} → <aside class="sf sf--X">
+   ───────────────────────────────────────────────────────────────────────── */
+.sf {
+  max-width: 68ch;
+  margin: 1.7em auto;
+  padding: 1em 1.2em 1em 1.35em;
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--muted);
+  background: #f6f3ec;
+  font-size: 1.02rem;
+  line-height: 1.6;
+  border-radius: 2px;
+}
+.sf > *:first-child { margin-top: 0; }
+.sf > *:last-child { margin-bottom: 0; }
+.sf p { margin: 0 0 .6em; }
+/* Label chip generated from the variant. */
+.sf::before {
+  display: block;
+  font-family: var(--sans);
+  font-size: .68rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: .55em;
+}
+.sf--key-insight {
+  border-left-color: var(--gold);
+  background: linear-gradient(90deg, #fbf3e3, #f7f1e6);
+}
+.sf--key-insight::before { content: "Key insight"; color: #9a7418; }
+.sf--data-point {
+  border-left-color: var(--brand);
+  background: #f7efee;
+}
+.sf--data-point::before { content: "Data point"; color: var(--brand); }
+.sf--data-point p { font-variant-numeric: tabular-nums; }
+.sf--data-point strong { font-family: 'SF Mono', 'Menlo', 'Consolas', monospace; font-size: .95em; }
+.sf--comparison {
+  border-left-color: var(--accent);
+  background: #f4f1ea;
+}
+.sf--comparison::before { content: "By comparison"; color: var(--accent); }
+.sf--caveat {
+  border-left-color: var(--muted);
+  background: #f2f1ee;
+  color: #4a463d;
+}
+.sf--caveat::before { content: "Caveat"; color: var(--muted); }
+
+@media (max-width: 720px) {
+  .feature-body { max-width: 100%; font-size: 1.06rem; line-height: 1.7; }
+  .feature-body h2 { font-size: 1.42rem; }
+  .feature-body h3 { font-size: 1.16rem; }
+  .feature-body > p:first-of-type::first-letter { font-size: 3.1em; }
+  .feature-rule, .sf { max-width: 100%; }
+  .sf { padding: .85em 1em .85em 1.1em; }
+}
+
 /* Footer */
 .foot { border-top: 2px solid var(--ink); margin-top: 40px; padding: 24px 0 50px; font-family: var(--sans); font-size: .8rem; color: var(--muted); }
 .foot a { color: var(--muted); }
