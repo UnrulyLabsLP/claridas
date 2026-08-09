@@ -22,8 +22,33 @@ function conf(text: string): string {
 // timeZone pinned to UTC: front-matter dates coerce to UTC-midnight, so formatting
 // in any behind-UTC build machine would render the prior day. UTC keeps it deterministic.
 const fmt = (dt: Date) => dt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+
+// NewsArticle structured data — only real front-matter fields. dateModified falls
+// back to published when the piece has never been updated. mainEntityOfPage is the
+// canonical article URL (trailing-slash form, matching the sitemap + route output).
+const SITE = 'https://claridas.com';
+const canonical = `${SITE}/articles/${a.id}/`;
+const logo = `${SITE}/mark.svg`;
+const publisher = {
+  '@type': 'NewsMediaOrganization',
+  name: 'Claridas News',
+  logo: { '@type': 'ImageObject', url: logo },
+};
+const articleLd = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: d.headline,
+  ...(d.subhed ? { description: d.subhed } : {}),
+  datePublished: d.published.toISOString(),
+  dateModified: (d.updated ?? d.published).toISOString(),
+  author: publisher,
+  publisher,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
+  image: logo,
+};
 ---
-<BaseLayout title={`${d.headline} — Claridas News`} description={d.subhed ?? d.headline}>
+<BaseLayout title={`${d.headline} — Claridas News`} description={d.subhed ?? d.headline} ogType="article">
+  <script type="application/ld+json" set:html={JSON.stringify(articleLd)} slot="head" />
   <article class="article prose">
     <p class="kicker">{d.vertical.toUpperCase()}</p>
     <h1>{d.headline}</h1>

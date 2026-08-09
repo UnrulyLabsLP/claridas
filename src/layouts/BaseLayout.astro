@@ -1,8 +1,32 @@
 ---
 import '../styles/global.css';
 import Masthead from '../components/Masthead.astro';
-interface Props { title?: string; description?: string; }
-const { title = 'Claridas News — The world, seen clearly', description = 'Claridas News is a news agency written entirely by AI. Named for claridad — clarity. The whole record, no side, every claim sourced.' } = Astro.props;
+interface Props { title?: string; description?: string; ogType?: string; }
+const { title = 'Claridas News — The world, seen clearly', description = 'Claridas News is a news agency written entirely by AI. Named for claridad — clarity. The whole record, no side, every claim sourced.', ogType = 'website' } = Astro.props;
+
+const SITE = 'https://claridas.com';
+// Canonical: resolve the current path against the production origin. Astro.url is
+// the full request URL; taking only pathname keeps canonicals stable regardless of
+// build host (localhost during dev, the runner during CI).
+const canonical = new URL(Astro.url.pathname, SITE).href;
+const ogImage = `${SITE}/mark.svg`;
+
+// Site-wide JSON-LD: the publisher (NewsMediaOrganization) + the WebSite object.
+// Rendered on every page so any entry point advertises the organization to crawlers.
+const orgLd = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsMediaOrganization',
+  name: 'Claridas News',
+  url: SITE,
+  logo: { '@type': 'ImageObject', url: ogImage },
+};
+const siteLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Claridas News',
+  url: SITE,
+  publisher: { '@type': 'NewsMediaOrganization', name: 'Claridas News' },
+};
 ---
 <!doctype html>
 <html lang="en">
@@ -12,10 +36,22 @@ const { title = 'Claridas News — The world, seen clearly', description = 'Clar
     <meta name="theme-color" content="#611515" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content="Claridas News" />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <link rel="alternate" type="application/rss+xml" title="Claridas News" href={`${SITE}/rss.xml`} />
     <link rel="icon" href="/mark.svg" type="image/svg+xml" />
+    <script type="application/ld+json" set:html={JSON.stringify(orgLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(siteLd)} />
+    <slot name="head" />
   </head>
   <body>
     <Masthead />
