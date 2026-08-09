@@ -15,7 +15,7 @@
   --wrap: 1180px;
 }
 * { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; background: var(--paper); }
 body {
   margin: 0; background: var(--paper); color: var(--ink);
   /* Body = clean sans (system stack) for mobile readability + instant load (no webfont block).
