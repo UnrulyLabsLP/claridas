@@ -2,7 +2,7 @@
 headline: "Connecticut authorized 4,837 units in 5-plus-unit buildings in 2025 — 5 towns hold 60% of them and 134 of 172 jurisdictions authorized none"
 subhed: "We pulled the Census Building Permits Survey 2025 annual place file for every Connecticut permit-issuing jurisdiction and tallied each housing-type column. The state authorized 7,273 new residential units; 4,837 sat in buildings of 5 or more units, and Stamford alone accounted for 1,524 of them — 31.5%. Of 172 jurisdictions, 134 authorized zero large-multifamily units, 115 of them while reporting a full 12 months."
 vertical: local
-published: 2026-08-08
+published: "2026-08-08T22:33:41Z"
 places:
   - { state: "CT", lat: 41.6032, lng: -72.7554, statewide: true }
 facts: |

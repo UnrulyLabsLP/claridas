@@ -2,7 +2,7 @@
 headline: "One MLB slate, 2,174 taken pitches: umpires were 93.65% right — and most accurate on the counts that end at-bats"
 subhed: "The blown third strike is the call fans remember. Across every game on August 7, it was the call umpires missed least."
 vertical: sports
-published: 2026-08-08
+published: "2026-08-08T20:30:18Z"
 facts: |
   On 2026-08-07 the major leagues played a 15-game slate, all completed [verified]. We pulled the pitch-level record for every game from the MLB Stats API live feed and examined every taken pitch — a called strike or a called ball on which the batter did not swing — that carried a tracked location and the batter's personalized rulebook zone [verified]. That is 2,174 taken pitches [verified]. Measured against the rulebook zone with a ball-radius allowance — a pitch is a strike if any part of the ball crosses it — home-plate umpires called 138 of those pitches incorrectly, an accuracy of 93.65% [verified]. The errors ran close to even by direction: 74 pitches outside the zone were called strikes, and 64 pitches inside it were called balls [verified]. Accuracy varied by plate. Austin Jones (Cleveland at Chicago White Sox) missed 4 of 161 taken pitches, 97.52% [verified]. Manny Gonzalez (Athletics at Boston) missed 19 of 128, 85.16% — a 12.36-point spread between the night's most and least accurate plate [verified]. In that Boston game, 12 of the incorrect calls benefited the Athletics and 7 benefited the Red Sox [verified].
 analysis: |

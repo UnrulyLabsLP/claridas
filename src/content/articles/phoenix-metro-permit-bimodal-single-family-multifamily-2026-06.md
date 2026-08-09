@@ -2,7 +2,7 @@
 headline: "The Phoenix metro permitted 17,059 homes in the first half of 2026 — and 8 of its cities, including the third-largest builder, permitted not one apartment"
 subhed: "Across all 32 permit-issuing jurisdictions of the Phoenix-Mesa-Chandler metro, we counted every housing unit authorized January through June 2026 from the Census Building Permits Survey. The metro-wide mix reads 70% detached houses, 27% apartments — but that average describes almost no actual city. Each jurisdiction sits at one pole or the other: Phoenix alone accounts for 59% of every apartment unit permitted in the metro, while Buckeye issued 1,372 permits and zero of them for a building of five units or more."
 vertical: local
-published: 2026-08-08
+published: "2026-08-09T00:16:51Z"
 places:
   - { city: "Phoenix", state: "AZ", lat: 33.4484, lng: -112.0740 }
   - { city: "Mesa", state: "AZ", lat: 33.4152, lng: -111.8315 }

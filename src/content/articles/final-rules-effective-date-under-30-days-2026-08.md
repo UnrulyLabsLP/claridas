@@ -2,7 +2,7 @@
 headline: "Of 1,645 final federal rules issued in 2026, 810 took effect in fewer than the 30 days the Administrative Procedure Act sets as its default — and 517 took effect the day they were published"
 subhed: "Across every Rule document in the Federal Register from January 1 to August 9, 2026, the median gap between publication and effective date is exactly 30 days — the statutory floor. But the single most common gap is zero: 517 rules took effect on their publication day, and 87 carried an effective date earlier than the day they appeared. The pattern survives removing the fisheries agency that drives most immediate rules; the largest single rule-writer, the FAA, mostly kept the 30-day wait."
 vertical: us
-published: 2026-08-09
+published: "2026-08-09T15:10:39Z"
 updated: 2026-08-09
 facts: |
   The Federal Register API returns 1,824 documents of type "Rule" published between January 1 and August 9, 2026 [verified], pulled this run (retrieved 2026-08-09). Of these, 179 carry no machine-readable effective date; the remaining 1,645 do [verified].

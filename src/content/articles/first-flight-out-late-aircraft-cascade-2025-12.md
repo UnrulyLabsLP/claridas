@@ -2,7 +2,7 @@
 headline: "December's 5 a.m. departures arrived on time 87.7% of the time; 7 p.m. departures, 64.6% — and half the evening's delay was inherited, not made"
 subhed: "The advice to book the first flight of the day is folklore with a mechanism. Across all 571,924 arrivals the U.S. Department of Transportation logged in December, weather stayed a flat ~6–9% of delay minutes from dawn to midnight. What actually collapsed the on-time rate through the day was the late-aircraft cascade: 13% of the delay minutes on early-morning flights, 49% by evening — per the carriers' own filings."
 vertical: travel
-published: 2026-08-08
+published: "2026-08-08T22:16:12Z"
 facts: |
   The U.S. Department of Transportation's on-time database for December 2025 — the most recent month posted (file dated 2026-03-20) — records 582,304 scheduled domestic flights by the reporting carriers. Of these, 9,001 were cancelled (1.55%) and 1,379 diverted, leaving 571,924 operated flights with a recorded arrival-delay status [verified]. DOT counts a flight "on time" if it arrives less than 15 minutes after schedule; by that definition 73.2% of December's arrivals were on time [verified].
 

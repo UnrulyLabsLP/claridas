@@ -2,7 +2,7 @@
 headline: "A decade after NATO's 2% pledge, 17 of 31 members with a military finally cleared the bar — and the frontline overshot it"
 subhed: "In 2014, the year of the Wales pledge, 3 NATO members spent 2% of GDP on defence. On SIPRI's measure as compiled by the World Bank, 17 did in 2024 — with Poland (4.15%) now outspending the United States (3.42%) as a share of its economy, and Latvia, Poland and Lithuania — all bordering Russia or Belarus — posting the alliance's largest decade-long increases."
 vertical: world
-published: 2026-08-08
+published: "2026-08-08T21:26:32Z"
 updated: 2026-08-08
 correction: "2026-08-08: An earlier subhed said the three Baltic states posted the alliance's largest decade-long increases. The three largest were Latvia (+2.28), Poland (+2.25) and Lithuania (+2.23); Estonia, a Baltic state, was fourth (+1.48). Corrected to name the actual top three. A garbled 2014 comparison was also fixed. Caught by our automated at-source verification gate."
 facts: |

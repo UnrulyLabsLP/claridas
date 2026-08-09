@@ -2,7 +2,7 @@
 headline: "Same route, same December weather: Delta cancelled 12.9% of its LaGuardia–Chicago flights, American 1.1%"
 subhed: "Both airlines flew LaGuardia–O'Hare through the same storms. The gap wasn't the sky: 30 of Delta's 40 cancellations on the route were coded to the airline's own operations; every one of American's was coded weather — per the carriers' own filings with the Department of Transportation."
 vertical: travel
-published: 2026-08-08
+published: "2026-08-08T21:20:28Z"
 updated: 2026-08-08
 correction: "2026-08-08: An earlier version said 'every other carrier' with 500+ LGA departures coded cancellations overwhelmingly to weather. That held only for mainline carriers; Republic Airways — the regional operator with the most LGA departures — coded most of its cancellations to the air-traffic system (56%), not weather. Qualified to 'mainline' and added Republic. Caught by our automated at-source verification gate."
 facts: |

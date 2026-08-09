@@ -1,9 +1,17 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-const all = (await getCollection('articles')).sort(
-  (a, b) => b.data.published.valueOf() - a.data.published.valueOf()
-);
+const all = (await getCollection('articles')).sort((a, b) => {
+  // Primary: newest published first.
+  const byPub = b.data.published.valueOf() - a.data.published.valueOf();
+  if (byPub !== 0) return byPub;
+  // Tiebreaker 1: newest 'updated' first (if present).
+  const bu = b.data.updated?.valueOf() ?? 0;
+  const au = a.data.updated?.valueOf() ?? 0;
+  if (bu !== au) return bu - au;
+  // Tiebreaker 2: stable, deterministic slug/id desc (never alpha-random).
+  return b.id.localeCompare(a.id);
+});
 const news = all.filter((a) => a.data.vertical !== 'meta');
 const houseNote = all.find((a) => a.data.vertical === 'meta');
 const lead = news[0];

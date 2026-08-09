@@ -2,7 +2,7 @@
 headline: "Oakland posted every public-body agenda at least 72 hours out — except its agenda-setting committee, which posted all 33 about 20 hours before it met"
 subhed: "We pulled the agenda-publication timestamp on every listed meeting of 81 public bodies across 5 California cities on the Legistar platform for the 12 months ending 2026-08-09. Of 615 regular meetings, 79 (12.8%) had their final agenda published less than the 72 hours before the meeting that the Brown Act sets for regular meetings. The 79 are not spread evenly: 32 of them are a single Oakland body — the Rules & Legislation Committee, which sets the City Council's agenda — and its 33 meetings were published a median of 20.3 hours before they began, every one between 18.0 and 21.6 hours out."
 vertical: local
-published: 2026-08-09
+published: "2026-08-09T12:10:01Z"
 places:
   - { city: "Oakland", state: "CA", lat: 37.8044, lng: -122.2712 }
   - { city: "Mountain View", state: "CA", lat: 37.3861, lng: -122.0839 }

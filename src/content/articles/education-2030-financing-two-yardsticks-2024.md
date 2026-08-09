@@ -2,7 +2,7 @@
 headline: "One education-funding pledge, two yardsticks: 46 of 186 countries clear both, 67 clear neither — and the two floors split by wealth"
 subhed: "In 2015 more than 160 governments adopted a benchmark to spend at least 4% of GDP and/or 15% of the public budget on education. On the latest reported figures, 86 of 190 economies fall below the GDP floor and 125 of 189 below the budget floor; of the 186 that report both, only 46 clear both and 67 clear neither. The two floors disagree about who is passing for 73 countries — and the disagreement tracks income: 49 of the 55 that clear only the GDP floor are upper-middle- or high-income, while the budget-share floor is the only door many poorer states pass through. The United States clears the pledge on GDP and misses it on budget; Viet Nam does the reverse."
 vertical: world
-published: 2026-08-09
+published: "2026-08-09T14:24:33Z"
 updated: 2026-08-09
 facts: |
   At the World Education Forum in Incheon in May 2015, governments adopted the Education 2030 Framework for Action, the roadmap for implementing Sustainable Development Goal 4. Its financing section asks countries to "allocate at least 4% to 6% of gross domestic product (GDP) to education and/or allocate at least 15% to 20% of public expenditure to education" [verified]. The two thresholds are joined by "and/or": a country is treated as meeting the benchmark if it clears either the GDP floor or the budget-share floor.

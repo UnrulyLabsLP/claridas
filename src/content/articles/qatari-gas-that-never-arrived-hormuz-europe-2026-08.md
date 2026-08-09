@@ -2,7 +2,7 @@
 headline: "The Qatari gas that never arrived: how a strait half a world away reprices every European radiator"
 subhed: "Qatar was only 6.6% of the EU's LNG imports when the Strait of Hormuz shut in one-fifth of the world's LNG supply — yet European gas and power still peaked at close to double their pre-war levels. The molecules never came; the price did."
 vertical: world
-published: 2026-08-09
+published: "2026-08-09T05:09:31Z"
 facts: |
   On 28 February 2026 — the date the U.S. Energy Information Administration assigns to the effective closure — Iran's de-facto shutting of the Strait of Hormuz took "over 10 billion cubic feet per day (Bcf/d) of global LNG supplies, or approximately 20%," off the market at a stroke: the combined Qatari and Emirati output that has no pipeline route around the Gulf and must sail through the strait or not sail at all [verified]. Between 1 March and 24 April, "no laden LNG vessels are known to have crossed the strait," according to Kpler data cited by the EIA [verified]. The International Energy Agency, in its Q2-2026 Gas Market Report, described the same event as "the loss, for the time being, of almost 20% of global LNG supply" [verified].
 

@@ -2,7 +2,7 @@
 headline: "Phoenix took 11 more shots and turned it over 8 fewer times than Connecticut — and lost by 3"
 subhed: "The box score reads as a Connecticut comeback from 16 down. The two inputs a team controls both belonged to Phoenix; the game turned on 28 three-point attempts that returned five."
 vertical: sports
-published: 2026-08-08
+published: "2026-08-08T22:45:13Z"
 facts: |
   On 2026-08-07 the Connecticut Sun (8-23) beat the Phoenix Mercury (12-21) 75-72 at home [verified]. Phoenix led for most of the night — by 16, at 36-20 in the second quarter, the largest margin either side held [verified] — and at that point ESPN's win-probability model put Connecticut at 5.1% [modeled]; Connecticut's own largest lead all game was 4 [verified]. Connecticut was still under 15% in that model with 5:51 left in the fourth quarter, trailing 60-56 [modeled]. Both teams made exactly 27 field goals [verified]. Phoenix needed 68 attempts to Connecticut's 57 — 11 more [verified] — shooting 39.7% against 47.4% [verified]. The separation was at the three-point line: Phoenix went 5-of-28 (17.9%), Connecticut 7-of-20 (35.0%) [verified]. Phoenix also missed 10 free throws, going 13-of-23 (56.5%) to Connecticut's 14-of-20 (70.0%) [verified]. Connecticut committed 18 turnovers to Phoenix's 10 [verified] and out-rebounded Phoenix 34-29 [verified]. The third quarter turned it: Connecticut outscored Phoenix 17-9 to wipe out the deficit and tie the game 49-49 [verified], then took the lead for good with 3:06 to play on a Diamond Miller 24-foot three [verified]. Kelsey Plum led all scorers with 25 on 9-of-16 [verified]; Kennedy Burke (15) and Aaliyah Edwards (14 points, 8 rebounds) led Connecticut [verified].
 analysis: |

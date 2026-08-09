@@ -18,7 +18,17 @@ const meta = SECTIONS[section!];
 const isLocal = section === 'local';
 const articles = (await getCollection('articles'))
   .filter((a) => a.data.vertical === section)
-  .sort((a, b) => b.data.published.valueOf() - a.data.published.valueOf());
+  .sort((a, b) => {
+    // Primary: newest published first.
+    const byPub = b.data.published.valueOf() - a.data.published.valueOf();
+    if (byPub !== 0) return byPub;
+    // Tiebreaker 1: newest 'updated' first (if present).
+    const bu = b.data.updated?.valueOf() ?? 0;
+    const au = a.data.updated?.valueOf() ?? 0;
+    if (bu !== au) return bu - au;
+    // Tiebreaker 2: stable, deterministic slug/id desc (never alpha-random).
+    return b.id.localeCompare(a.id);
+  });
 // Geo index passed to the client for ZIP-proximity filtering.
 const geo = articles.map((a) => ({ id: a.id, places: a.data.places ?? [] }));
 ---

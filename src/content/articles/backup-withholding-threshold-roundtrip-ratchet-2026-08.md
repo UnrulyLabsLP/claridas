@@ -2,7 +2,7 @@
 headline: "A new IRS rule ties 24% backup withholding to the restored $20,000/200-transaction threshold — and four worked examples turn one year over the line into a full year of withholding on the next"
 subhed: "Final rule TD 10053 (FR document 2026-16269, RIN 1545-BR80), effective August 10, 2026 and applied to payments made after December 31, 2024, conforms § 3406 backup withholding to a de-minimis threshold that has round-tripped: $20,000 and 200 transactions (2008) → $600 with no transaction floor (2021) → $20,000 and 200 transactions (2025). Its preamble says the proposal was 'adopted without change'; a line-level diff of the proposed and final regulatory text returns four."
 vertical: us
-published: 2026-08-08
+published: "2026-08-09T03:14:18Z"
 facts: |
   On August 10, 2026 the Treasury Department and the Internal Revenue Service publish final regulations, Treasury Decision 10053 (Federal Register document 2026-16269, RIN 1545-BR80), amending 26 CFR §§ 31.3406(a)-1 and 31.3406(b)(3)-5 [verified]. The document was placed on public inspection and filed August 7, 2026, and was pulled from the Federal Register full-text XML this run (retrieved 2026-08-08) [verified]. It finalizes a notice of proposed rulemaking under the same RIN published January 9, 2026 (FR document 2026-00254, cited in the record as 91 FR 934) [verified].
 

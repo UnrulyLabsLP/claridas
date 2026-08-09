@@ -2,7 +2,7 @@
 headline: "Sacramento's City Council routed 84% of its year's votable business through the consent calendar — and the free public API records how the council voted on almost none of it"
 subhed: "We pulled every Sacramento City Council agenda from the Granicus Legistar API for the 12 months ending July 31, 2026 and classified each item by its matter type. Of 466 items the council could act on, 390 — 83.7% — were placed on the consent calendar for bundled adoption and 76 were pulled for individual discussion. The largest single consent bundle held 42 items. Across 517 action and public-hearing items, the API publishes a recorded outcome for 25 and a numeric vote tally for none."
 vertical: local
-published: 2026-08-09
+published: "2026-08-09T15:44:00Z"
 places:
   - { city: "Sacramento", state: "CA", lat: 38.5816, lng: -121.4944 }
 facts: |

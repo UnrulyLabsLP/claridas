@@ -2,7 +2,7 @@
 headline: "The 20 minutes that aren't in the sky: US airlines blocked the median route 20 minutes longer than their own fastest flights in May — and 1 in 6 'on-time' arrivals had left the gate late"
 subhed: "On identical Atlanta–Newark flights, Delta schedules 134 minutes of block time and Frontier 158 — a 24-minute gap on a route the two actually fly about 6 minutes apart. Across 604,346 completed flights, the timetable carried roughly 185,000 hours of built-in cushion, per the carriers' own schedules filed with the Department of Transportation."
 vertical: travel
-published: 2026-08-09
+published: "2026-08-09T13:27:28Z"
 updated: 2026-08-09
 facts: |
   The U.S. Department of Transportation's on-time database for May 2026 — the most recent month posted (file dated 2026-06-30) — records 611,735 scheduled domestic flights by the reporting carriers: 5,655 cancelled, 1,734 diverted, and 604,346 completed gate-to-gate [verified]. Of the completed flights, 78.6% arrived within 15 minutes of schedule — DOT's definition of "on time" — and 383,966 (63.5%) arrived at or ahead of their scheduled time [verified].

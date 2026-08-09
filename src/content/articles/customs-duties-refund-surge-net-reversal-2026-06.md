@@ -2,7 +2,7 @@
 headline: "US customs collected a record $244.3 billion in duties through June 2026 and refunded $81.3 billion of it — 15.4× the refunds a year earlier"
 subhed: "Monthly customs refunds ran $0.6–1.9 billion from October through April, then jumped to $21.97 billion in May and $49.18 billion in June. June's refund alone exceeded that month's $23.63 billion in gross collections, turning net customs receipts negative for two straight months and pulling the fiscal-year-to-date net down from a $188.62 billion peak at the end of April to $163.02 billion by the end of June."
 vertical: us
-published: 2026-08-09
+published: "2026-08-09T05:09:31Z"
 updated: 2026-08-09
 facts: |
   The Treasury's Monthly Treasury Statement (MTS), Table 4, "Receipts of the U.S. Government," reports the Customs Duties line in three columns each month: gross receipts, refunds, and net receipts (gross minus refunds). The figures here were pulled from the Fiscal Data API this run (retrieved 2026-08-09). The June 2026 statement (record_date 2026-06-30) is the latest available; it covers the first nine months of fiscal 2026 (October 2025 through June 2026). The July statement had not been released as of this writing.

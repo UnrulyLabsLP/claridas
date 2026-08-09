@@ -2,7 +2,7 @@
 headline: "The Invisible Toll on Every Barrel: How a War-Risk Insurance Line Item Became Europe's Real Iran Tax"
 subhed: "The 2026 Hormuz crisis barely moved the crude screen. But two columns that never make the front page — war-risk insurance and freight — repriced the whole world's tankers, and Europe now pays a Hormuz toll on oil that never goes near Hormuz."
 vertical: world
-published: 2026-08-09
+published: "2026-08-09T05:09:31Z"
 facts: |
   The 2026 Strait of Hormuz crisis followed coordinated strikes on Iran beginning 28 February 2026; Iran responded by closing the strait. Traffic began recovering after an 18 June 2026 U.S.-Iran MOU to reopen it, before a fresh re-escalation in early July 2026.
   The EIA's July 2026 Short-Term Energy Outlook cut its full-year 2026 Brent forecast to ~$82/bbl — an ~14% reduction from the June STEO's ~$95/bbl — with Q3 2026 Brent at $74/bbl and full-year 2027 at ~$65/bbl.

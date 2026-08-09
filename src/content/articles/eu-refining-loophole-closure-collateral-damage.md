@@ -2,7 +2,7 @@
 headline: "Closing the Back Door, Opening a Bill: What Europe's Own Sanctions Fix Costs Its Drivers and Truckers"
 subhed: "Europe shut the refining loophole that let Russian-crude diesel reach its pumps — on 21 January 2026, weeks before a Gulf war pulled the same fuel out of the world's supply. Two shocks, one product, and a cost that lands hardest on those who cannot switch fuels."
 vertical: world
-published: 2026-08-09
+published: "2026-08-09T05:09:31Z"
 facts: |
   The EU ban on importing petroleum products refined in third countries from Russian-origin crude took effect 21 January 2026 under Article 3ma of Council Regulation (EU) No 833/2014 (KSE Institute, June 2026).
   In 2025, refineries processing Russian crude in India, China and Turkey exported ~100 million barrels of CN-2710 petroleum products to the EU — India 61.2 mb (61.2%), Turkey 37.0 mb (37.0%), China 1.8 mb (1.8%); product mix diesel/gasoil 60%, naphtha 21.6%, gasoline/blending 8.9%, jet/kerosene 6.0%, fuel oil 3.4% (Windward 'Global Exposure Report: The EU 18th Sanctions Package', data attributed to Vortexa).

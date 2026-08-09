@@ -2,7 +2,7 @@
 headline: "A majority of the world's economies now sit below replacement fertility — and India crossed the line without a headline"
 subhed: "On the World Bank's 2023 series, 117 of 217 economies reported fewer than 2.1 births per woman, up from 98 a decade earlier and 80 in 2000. Among the 19 that fell below the benchmark since 2013 is India (2.40 to 1.98), the world's most populous country. The last region still overwhelmingly above the line is sub-Saharan Africa — 46 of its 48 economies."
 vertical: world
-published: 2026-08-08
+published: "2026-08-08T22:21:16Z"
 facts: |
   The World Bank publishes total fertility rate — the average number of children a woman would bear at current age-specific rates — as indicator SP.DYN.TFRT.IN, compiled from the United Nations World Population Prospects (UN Population Division), national statistical offices and Eurostat. The database vintage was last updated 2026-07-13 and its latest year is 2023, with data for 217 individual economies (territories such as Macao, Hong Kong, Puerto Rico and the Faroe Islands are counted separately from their sovereigns) [verified].
 

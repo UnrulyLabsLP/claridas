@@ -2,7 +2,7 @@
 headline: "Every remittance dollar received was sent by someone — yet in 2024 the world reported receiving $237 billion more than it reported sending"
 subhed: "The World Bank's own ledger shows $856.6bn in personal remittances received in 2024 against $619.3bn paid — a 1.38-to-1 mismatch that runs the opposite direction from transfer fees, and has held every year since 2018 for a cumulative $1.5tn no country reports sending."
 vertical: world
-published: 2026-08-08
+published: "2026-08-09T03:00:18Z"
 updated: 2026-08-08
 facts: |
   Personal remittances appear twice in the balance-of-payments framework the IMF and World Bank compile: once as money received by the destination economy (indicator BX.TRF.PWKR.CD.DT) and once as money paid out by the sending economy (indicator BM.TRF.PWKR.CD.DT). The two are opposite sides of the same cross-border transfers — one country's outflow is another's inflow [verified].

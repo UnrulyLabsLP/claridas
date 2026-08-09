@@ -2,7 +2,7 @@
 headline: "238 executive orders in one year: 2025 exceeded the previous four years combined, and 2.6× the Federal Register's electronic-record high"
 subhed: "The Federal Register logged 238 executive orders signed in calendar 2025 — against a 1994–2024 range of 19 to 91 (median 38). The count is re-derivable two independent ways: a facet query returns 225 orders signed after Inauguration Day, and the sequential order numbers 14147 through 14371 span exactly 225."
 vertical: us
-published: 2026-08-08
+published: "2026-08-08T21:32:12Z"
 facts: |
   The Federal Register's API classifies presidential documents by subtype. A query for `type=PRESDOCU` and `presidential_document_type=executive_order`, filtered to a 2025 signing date, returns 238 executive orders [verified]. Filtering instead by publication date returns 239, the one-order difference arising from orders signed in one calendar year and published in the next [verified]. Both figures were pulled from the FederalRegister.gov API this run (retrieved 2026-08-08).
 

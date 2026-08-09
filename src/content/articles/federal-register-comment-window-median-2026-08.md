@@ -2,7 +2,7 @@
 headline: "The median federal comment period opened this year ran 45 days — and 30 days, not the 60 two executive orders recommend, was the single most common window across 979 proposed rules"
 subhed: "Of the 979 fresh public comment periods opened by proposed rules in the Federal Register from January 1 to August 8, 2026, 692 (70.7%) ran shorter than 60 days and the modal window was exactly 30 days. Even among the 90 rules agencies themselves flagged as 'significant' — the category the 60-day standard targets — 39 (43.3%) closed comments in under 60 days, the shortest at 21."
 vertical: us
-published: 2026-08-09
+published: "2026-08-09T10:10:36Z"
 updated: 2026-08-09
 facts: |
   Federal agencies proposing a rule set the date public comments close. We pulled every Proposed Rule published in the Federal Register from January 1 through August 8, 2026 via the FederalRegister.gov API (no key), and measured, for each, the calendar days from its publication date to its stated comment-close date.

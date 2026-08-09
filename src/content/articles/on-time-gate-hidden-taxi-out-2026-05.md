@@ -2,7 +2,7 @@
 headline: "On time to the gate, not to the sky: at O'Hare in May, a third of punctual departures still taxied 30-plus minutes before takeoff"
 subhed: "The federal on-time clock stops the moment a plane leaves the gate — the runway queue after that is invisible to it. Reading all 611,735 May 2026 flights: nationwide, 9.0% of departures that pushed back on time or early were not airborne for at least 30 more minutes. At Chicago O'Hare it was 33.3%; at St. Louis, 1.5%."
 vertical: travel
-published: 2026-08-08
+published: "2026-08-09T02:51:14Z"
 updated: 2026-08-08
 facts: |
   The U.S. Department of Transportation's on-time database for May 2026 — the most recent month posted (file in the "1987–present" reporting-carrier table) — records 611,735 scheduled domestic flights operated by 13 reporting carriers across 347 origin airports, of which 5,655 were cancelled (0.924%) and 1,734 diverted (0.283%) [verified].

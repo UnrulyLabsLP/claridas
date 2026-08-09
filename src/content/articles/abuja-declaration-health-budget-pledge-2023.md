@@ -2,7 +2,7 @@
 headline: "African governments pledged in 2001 to spend 15% of their budgets on health — their own 2023 accounts show 1 of 54 keeps it"
 subhed: "The WHO's expenditure database, built from each state's own books, puts South Africa alone above the Abuja Declaration's 15% line at 16.89%; Namibia misses it by 0.01 of a point, 45 of 54 African Union members spend under 10%, and the median member devotes 6.05% — under half the share it pledged."
 vertical: world
-published: 2026-08-09
+published: "2026-08-09T04:22:58Z"
 updated: 2026-08-09
 facts: |
   At a special summit in Abuja on 24–27 April 2001, the heads of state of what was then the Organisation of African Unity adopted the Abuja Declaration, whose paragraph 26 set "a target of allocating at least 15% of our annual budget to the improvement of the health sector" [verified]. The pledge has been reaffirmed at the African Union level since, and the World Health Organization tracks it with a single indicator: domestic general government health expenditure as a share of general government expenditure — of every dollar a government itself spends, how many cents go to health [verified].

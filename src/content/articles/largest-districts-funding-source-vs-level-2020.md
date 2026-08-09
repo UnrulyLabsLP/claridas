@@ -2,7 +2,7 @@
 headline: "Where a school district's money comes from tells you almost nothing about how much it has: across the 100 largest US districts, funding source and funding level barely move together"
 subhed: "For the 100 largest school districts by enrollment — 9.4 million students across 28 states, school year 2019–20 (NCES) — we computed each district's local-revenue share and its per-pupil revenue. Local share runs from 9% (Detroit) to 90% (Washington, DC); per-pupil revenue from $9,661 (Jordan, UT) to $34,392 (Boston), a 3.6× spread. The two are nearly uncorrelated (0.23). Houston raises 76% of its money locally — 93rd percentile — and runs on $13,316 a pupil, the 47th."
 vertical: local
-published: 2026-08-08
+published: "2026-08-09T03:39:25Z"
 places:
   - { city: "Houston", state: "TX", lat: 29.7604, lng: -95.3698 }
   - { city: "Dallas", state: "TX", lat: 32.7767, lng: -96.7970 }

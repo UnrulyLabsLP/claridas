@@ -2,7 +2,7 @@
 headline: "Arizona out-gained Carolina by 47 yards, held the ball 8 minutes longer, and lost the Hall of Fame Game"
 subhed: "The Cardinals reached 82.7% win probability with 0:44 left. Two categories the volume stats don't capture — red-zone touchdowns and penalty yards — decided a 33-30 game at the gun."
 vertical: sports
-published: 2026-08-08
+published: "2026-08-09T02:29:02Z"
 facts: >
   The Carolina Panthers beat the Arizona Cardinals 33-30 in the Hall of Fame Game
   at Tom Benson Hall of Fame Stadium in Canton, Ohio, on August 7 [verified] — the first

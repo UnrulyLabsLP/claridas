@@ -2,7 +2,7 @@
 headline: "Seven MLB slates, 13,698 taken pitches: the two-strike accuracy edge is which pitches get taken, not how they get judged"
 subhed: "One night suggested umpires bear down with two strikes. Across 94 games the advantage is pitch selection — and on the closest calls it reverses."
 vertical: sports
-published: 2026-08-08
+published: "2026-08-08T22:05:13Z"
 facts: |
   On 2026-08-07 this ledger graded a single 15-game slate and found that home-plate umpires missed two-strike taken pitches far less often than other pitches — a result we flagged as a one-night hypothesis to re-test [verified]. We re-ran the identical method across the seven completed slates from 2026-08-01 through 2026-08-07: 94 games, all Final [verified]. For every taken pitch — a called strike or a called ball on which the batter did not swing — that carried a tracked location and the batter's personalized rulebook zone, we measured the call against that zone with a ball-radius allowance (a pitch is a strike if any part of the ball crosses it) [verified]. That is 13,698 taken pitches [verified]. Umpires called 894 of them incorrectly, an accuracy of 93.47% [verified]. The errors ran close to even by direction: 438 pitches outside the zone were called strikes, and 456 pitches inside it were called balls — a net of 18 across 13,698, inside the noise [verified]. Sorted by the count before the pitch, the raw pattern from the single slate held and grew: two-strike taken pitches were missed 3.57% of the time (107 of 2,998), against 7.36% on all other counts (787 of 10,700) — a 51.5% lower error rate [verified]. The decline is monotonic in strikes: 7.82% with no strikes (544 of 6,960), 6.50% with one (243 of 3,740), 3.57% with two [verified].
 analysis: |

@@ -2,7 +2,7 @@
 headline: "The average rate the Treasury pays on the federal debt hit 3.447% in July 2026 — a 17-year high, and 2.2× the record-low 1.556% of January 2022"
 subhed: "The weighted-average interest rate across all interest-bearing federal debt has climbed in 44 of the 54 months since its January 2022 trough — the lowest reading since the series began in 2001 — and is now the highest since June 2009. Gross interest expense on the public debt reached $1.22 trillion in FY2025 and $1.17 trillion through the first ten months of FY2026."
 vertical: us
-published: 2026-08-08
+published: "2026-08-08T22:26:56Z"
 updated: 2026-08-08
 correction: "2026-08-08: An earlier version said the average rate rose in 45 of the 54 months since the January 2022 trough. It rose in 44; one month (January to February 2025) was flat at 3.282%, with 9 declines. Corrected throughout. Caught by our automated at-source verification gate."
 facts: |
