@@ -2,11 +2,14 @@
    quiet authority. Deliberately NOT a blog: no cards, no rounded thumbs,
    no "posted by" chrome. Reuters/AP/Semafor register. */
 :root {
-  --ink: #14110d;
+  --ink: #1a1512;            /* warm near-black, AAA on paper */
   --paper: #faf8f4;
   --rule: #d8d2c6;
   --muted: #6b6455;
-  --accent: #7a1f1f;         /* oxblood — masthead + section marks */
+  --accent: #7a1f1f;         /* oxblood — section marks + links */
+  --brand: #611515;          /* deep oxblood — the masthead block (the pop) */
+  --gold: #e4b363;           /* warm gold — seal + rule accent, used sparingly */
+  --ivory: #fbf3e9;          /* reversed text on the oxblood block */
   --verified: #1f6b3a;
   --modeled: #8a6d1f;
   --speculative: #566572;  /* slate — honest uncertainty, NEVER red (red=error) */
@@ -29,21 +32,24 @@ a:hover { text-decoration: underline; }
 .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 20px; }
 
 /* Masthead */
-.masthead { border-bottom: 2px solid var(--ink); }
-.masthead__top { display: flex; align-items: baseline; justify-content: space-between; padding: 14px 0 10px; }
-.masthead__brand { font-family: var(--serif); font-weight: 700; letter-spacing: .04em; font-size: 2.1rem; color: var(--ink); display: inline-flex; align-items: center; gap: 11px; }
-.masthead__brand:hover { text-decoration: none; }
+/* Editorial Oxblood masthead — the signature "pop": full-width oxblood band, gold rule, reversed ivory */
+.masthead { background: var(--brand); border-bottom: 4px solid var(--gold); color: var(--ivory); }
+.masthead__top { display: flex; align-items: baseline; justify-content: space-between; padding: 18px 0 12px; }
+.masthead__brand { font-family: var(--serif); font-weight: 700; letter-spacing: .05em; font-size: 2.5rem; color: var(--ivory); display: inline-flex; align-items: center; gap: 12px; }
+.masthead__brand:hover { text-decoration: none; color: #fff; }
 .seal { flex: 0 0 auto; }
-.masthead__tag { font-family: var(--sans); font-size: .72rem; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); }
-.masthead__date { font-family: var(--sans); font-size: .72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .1em; }
-.nav { display: flex; gap: 0; border-top: 1px solid var(--rule); font-family: var(--sans); }
-.nav a { padding: 9px 16px 9px 0; margin-right: 16px; font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink); font-weight: 600; }
-.nav a:hover { color: var(--accent); text-decoration: none; }
+.masthead__tag { font-family: var(--sans); font-size: .72rem; letter-spacing: .2em; text-transform: uppercase; color: rgba(251,243,233,.82); }
+.masthead__date { font-family: var(--sans); font-size: .72rem; color: rgba(251,243,233,.68); text-transform: uppercase; letter-spacing: .1em; }
+.nav { display: flex; gap: 0; border-top: 1px solid rgba(251,243,233,.22); font-family: var(--sans); }
+.nav a { padding: 9px 16px 9px 0; margin-right: 16px; font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ivory); font-weight: 600; }
+.nav a:hover { color: var(--gold); text-decoration: none; }
+.nav__util a { color: rgba(251,243,233,.72); }
+.nav__util a:first-child { border-left: 1px solid rgba(251,243,233,.25); }
 /* hamburger (mobile) */
 .nav__toggle { display: none; }
 @media (max-width: 720px) {
   .nav { flex-direction: column; }
-  .nav__toggle { display: block; font-family: var(--sans); font-size: .8rem; padding: 8px 0; background: none; border: 0; letter-spacing: .12em; text-transform: uppercase; cursor: pointer; }
+  .nav__toggle { display: block; font-family: var(--sans); font-size: .8rem; padding: 8px 0; background: none; border: 0; color: var(--ivory); letter-spacing: .12em; text-transform: uppercase; cursor: pointer; }
   .nav__links { display: none; flex-direction: column; }
   .nav__links--open { display: flex; }
 }
@@ -64,8 +70,9 @@ a:hover { text-decoration: underline; }
   .nav__links { display: flex; align-items: center; flex-wrap: wrap; width: 100%; }
 }
 .nav__util { margin-left: auto; display: inline-flex; }
-.nav__util a { color: var(--muted); }
-.nav__util a:first-child { border-left: 1px solid var(--rule); padding-left: 16px; }
+.nav__util a { color: rgba(251,243,233,.72); }
+.nav__util a:hover { color: var(--gold); }
+.nav__util a:first-child { border-left: 1px solid rgba(251,243,233,.25); padding-left: 16px; }
 @media (max-width: 720px) {
   .masthead__top { flex-direction: column; align-items: flex-start; gap: 4px; }
   .nav__util { margin-left: 0; flex-direction: column; }
