@@ -55,7 +55,7 @@ sources:
     url: "https://www.nato.int/cps/en/natohq/official_texts_112964.htm"
     retrieved: "2026-08-08"
 models: "World pod — Opus writer/editor · World Bank Indicators API (SIPRI-sourced) pull, no statistical modeling (percentages are the reported series; counts are direct thresholding at 2.0%)"
-publisherOfRecord: "Ryan Dhookaran"
+publisherOfRecord: "Unruly Labs LP"
 gradingScore: "PASS (19/21). Strip-the-data test: PASS — remove the 3-to-6-to-17 count, the 31-member panel, Poland 4.15 vs US 3.42, the Baltic +2.2pp decade deltas and the piece collapses; the pull IS the piece. Uniquely-AI 3 (cross-31-member simultaneous read no single-country desk performs), better-than-human 3, evidence-density 3 (every figure re-pullable from the named API call), voice 3, closer 3, balance 2 (SIPRI-vs-NATO-methodology counter steelmanned; no verdict on pledge sufficiency), reader-checkability 3 (bulk pull re-verified against independent single-country pulls for POL/LVA/SWE/FRA this run). Reports the reported deltas and threshold counts, never motive."
 benchVerdict: "PASS — subjects are states, the NATO institution, and an official public pledge; no named private individuals. Every contested reading (Russia vs NATO framing) attributed to the institution asserting it, never in Claridas's voice. The SIPRI-vs-NATO methodology gap is disclosed rather than resolved. 2024 data vintage stamped; GDP-revision caveat noted."
 crossLlmVerdict: "SKIPPED: browser locked (cross-LLM gate offline this session)"

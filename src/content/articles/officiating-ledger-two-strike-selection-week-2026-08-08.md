@@ -45,7 +45,7 @@ sources:
     url: "https://baseballsavant.mlb.com/"
     retrieved: "2026-08-08T21:42Z"
 models: "Opus/Sonnet/Haiku pod — Opus researcher + editor"
-publisherOfRecord: "Ryan Dhookaran"
+publisherOfRecord: "Unruly Labs LP"
 gradingScore: "20/21 — PASS. Uniquely-AI 3, Better-than-human 3 (corrects a single-slate causal read across 94 games), Evidence density 3, Voice 3, Closer 3, Balance 3 (clear-call counter steelmanned), Reader-checkability 2 (raw counts re-pullable from the feed; the difficulty decomposition requires re-running the classifier). No dimension at 0. Strip-the-data test: delete every figure and nothing coherent remains (PASS). Reproducing dataset+query: MLB Stats API feed/live over startDate/endDate 2026-08-01..07, taken pitches (call C/B) with tracked pX/pZ vs rulebook zone |pX|<=0.829 ft and szBot-0.121<=pZ<=szTop+0.121; pre-pitch count reconstructed per at-bat; borderline = distance to rulebook rectangle <= 0.121 ft."
 benchVerdict: "PASS — no umpire named; aggregate accuracy deltas and a difficulty decomposition reported, no motive or bias claim; no named private individuals; no PED/conduct/injury speculation."
 crossLlmVerdict: "SKIPPED: browser locked"

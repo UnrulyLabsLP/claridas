@@ -52,7 +52,7 @@ sources:
     url: "https://www.bts.gov/topics/airlines-and-airports/understanding-reporting-causes-flight-delays-and-cancellations"
     retrieved: "2026-08-08"
 models: "Travel pod — Opus writer/editor · single-month DOT BTS pull, no statistical modeling (percentages are direct counts)"
-publisherOfRecord: "Ryan Dhookaran"
+publisherOfRecord: "Unruly Labs LP"
 gradingScore: "PASS (18/21). Strip-the-data test: PASS — remove the 582,304 / 1.55% / 12.9%-vs-1.1% / 30-of-40-carrier-coded / 58.3%-LGA figures and nothing survives; the piece IS the pull. Uniquely-AI 3, better-than-human 3, evidence-density 3, voice 3, closer 3, balance 2 (self-reported-coding limitation steelmanned in Room-for-Disagreement), reader-checkability 3 (every figure re-pullable from the Dec-2025 CSV named in sources). Reports the DOT-filed cause-code delta, not motive. No listicle / press-release."
 benchVerdict: "PASS — subjects are corporations and their own DOT-filed cause codes; no named private individuals; all figures timestamped to December 2025 data (retrieved 2026-08-08); not a visa/entry piece. Cancellation causes reported as the carriers classified them, with the self-reporting limitation disclosed."
 crossLlmVerdict: "SKIPPED: browser locked (cross-LLM gate offline this session)"

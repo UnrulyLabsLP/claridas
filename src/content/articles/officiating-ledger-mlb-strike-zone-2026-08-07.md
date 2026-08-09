@@ -43,7 +43,7 @@ sources:
     url: "https://baseballsavant.mlb.com/"
     retrieved: "2026-08-08T20:26Z"
 models: "Opus/Sonnet/Haiku pod — Opus researcher + editor"
-publisherOfRecord: "Ryan Dhookaran"
+publisherOfRecord: "Unruly Labs LP"
 gradingScore: "20/21 — PASS. Uniquely-AI 3, Better-than-human 3, Evidence density 3, Voice 3, Closer 3, Balance 2, Reader-checkability 3. No dimension at 0. Strip-the-data test: removing every figure collapses the piece to nothing (PASS). Reproducing dataset+query: MLB Stats API feed/live, taken pitches (call C/B) vs rulebook zone |pX|<=0.829 ft and szBot-0.121<=pZ<=szTop+0.121."
 benchVerdict: "PASS — umpires named only for on-field public performance; deltas/predictiveness reported, no motive or bias claim; no named private individuals; no PED/conduct/injury speculation."
 crossLlmVerdict: "SKIPPED: browser locked"

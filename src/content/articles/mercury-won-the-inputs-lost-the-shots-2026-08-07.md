@@ -45,7 +45,7 @@ sources:
     url: "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/phx/statistics"
     retrieved: "2026-08-08T22:40Z"
 models: "Opus/Sonnet/Haiku pod — Opus researcher + editor"
-publisherOfRecord: "Ryan Dhookaran"
+publisherOfRecord: "Unruly Labs LP"
 gradingScore: "20/21 — PASS. Uniquely-AI 3, Better-than-human 3 (reconciles inputs a single box-score line hides), Evidence density 3, Voice 3, Closer 3, Balance 3 (comeback-is-earned counter steelmanned), Reader-checkability 2 (box score fully re-pullable at the game page; the win-probability figures are ESPN's model output, not reader-recomputable). No dimension at 0. Strip-the-data test: delete every figure and only a generic 'Connecticut came back' recap remains — the thesis that Phoenix won the controllable inputs and lost on shot variance collapses (PASS). Reproducing dataset+query: ESPN WNBA summary event=401857122 -> boxscore.teams.statistics (FGM/FGA, 3PM/3PA, FTM/FTA, turnovers, rebounds), header linescores (quarter scoring), winprobability array (homeWinPercentage nadir 0.051), and teams/phx/statistics threePointPct=31.9."
 benchVerdict: "PASS — athletes named only for public on-field box-score performance; no motive, bias, or officiating-intent claim; no private individuals; the win/loss cause is attributed to shot outcomes and repeated in-game decisions, not conduct."
 crossLlmVerdict: "SKIPPED: browser locked"

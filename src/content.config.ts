@@ -27,7 +27,7 @@ const articles = defineCollection({
     humanWouldMiss: z.string().min(1, '"What a human would miss" closer is mandatory'),
     sources: z.array(z.object({ label: z.string(), url: z.string().url(), retrieved: z.string().optional() })),
     models: z.string().default('Opus/Sonnet/Haiku pod'),
-    publisherOfRecord: z.string().default('Ryan Dhookaran'),
+    publisherOfRecord: z.string().default('Unruly Labs LP'),
     // Gate audit trail.
     gradingScore: z.string().optional(),
     benchVerdict: z.string().optional(),

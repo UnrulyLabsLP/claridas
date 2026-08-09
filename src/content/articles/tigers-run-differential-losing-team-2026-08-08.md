@@ -37,7 +37,7 @@ sources:
     url: "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2026&standingsTypes=regularSeason"
     retrieved: "2026-08-08"
 models: "Sports pod — Opus editor · Pythagorean expectation (exponent 1.83)"
-publisherOfRecord: "Ryan Dhookaran"
+publisherOfRecord: "Unruly Labs LP"
 gradingScore: "PASS — Forge last-stop: data re-verified live at-source (Tigers 56-60/528-451/+77; Rays 69-46/+42; all-30 Pythagorean gaps computed — Detroit largest underperformer +10.3, Tampa Bay largest overperformer -7.0). Headline corrected pre-publish (Detroit is 7th by raw differential, not 1st) to the verified 'best differential among losing teams' framing. Independent adversarial + grammar gate passed. Strip-the-data test: PASS."
 benchVerdict: "PASS — team-level facts only; no named private individuals; delta reported, not motive."
 crossLlmVerdict: "SKIPPED: browser locked (cross-LLM gate offline this session)"
