@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 21:07:57 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Melbourne and Fremantle kicked the same 17 goals at the MCG — the four-point result was decided entirely by behinds</title>
+      <link>https://claridas.com/articles/afl-melbourne-fremantle-behinds-margin-2026-08-08/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/afl-melbourne-fremantle-behinds-margin-2026-08-08/</guid>
+      <description>Fremantle led by eight at the last change, moved the ball more cleanly, kicked more accurately, and had the game&apos;s leading goalscorer. Melbourne generated 28 scoring shots to 24, and its four extra minor scores were the exact margin of a 113-109 win.</description>
+      <pubDate>Sun, 09 Aug 2026 21:07:57 GMT</pubDate>
+    </item>
     <item>
       <title>Global child deaths fell by half since 2000 — and migrated into the first month of life: newborns are now the majority of under-5 deaths in 123 of 196 countries</title>
       <link>https://claridas.com/articles/neonatal-share-of-child-deaths-2024/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/two-councils-502-meetings-legistar-2026/</guid>
       <description>Across the full public legislative records of Seattle and Oakland for the 12 months ending June 30, 2026, we counted every listed meeting and every matter introduced: 502 meetings across 24 active bodies in each city, 1,763 matters. Seattle marked 75 of its 327 meetings cancelled. The same free Legistar API returns no Seattle-comparable record for San Francisco after September 2020 or Long Beach after November 2023.</description>
       <pubDate>Sat, 08 Aug 2026 21:38:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>238 executive orders in one year: 2025 exceeded the previous four years combined, and 2.6× the Federal Register&apos;s electronic-record high</title>
-      <link>https://claridas.com/articles/executive-orders-2025-record-federal-register/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/executive-orders-2025-record-federal-register/</guid>
-      <description>The Federal Register logged 238 executive orders signed in calendar 2025 — against a 1994–2024 range of 19 to 91 (median 38). The count is re-derivable two independent ways: a facet query returns 225 orders signed after Inauguration Day, and the sequential order numbers 14147 through 14371 span exactly 225.</description>
-      <pubDate>Sat, 08 Aug 2026 21:32:12 GMT</pubDate>
     </item>
   </channel>
 </rss>
