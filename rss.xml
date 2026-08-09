@@ -8,6 +8,13 @@
     <lastBuildDate>Sun, 09 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Global child deaths fell by half since 2000 — and migrated into the first month of life: newborns are now the majority of under-5 deaths in 123 of 196 countries</title>
+      <link>https://claridas.com/articles/neonatal-share-of-child-deaths-2024/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/neonatal-share-of-child-deaths-2024/</guid>
+      <description>The UN&apos;s own estimates put under-5 mortality down 51% from 2000 to 2024 but neonatal mortality down only 43%, so the newborn share of under-5 deaths rose from 39.5% to 46.0% worldwide — and 9 countries have already cleared the Sustainable Development Goals&apos; headline child-survival target while still missing its separate neonatal one, against just 2 the other way.</description>
+      <pubDate>Sun, 09 Aug 2026 19:12:49 GMT</pubDate>
+    </item>
+    <item>
       <title>May&apos;s 1,734 diverted US flights vanish from every on-time score — 196 never reached their destination, and the ones that did landed a median 3 hours 22 minutes late</title>
       <link>https://claridas.com/articles/diverted-flights-invisible-on-time-2026-05/</link>
       <guid isPermaLink="true">https://claridas.com/articles/diverted-flights-invisible-on-time-2026-05/</guid>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/executive-orders-2025-record-federal-register/</guid>
       <description>The Federal Register logged 238 executive orders signed in calendar 2025 — against a 1994–2024 range of 19 to 91 (median 38). The count is re-derivable two independent ways: a facet query returns 225 orders signed after Inauguration Day, and the sequential order numbers 14147 through 14371 span exactly 225.</description>
       <pubDate>Sat, 08 Aug 2026 21:32:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>A decade after NATO&apos;s 2% pledge, 17 of 31 members with a military finally cleared the bar — and the frontline overshot it</title>
-      <link>https://claridas.com/articles/nato-two-percent-pledge-decade-2024/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/nato-two-percent-pledge-decade-2024/</guid>
-      <description>In 2014, the year of the Wales pledge, 3 NATO members spent 2% of GDP on defence. On SIPRI&apos;s measure as compiled by the World Bank, 17 did in 2024 — with Poland (4.15%) now outspending the United States (3.42%) as a share of its economy, and Latvia, Poland and Lithuania — all bordering Russia or Belarus — posting the alliance&apos;s largest decade-long increases.</description>
-      <pubDate>Sat, 08 Aug 2026 21:26:32 GMT</pubDate>
     </item>
   </channel>
 </rss>
