@@ -61,7 +61,7 @@ const beats = [
   <div class="section-mark">Sections</div>
   <div class="beats">
     {beats.map(([name, slug, blurb]) => (
-      <a class="beat" href={`/sections/${slug}`}>
+      <a class={slug === 'local' ? 'beat local-beat' : 'beat'} href={`/sections/${slug}`}>
         <span class="beat__name">{name}</span>
         <span class="beat__blurb">{blurb}</span>
       </a>

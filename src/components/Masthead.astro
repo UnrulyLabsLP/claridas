@@ -68,8 +68,10 @@ const localPlaces = (await getCollection('articles'))
     return false;
   }
   function gate(loc) {
-    // 1) nav tab: hide if NO local coverage anywhere is within range
-    if (localEl && !inRange(localPlaces, loc)) localEl.style.display = 'none';
+    const noLocalAnywhere = !inRange(localPlaces, loc);
+    // 1) nav tab + homepage "Local" beat tile: hide if NO local coverage anywhere is in range
+    if (localEl && noLocalAnywhere) localEl.style.display = 'none';
+    if (noLocalAnywhere) document.querySelectorAll('.local-beat').forEach((el) => { el.style.display = 'none'; });
     // 2) local articles in the main feed: hide each whose own place(s) are out of range
     document.querySelectorAll('.local-item').forEach((el) => {
       let places = [];
