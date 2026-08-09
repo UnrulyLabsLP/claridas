@@ -116,6 +116,7 @@ const geo = articles.map((a) => ({ id: a.id, places: a.data.places ?? [] }));
           const p = d.places[0];
           const loc = { city: p['place name'], state: p['state abbreviation'], lat: +p.latitude, lng: +p.longitude };
           localStorage.setItem('claridas_zip', zip);
+          try { localStorage.setItem('claridas_loc', JSON.stringify({ lat: loc.lat, lng: loc.lng, state: loc.state, src: 'zip' })); } catch (e) {}
           apply(loc);
         } catch (e) { status.textContent = 'Location lookup is unavailable right now.'; }
       }

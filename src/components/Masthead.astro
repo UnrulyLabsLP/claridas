@@ -1,5 +1,6 @@
 ---
-const today = new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+import { getCollection } from 'astro:content';
+const today = new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 const beats = [
   { href: '/', label: 'Home' },
   { href: '/sections/sports', label: 'Sports' },
@@ -13,6 +14,10 @@ const util = [
   { href: '/methodology', label: 'How we work' },
   { href: '/contact', label: 'Contact' },
 ];
+// Geo-gate: the places our LOCAL coverage spans. If a reader has none within 30mi, the Local tab hides.
+const localPlaces = (await getCollection('articles'))
+  .filter((a) => a.data.vertical === 'local')
+  .flatMap((a) => a.data.places ?? []);
 ---
 <header class="masthead">
   <div class="wrap">
@@ -30,7 +35,7 @@ const util = [
     <nav class="nav" aria-label="Sections">
       <button class="nav__toggle" aria-expanded="false" aria-controls="navlinks">☰ Sections</button>
       <div class="nav__links" id="navlinks">
-        {beats.map((s) => <a href={s.href}>{s.label}</a>)}
+        {beats.map((s) => <a href={s.href} class={s.href === '/sections/local' ? 'nav-local' : undefined}>{s.label}</a>)}
         <span class="nav__util">{util.map((s) => <a href={s.href}>{s.label}</a>)}</span>
       </div>
     </nav>
@@ -43,4 +48,37 @@ const util = [
     const open = links?.classList.toggle('nav__links--open');
     btn.setAttribute('aria-expanded', String(!!open));
   });
+</script>
+<script define:vars={{ localPlaces }}>
+  // Location-gated Local tab (Ryan-directed): hide Local if no local coverage within 30 miles.
+  const R = 3959, RADIUS = 30;                 // miles
+  const rad = (x) => (x * Math.PI) / 180;
+  const hav = (la1, lo1, la2, lo2) => {
+    const dLa = rad(la2 - la1), dLo = rad(lo2 - lo1);
+    const s = Math.sin(dLa / 2) ** 2 + Math.cos(rad(la1)) * Math.cos(rad(la2)) * Math.sin(dLo / 2) ** 2;
+    return 2 * R * Math.asin(Math.sqrt(s));
+  };
+  const localEl = document.querySelector('.nav-local');
+  function gate(loc) {
+    if (!localEl) return;
+    if (!localPlaces.length) { localEl.style.display = 'none'; return; }
+    let inRange = false;
+    for (const p of localPlaces) {
+      if (typeof p.lat !== 'number') continue;
+      const lim = p.statewide ? 200 : RADIUS;   // statewide ≈ centroid radius; city = 30mi
+      if (hav(loc.lat, loc.lng, p.lat, p.lng) <= lim) { inRange = true; break; }
+    }
+    if (!inRange) localEl.style.display = 'none';
+  }
+  let loc = null;
+  try { loc = JSON.parse(localStorage.getItem('claridas_loc') || 'null'); } catch (e) {}
+  if (loc && typeof loc.lat === 'number') {
+    gate(loc);
+  } else if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(
+      (pos) => { const l = { lat: pos.coords.latitude, lng: pos.coords.longitude, src: 'geo' }; try { localStorage.setItem('claridas_loc', JSON.stringify(l)); } catch (e) {} gate(l); },
+      () => { /* denied/unavailable → leave Local visible with its ZIP prompt */ },
+      { timeout: 8000, maximumAge: 86400000 }
+    );
+  }
 </script>
