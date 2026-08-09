@@ -1,0 +1,64 @@
+---
+headline: "US customs collected a record $244.3 billion in duties through June 2026 and refunded $81.3 billion of it — 15.4× the refunds a year earlier"
+subhed: "Monthly customs refunds ran $0.6–1.9 billion from October through April, then jumped to $21.97 billion in May and $49.18 billion in June. June's refund alone exceeded that month's $23.63 billion in gross collections, turning net customs receipts negative for two straight months and pulling the fiscal-year-to-date net down from a $188.62 billion peak at the end of April to $163.02 billion by the end of June."
+vertical: us
+published: 2026-08-09
+updated: 2026-08-09
+facts: |
+  The Treasury's Monthly Treasury Statement (MTS), Table 4, "Receipts of the U.S. Government," reports the Customs Duties line in three columns each month: gross receipts, refunds, and net receipts (gross minus refunds). The figures here were pulled from the Fiscal Data API this run (retrieved 2026-08-09). The June 2026 statement (record_date 2026-06-30) is the latest available; it covers the first nine months of fiscal 2026 (October 2025 through June 2026). The July statement had not been released as of this writing.
+
+  For that nine-month window, fiscal 2026 customs duties totaled $244.32 billion gross, $81.30 billion in refunds, and $163.02 billion net [verified]. The $163.02 billion net is the highest for the October–June window in the series — 1.51× the $108.02 billion a year earlier, 2.93× the $55.61 billion of fiscal 2024, and 6.3× the $25.68 billion of fiscal 2016 [verified]. Gross collections of $244.32 billion are 2.16× the $113.29 billion of the same window a year earlier [verified].
+
+  The refund line is the anomaly. Refunds of $81.30 billion are 15.4× the $5.27 billion refunded in the same window of fiscal 2025 [verified]. In every October–June window from 2015 through 2025, customs refunds fell between $1.13 billion and $5.53 billion [verified]. Fiscal 2026's refunds are 33.3% of gross collections; the ratio was 4.7% in fiscal 2025 and 8.5% in fiscal 2024 [verified].
+
+  Month by month, refunds ran between $0.58 billion and $1.86 billion from October 2025 through April 2026, then reached $21.97 billion in May and $49.18 billion in June [verified]. June's $49.18 billion refund was 2.08× that month's $23.63 billion in gross collections [verified]. Gross collections stayed within a $21.9–33.1 billion monthly range across all nine months; net receipts, positive at $22–31 billion per month through April, turned negative in May (−$0.04 billion) and June (−$25.56 billion) [verified]. Fiscal-year-to-date net receipts peaked at $188.62 billion at the end of April, then fell $25.60 billion to $163.02 billion by the end of June [verified]. The MTS classifies these amounts as refunds of customs duties; it carries no field stating why a refund was issued.
+analysis: |
+  The following is analysis, not fact. Net receipts is an arithmetic identity — gross collections minus refunds — and for a decade the refund term was a rounding item, never more than 9% of gross and usually under 5%. A desk reading the customs line reads either the gross figure ("collections at an all-time high") or the net figure ("receipts up 51%"); both are true, and both are records. What neither headline shows is that the middle column, refunds, stopped behaving like a rounding item. At $81.30 billion it is a third of gross, and in a single month it exceeded collections.
+
+  The two negative months are therefore not a collapse in collections. Gross receipts held between $21.9 billion and $33.1 billion every month of the fiscal year, including in May and June [verified]. The sign flip is entirely on the refund side: $71.16 billion was refunded in May and June combined — 87.5% of the whole nine-month refund total, and 7.0× the $10.15 billion refunded across the prior seven months [verified]. Money kept coming in at a record pace; more went back out.
+
+  The consequence for the year's trajectory is a reversal that the annual number hides. Cumulative net receipts climbed steadily to $188.62 billion by the end of April, then gave back $25.60 billion over May and June to finish the window at $163.02 billion [verified]. Read as one figure — "$163 billion, up 51% year over year" — the line looks like a smooth record year. Read month by month, it peaked with two months left in the window and fell. A refund is, by definition, duties collected earlier and returned; the MTS records the reversal but not its origin — drawback claims, reliquidations, corrections, and ordered refunds all post to the same line, and the statement does not disaggregate them. We report the delta between the columns and across the months. We do not assert the cause of the refunds.
+disagreement: |
+  The strongest counter is that this is still a record year, and "reversal" overstates it. Net receipts of $163.02 billion for the October–June window are the highest in the series and 51% above the prior year; gross collections doubled [verified]. On a year-over-year basis the direction is unambiguously up, and the refund surge shaved the total without erasing the gain. That is correct, and the Facts block reports it: the reversal we describe is within the fiscal year — the April peak giving way to a June trough — not a year-over-year decline.
+
+  A second caution is that refund timing is lumpy and administrative. Large refunds can post in batches tied to reconciliation and reliquidation cycles rather than to the month's trade, so two negative months are a two-month pattern, not a trend; the July statement, not yet released, could revert. We flag that June 2026 is the latest month available and that the pattern is two months old. Relatedly, MTS net receipts are Treasury's recorded cash figures — authoritative as the government's own ledger — but a refund booked in June may relate to duties paid in an earlier period, so a single month's net is not a clean measure of that month's imports.
+
+  Finally, the MTS states no reason for the refund surge, and neither do we. Attributing it to any specific tariff action, court ruling, or program would go beyond what this record supports. The reproducible fact is the movement between the gross, refund, and net columns; the cause is not in the dataset.
+viewFrom: |
+  From the vantage of the ledger rather than the headline, gross receipts and refunds are two independent lines that the "net receipts" figure quietly nets together. For most of the past decade that netting cost nothing to ignore, because refunds were small and stable. When the refund line moves to 25× its normal monthly size, the single net number carries less information than usual: a reader watching only net receipts sees the sign flip and might infer collections fell, while a reader watching only gross sees a record and might infer the Treasury kept it. Both readings are wrong in the same way — each drops one of the two columns that produce the figure. The nine-month decomposition is the only view in which the record collections and the record refunds are visible at once.
+notable:
+  - outlet: "U.S. Treasury Fiscal Data"
+    title: "Monthly Treasury Statement — Receipts of the U.S. Government (Table 4)"
+    url: "https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/receipts-of-the-u-s-government"
+    note: "The dataset behind this piece; the Customs Duties line's gross, refund, and net columns are re-pullable here month by month without the API."
+  - outlet: "U.S. Treasury Fiscal Data"
+    title: "Monthly Treasury Statement (MTS) — dataset landing page"
+    url: "https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/"
+    note: "The full MTS, including Table 1 receipts-outlays-and-deficit context for how the customs line sits inside total federal receipts."
+  - outlet: "U.S. Treasury Fiscal Data"
+    title: "Fiscal Data API documentation"
+    url: "https://fiscaldata.treasury.gov/api-documentation/"
+    note: "Documents the filter, field, and sort syntax used for every pull in this piece."
+  - outlet: "Bureau of the Fiscal Service"
+    title: "Monthly Treasury Statement — current and archived statements"
+    url: "https://www.fiscal.treasury.gov/reports-statements/mts/"
+    note: "The official published PDF statements, for readers who prefer the government's monthly document to the API."
+  - outlet: "U.S. Customs and Border Protection"
+    title: "Trade statistics"
+    url: "https://www.cbp.gov/newsroom/stats/trade"
+    note: "The agency that collects the duties; its trade-statistics page is the companion operational record to Treasury's receipts ledger."
+humanWouldMiss: |
+  A desk covers the record gross figure — "tariff revenue at an all-time high" — or the negative month — "customs receipts went negative in June" — and each is a real, correct story on its own. Only reading the gross, refund, and net columns across all nine months shows that both are true simultaneously: collections held between $22 billion and $33 billion every month while refunds, a $1–2 billion line for a decade, ballooned to $49.18 billion in June — more than that month's entire collections — and clawed $25.60 billion off a fiscal-year net that had peaked back in April. The story lives in the third column, the one no headline prints: for nine straight months the machine-readable record shows money coming in at a record pace and, at the end, more going back out.
+sources:
+  - label: "Treasury Fiscal Data API — MTS Table 4, Customs Duties, October–June (calendar month 06) window for every fiscal year 2015–2026: FY2026 gross $244,321,150,476.22 / refund $81,302,023,466.05 / net $163,019,127,010.17; FY2025 gross $113,292,360,775.08 / refund $5,274,571,005.44 / net $108,017,789,769.64; FY2024 net $55,607,210,736.87; FY2016 net $25,679,550,454.65; refunds ranged $1.13B–$5.53B in every window 2015–2025."
+    url: "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/mts/mts_table_4?filter=classification_desc:eq:Customs%20Duties,record_calendar_month:eq:06&fields=record_date,current_fytd_gross_rcpt_amt,current_fytd_refund_amt,current_fytd_net_rcpt_amt&sort=-record_date&page%5Bsize%5D=12"
+    retrieved: "2026-08-09"
+  - label: "Treasury Fiscal Data API — MTS Table 4, Customs Duties, monthly gross/refund/net for FY2026: refunds $0.58B–$1.86B Oct 2025–Apr 2026, then $21,972,185,910.50 (May) and $49,183,319,473.88 (June); June gross $23,627,651,033.05; monthly net turned −$42,304,566.23 (May) and −$25,555,668,440.83 (June); FYTD net peaked $188,617,100,017.23 (Apr 30) and fell to $163,019,127,010.17 (Jun 30)."
+    url: "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/mts/mts_table_4?filter=classification_desc:eq:Customs%20Duties,record_fiscal_year:eq:2026&fields=record_date,current_month_gross_rcpt_amt,current_month_refund_amt,current_month_net_rcpt_amt,current_fytd_net_rcpt_amt&sort=record_date&page%5Bsize%5D=20"
+    retrieved: "2026-08-09"
+models: "US pod — Opus writer/editor · U.S. Treasury Fiscal Data API (Monthly Treasury Statement, Table 4; no key), no statistical modeling: gross, refund, and net figures are the dataset's own recorded columns; the ratios (1.51×, 2.93×, 6.3×, 2.16×, 15.4×), the refund-share percentages, the May+June sums ($71.16B, 87.5%, 7.0×) and the $25.60B April-to-June net decline were computed this run from the pulled rows."
+publisherOfRecord: "Unruly Labs LP"
+gradingScore: "PASS (19/21). Strip-the-data test: PASS — remove the $244.32B gross, $81.30B refund, $163.02B net, the 15.4× refund ratio, the $21.97B/$49.18B May–June refunds and the $188.62B-to-$163.02B net reversal and nothing survives; the three-column decomposition IS the piece. Uniquely-AI 3 (a gross/refund/net reconciliation read across nine months and eleven fiscal years, an enumeration no receipts-headline desk performs), better-than-human 3, evidence-density 3 (every figure re-pullable from the two named API queries), voice 3, closer 3, balance 2 (still-a-record, refund-timing-is-lumpy, and single-month-net caveats steelmanned), reader-checkability 3. Reports levels and deltas as fact; asserts no cause for the refunds."
+benchVerdict: "PASS — subject is the Monthly Treasury Statement customs-duties line, a public federal financial record; no named private individual, no allegation. Gross, refund, and net figures are reported as the government's own published ledger. The refund surge is reported as a movement between recorded columns; the piece explicitly states the MTS carries no field for the reason and declines to attribute the refunds to any policy, ruling, or program. 'Record'/'highest' scoped to the series window (Oct–June, from 2015). Refund-timing and single-month-net caveats stated; June 2026 flagged as the latest available month."
+crossLlmVerdict: "SKIPPED: browser locked (cross-LLM gate offline this session)"
+---
