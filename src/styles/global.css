@@ -190,6 +190,7 @@ a:hover { text-decoration: underline; }
 }
 .feature-body blockquote p:last-child { margin-bottom: 0; }
 .feature-body code {
+  overflow-wrap: anywhere;
   font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
   font-size: .88em;
   background: #f2efe8;
