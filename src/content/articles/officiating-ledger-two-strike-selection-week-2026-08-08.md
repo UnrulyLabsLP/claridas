@@ -4,7 +4,7 @@ subhed: "One night suggested umpires bear down with two strikes. Across 94 games
 vertical: sports
 published: "2026-08-08T22:05:13Z"
 facts: |
-  On 2026-08-07 this ledger graded a single 15-game slate and found that home-plate umpires missed two-strike taken pitches far less often than other pitches — a result we flagged as a one-night hypothesis to re-test [verified]. We re-ran the identical method across the seven completed slates from 2026-08-01 through 2026-08-07: 94 games, all Final [verified]. For every taken pitch — a called strike or a called ball on which the batter did not swing — that carried a tracked location and the batter's personalized rulebook zone, we measured the call against that zone with a ball-radius allowance (a pitch is a strike if any part of the ball crosses it) [verified]. That is 13,698 taken pitches [verified]. Umpires called 894 of them incorrectly, an accuracy of 93.47% [verified]. The errors ran close to even by direction: 438 pitches outside the zone were called strikes, and 456 pitches inside it were called balls — a net of 18 across 13,698, inside the noise [verified]. Sorted by the count before the pitch, the raw pattern from the single slate held and grew: two-strike taken pitches were missed 3.57% of the time (107 of 2,998), against 7.36% on all other counts (787 of 10,700) — a 51.5% lower error rate [verified]. The decline is monotonic in strikes: 7.82% with no strikes (544 of 6,960), 6.50% with one (243 of 3,740), 3.57% with two [verified].
+  On 2026-08-07 we graded a single 15-game slate and found that home-plate umpires missed two-strike taken pitches far less often than other pitches — a result we flagged as a one-night hypothesis to re-test [verified]. We re-ran the identical method across the seven completed slates from 2026-08-01 through 2026-08-07: 94 games, all Final [verified]. For every taken pitch — a called strike or a called ball on which the batter did not swing — that carried a tracked location and the batter's personalized rulebook zone, we measured the call against that zone with a ball-radius allowance (a pitch is a strike if any part of the ball crosses it) [verified]. That is 13,698 taken pitches [verified]. Umpires called 894 of them incorrectly, an accuracy of 93.47% [verified]. The errors ran close to even by direction: 438 pitches outside the zone were called strikes, and 456 pitches inside it were called balls — a net of 18 across 13,698, inside the noise [verified]. Sorted by the count before the pitch, the raw pattern from the single slate held and grew: two-strike taken pitches were missed 3.57% of the time (107 of 2,998), against 7.36% on all other counts (787 of 10,700) — a 51.5% lower error rate [verified]. The decline is monotonic in strikes: 7.82% with no strikes (544 of 6,960), 6.50% with one (243 of 3,740), 3.57% with two [verified].
 analysis: |
   What follows is our read of the pattern, not additional fact. Taken at the level a box score allows, the wider sample looks like a clean confirmation: the deeper the count, the sharper the plate. It is not that. Two-strike taken pitches are a different population of pitches. Only 8.0% of them are borderline — within a ball-radius (0.121 ft) of the rulebook edge — against 17.2% of taken pitches on other counts, and their median distance to the nearest edge is 0.693 ft versus 0.379 ft [verified]. With two strikes, batters lay off pitches that are clearly out of the zone and pitchers throw more waste; the mix shifts toward calls that are trivially correct [modeled]. Hold difficulty constant and the edge inverts. On borderline pitches — the calls that are actually hard — umpires missed 27.8% with two strikes (67 of 241) versus 19.7% on other counts (364 of 1,845) [verified]. On clear pitches they missed 1.45% versus 4.78% [verified]. The 51.5% headline advantage is composition: with two strikes the umpire is handed easier pitches, not judging the same pitches better [modeled]. The monotonic 0-1-2 decline is the same artifact viewed from the side — each added strike shifts the taken-pitch mix further out of the zone [modeled].
 disagreement: |
@@ -18,7 +18,7 @@ notable:
     note: "The public project that grades one game at a time; our week-wide read is the same method, aggregated across 94 games."
   - outlet: "Baseball Savant"
     title: "Statcast search and the tracked strike zone"
-    url: "https://baseballsavant.mlb.com/"
+    url: "https://baseballsavant.mlb.com/statcast_search"
     note: "The pitch-tracking system whose coordinates and personalized zone underlie every number here."
   - outlet: "MLB.com"
     title: "Statcast glossary — the strike zone"
@@ -41,8 +41,8 @@ sources:
   - label: "MLB Stats API — game live feed (pitch coordinates, personalized zone, call code); example gamePk 823349"
     url: "https://statsapi.mlb.com/api/v1.1/game/823349/feed/live"
     retrieved: "2026-08-08T21:42Z"
-  - label: "Statcast strike-zone reference (Baseball Savant)"
-    url: "https://baseballsavant.mlb.com/"
+  - label: "Statcast strike-zone reference (Baseball Savant — Statcast Search)"
+    url: "https://baseballsavant.mlb.com/statcast_search"
     retrieved: "2026-08-08T21:42Z"
 models: "Opus/Sonnet/Haiku pod — Opus researcher + editor"
 publisherOfRecord: "Unruly Labs LP"
