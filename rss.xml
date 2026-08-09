@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Aug 2026 16:07:25 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>May&apos;s 1,734 diverted US flights vanish from every on-time score — 196 never reached their destination, and the ones that did landed a median 3 hours 22 minutes late</title>
+      <link>https://claridas.com/articles/diverted-flights-invisible-on-time-2026-05/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/diverted-flights-invisible-on-time-2026-05/</guid>
+      <description>A diverted flight is neither a cancellation nor a late arrival, so it drops out of the 78.6% on-time rate entirely. Reading all 1,734 of May&apos;s diversions at once shows where they went instead: one in six was bound for Dallas–Fort Worth, and Oklahoma City was the overflow lot — per the carriers&apos; own filings with the Department of Transportation.</description>
+      <pubDate>Sun, 09 Aug 2026 18:33:43 GMT</pubDate>
+    </item>
     <item>
       <title>North Carolina scored four goals on nine shots; Washington needed twenty for three — and lost 4-3 on the last kick</title>
       <link>https://claridas.com/articles/nwsl-courage-four-goals-nine-shots-2026-08-08/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/nato-two-percent-pledge-decade-2024/</guid>
       <description>In 2014, the year of the Wales pledge, 3 NATO members spent 2% of GDP on defence. On SIPRI&apos;s measure as compiled by the World Bank, 17 did in 2024 — with Poland (4.15%) now outspending the United States (3.42%) as a share of its economy, and Latvia, Poland and Lithuania — all bordering Russia or Belarus — posting the alliance&apos;s largest decade-long increases.</description>
       <pubDate>Sat, 08 Aug 2026 21:26:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Same route, same December weather: Delta cancelled 12.9% of its LaGuardia–Chicago flights, American 1.1%</title>
-      <link>https://claridas.com/articles/same-route-cancellation-gap-carrier-vs-weather-2025-12/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/same-route-cancellation-gap-carrier-vs-weather-2025-12/</guid>
-      <description>Both airlines flew LaGuardia–O&apos;Hare through the same storms. The gap wasn&apos;t the sky: 30 of Delta&apos;s 40 cancellations on the route were coded to the airline&apos;s own operations; every one of American&apos;s was coded weather — per the carriers&apos; own filings with the Department of Transportation.</description>
-      <pubDate>Sat, 08 Aug 2026 21:20:28 GMT</pubDate>
     </item>
   </channel>
 </rss>
