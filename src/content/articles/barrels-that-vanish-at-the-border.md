@@ -3,6 +3,7 @@ headline: "The Barrels That Vanish at the Border: Reading Iran's War Economy Thr
 subhed: "China says it bought billions of kilograms of crude 'from Malaysia' — several times more than Malaysia sells to the entire planet. The missing origin is printed, free, in the UN's own database. You do not need a spy. You need a calculator."
 vertical: world
 published: "2026-08-09T05:09:31Z"
+updated: "2026-08-09T16:03:29Z"
 facts: |
   China's own trade record (UN Comtrade, HS 2709 crude) shows it imported 46,939,955,132 kg of crude "from Malaysia" in 2023, a primaryValue of $28,611,452,764 [verified]. Malaysia's own Comtrade record shows total crude (HS 2709) exports to the ENTIRE world in 2023 of 10,367,873,490 kg (the all-modes motCode=0 row) — so China alone claims 4.53x Malaysia's whole global crude export [verified]. Over the same window, China's directly-recorded crude imports from Iran in Comtrade fell from 3,918,976,000 kg (2020) to 780,392,000 kg (2022) to zero recorded rows (count:0, data:[]) in 2023 and 2024 [verified]. The "Malaysian" figure kept climbing — to 70,157,360,000 kg in 2024; the 2020 China-from-Malaysia figure was 12,463,031,000 kg against an 852,349,000 kg Malaysian-to-China report, a 14.6x bilateral mirror gap [verified]. EIA reports Malaysia's petroleum-and-other-liquids production declined to 597,000 b/d by 2023 as its fields matured — meaning China's "Malaysian" crude imports exceeded Malaysia's entire crude oil production outright [verified].
 analysis: "This is a mirror-statistics investigation: the load-bearing evidence is the arithmetic gap between two free, self-reported trade ledgers (China's and Malaysia's, via UN Comtrade), cross-checked against a free production ceiling (EIA) and a relabeling narrative EIA states in its own words. The subtraction — China-reported 'Malaysian' crude minus Malaysia's real production/exports — yields a volume the same order of magnitude as the Iranian barrels that vanished from China's Iran ledger. Vessel-tracking corroboration (Kpler-attributed) and the shadow-fleet/insurance leg are directional, attributed, not free-reproducible, and flagged as such. No partisan valence: the piece reports documented flows and documented harm."
@@ -10,7 +11,7 @@ disagreement: "Volumes vary by basis and source. EIA's Chinese-customs crude fig
 notable:
   - outlet: "U.S. Energy Information Administration"
     title: "China imported record amounts of crude oil in 2023 (Today in Energy)"
-    url: "https://www.eia.gov/todayinenergy/detail.php?id=61683"
+    url: "https://www.eia.gov/todayinenergy/detail.php?id=61843"
     note: "States China imported 54% more crude (1.1M b/d) from Malaysia in 2023 than 2022, exceeding Malaysia's total production, and that analysts believe Iranian oil was relabeled as Malaysian, UAE and Omani origin."
   - outlet: "U.S. Energy Information Administration"
     title: "Malaysia Country Analysis Brief (Last Update Nov 12, 2024)"
@@ -45,7 +46,7 @@ sources:
     url: "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=458&period=2023&partnerCode=0&cmdCode=2709&flowCode=X"
     retrieved: "2026-08-09"
   - label: "EIA — China imported record amounts of crude oil in 2023 (Today in Energy, Apr 16, 2024)"
-    url: "https://www.eia.gov/todayinenergy/detail.php?id=61683"
+    url: "https://www.eia.gov/todayinenergy/detail.php?id=61843"
     retrieved: "2026-08-09"
   - label: "EIA — Malaysia Country Analysis Brief (Last Update Nov 12, 2024)"
     url: "https://www.eia.gov/international/analysis/country/MYS"

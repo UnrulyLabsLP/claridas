@@ -3,6 +3,7 @@ headline: "The Invisible Toll on Every Barrel: How a War-Risk Insurance Line Ite
 subhed: "The 2026 Hormuz crisis barely moved the crude screen. But two columns that never make the front page — war-risk insurance and freight — repriced the whole world's tankers, and Europe now pays a Hormuz toll on oil that never goes near Hormuz."
 vertical: world
 published: "2026-08-09T05:09:31Z"
+updated: "2026-08-09T16:03:29Z"
 facts: |
   The 2026 Strait of Hormuz crisis followed coordinated strikes on Iran beginning 28 February 2026; Iran responded by closing the strait. Traffic began recovering after an 18 June 2026 U.S.-Iran MOU to reopen it, before a fresh re-escalation in early July 2026.
   The EIA's July 2026 Short-Term Energy Outlook cut its full-year 2026 Brent forecast to ~$82/bbl — an ~14% reduction from the June STEO's ~$95/bbl — with Q3 2026 Brent at $74/bbl and full-year 2027 at ~$65/bbl.
@@ -23,7 +24,7 @@ notable:
     note: "Marsh's global head of marine on 'roller coaster' rates of 3%-10% of hull value; $100m tanker facing $3m-$10m vs ~$250,000 pre-war."
   - outlet: "European Central Bank"
     title: "From well to pump: decomposing euro-area retail fuel prices"
-    url: "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog.html"
+    url: "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20260731~6224db57f8.en.html"
     note: "Refining costs & margins line €0.10 → €0.26 → €0.35/litre; 4.5 mb/d drop in global refined-product exports in Q2 2026."
   - outlet: "U.S. Energy Information Administration"
     title: "Short-Term Energy Outlook, July 2026"
@@ -57,7 +58,7 @@ sources:
     url: "https://www.aljazeera.com/economy/"
     retrieved: "2026-08-08"
   - label: "European Central Bank — 'From well to pump' blog, 31 Jul 2026"
-    url: "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog.html"
+    url: "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20260731~6224db57f8.en.html"
     retrieved: "2026-08-08"
   - label: "U.S. Energy Information Administration — Short-Term Energy Outlook, July 2026"
     url: "https://www.eia.gov/outlooks/steo/"
