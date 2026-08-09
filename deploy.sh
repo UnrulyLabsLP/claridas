@@ -21,17 +21,29 @@ npm run build
 # Without this the site renders UNSTYLED (every _astro/*.css 404s). MANDATORY.
 touch dist/.nojekyll
 
-echo "→ publishing dist/ to gh-pages…"
-cd dist
-rm -rf .git
-git init -q
-git checkout -q -b gh-pages
+echo "→ publishing dist/ to gh-pages (INCREMENTAL — no branch teardown, no 404 window)…"
+# Force-pushing a fresh branch every deploy made GitHub tear down + rebuild the site,
+# opening a brief 404 window each deploy (bad at a packed hourly cadence). Instead we
+# update the existing gh-pages IN PLACE and do a NORMAL push, so Pages serves the old
+# build until the new one is ready — no teardown, no 404.
+TMP="$(mktemp -d)"
+if git clone -q --depth 1 --branch gh-pages --single-branch "$REMOTE" "$TMP" 2>/dev/null; then
+  :
+else
+  echo "  (gh-pages not found — creating it)"
+  rm -rf "$TMP"; mkdir -p "$TMP"; git -C "$TMP" init -q; git -C "$TMP" checkout -q -b gh-pages
+fi
+# Sync the new build over the branch: --delete removes stale files, .git is preserved.
+rsync -a --delete --exclude='.git' "$REPO_DIR/dist/" "$TMP/"
+cd "$TMP"
 git add -A
-git -c user.name="Forge" -c user.email="forge@claridas.com" \
-    commit -q -m "Deploy $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-git push -q --force "$REMOTE" gh-pages
-rm -rf .git
-cd "$REPO_DIR"
+if git -c user.name="Forge" -c user.email="forge@claridas.com" commit -q -m "Deploy $(date -u +%Y-%m-%dT%H:%M:%SZ)" 2>/dev/null; then
+  git push -q "$REMOTE" gh-pages
+  echo "  ✓ incremental push complete."
+else
+  echo "  (no changes to deploy)"
+fi
+cd "$REPO_DIR"; rm -rf "$TMP"
 echo "✓ pushed to gh-pages. Verifying the live site actually serves its CSS (Pages rebuild is async)…"
 
 # Right-and-tight gate: a deploy that leaves the site UNSTYLED (CSS 404) is a failure,
