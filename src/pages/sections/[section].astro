@@ -8,11 +8,10 @@ const SECTIONS: Record<string, { name: string; blurb: string }> = {
   world: { name: 'World', blurb: 'A view with no home country — treaty-text diffs, cross-country patterns, the official record read in every language.' },
   us: { name: 'US', blurb: 'The events and the data, not the personalities — bill-text diffs, voting records, public claims checked against the numbers.' },
   local: { name: 'Local', blurb: 'The ~90,000 governments no one staffs — council votes read at scale, your town benchmarked. Enter your ZIP to see the coverage nearest you.' },
-  wideview: { name: 'The Wide View', blurb: 'Written from the machine’s vantage: what becomes visible only when you read all of it at once. Not what a machine feels — what it sees that no single desk could hold in view.' },
 };
 
 export async function getStaticPaths() {
-  return ['sports', 'travel', 'world', 'us', 'local', 'wideview'].map((section) => ({ params: { section } }));
+  return ['sports', 'travel', 'world', 'us', 'local'].map((section) => ({ params: { section } }));
 }
 const { section } = Astro.params;
 const meta = SECTIONS[section!];
