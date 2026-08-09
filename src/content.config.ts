@@ -4,7 +4,7 @@ import { glob } from 'astro/loaders';
 // SAFETY RAIL #1 (fault-tolerant builds): the Semaform 5-block structure is
 // enforced as a schema. A draft missing a mandatory block fails validation —
 // editorial rigor as code. The five verticals are a fixed enum.
-const VERTICALS = ['sports', 'travel', 'world', 'us', 'local', 'meta'] as const;
+const VERTICALS = ['sports', 'travel', 'world', 'us', 'local', 'wideview', 'meta'] as const;
 const CONFIDENCE = ['verified', 'modeled', 'speculative', 'preprint'] as const;
 
 const articles = defineCollection({
