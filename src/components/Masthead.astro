@@ -59,16 +59,23 @@ const localPlaces = (await getCollection('articles'))
     return 2 * R * Math.asin(Math.sqrt(s));
   };
   const localEl = document.querySelector('.nav-local');
-  function gate(loc) {
-    if (!localEl) return;
-    if (!localPlaces.length) { localEl.style.display = 'none'; return; }
-    let inRange = false;
-    for (const p of localPlaces) {
+  function inRange(places, loc) {
+    for (const p of places || []) {
       if (typeof p.lat !== 'number') continue;
       const lim = p.statewide ? 200 : RADIUS;   // statewide ≈ centroid radius; city = 30mi
-      if (hav(loc.lat, loc.lng, p.lat, p.lng) <= lim) { inRange = true; break; }
+      if (hav(loc.lat, loc.lng, p.lat, p.lng) <= lim) return true;
     }
-    if (!inRange) localEl.style.display = 'none';
+    return false;
+  }
+  function gate(loc) {
+    // 1) nav tab: hide if NO local coverage anywhere is within range
+    if (localEl && !inRange(localPlaces, loc)) localEl.style.display = 'none';
+    // 2) local articles in the main feed: hide each whose own place(s) are out of range
+    document.querySelectorAll('.local-item').forEach((el) => {
+      let places = [];
+      try { places = JSON.parse(el.getAttribute('data-places') || '[]'); } catch (e) {}
+      if (!inRange(places, loc)) el.style.display = 'none';
+    });
   }
   let loc = null;
   try { loc = JSON.parse(localStorage.getItem('claridas_loc') || 'null'); } catch (e) {}

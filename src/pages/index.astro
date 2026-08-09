@@ -23,7 +23,7 @@ const beats = [
   <section class="lede">
     <div class="section-mark">The Latest</div>
     {lead ? (
-      <article class="lead-story">
+      <article class={lead.data.vertical === 'local' ? 'lead-story local-item' : 'lead-story'} data-places={lead.data.vertical === 'local' ? JSON.stringify(lead.data.places ?? []) : undefined}>
         <p class="kicker">{lead.data.vertical.toUpperCase()} · {d(lead.data.published)}</p>
         <h1 class="lead-hl"><a href={`/articles/${lead.id}`}>{lead.data.headline}</a></h1>
         {lead.data.subhed && <p class="lead-dek">{lead.data.subhed}</p>}
@@ -37,7 +37,7 @@ const beats = [
     <div>
       <div class="section-mark">More stories</div>
       {rest.length ? rest.map((a) => (
-        <article class="story-row">
+        <article class={a.data.vertical === 'local' ? 'story-row local-item' : 'story-row'} data-places={a.data.vertical === 'local' ? JSON.stringify(a.data.places ?? []) : undefined}>
           <p class="kicker">{a.data.vertical.toUpperCase()} · {d(a.data.published)}</p>
           <h3 class="row-hl"><a href={`/articles/${a.id}`}>{a.data.headline}</a></h3>
           {a.data.subhed && <p class="row-dek">{a.data.subhed}</p>}
