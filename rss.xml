@@ -29,11 +29,25 @@
       <pubDate>Mon, 10 Aug 2026 00:10:00 GMT</pubDate>
     </item>
     <item>
+      <title>Seattle&apos;s City Council recorded 712 votes in 2025 — 693 drew no opposition, and the entire year&apos;s dissent was 35 votes, half from two of nine members</title>
+      <link>https://claridas.com/articles/seattle-council-vote-record-dissent-2025/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/seattle-council-vote-record-dissent-2025/</guid>
+      <description>We pulled every recorded roll-call the Seattle City Council took in 2025 from the free Legistar API — all 57 full-council meetings, all 712 votable items, all 5,758 individual yea-or-nay votes cast. Only 35 were &apos;Opposed.&apos; No vote all year was closer than 6-3, and the 365 appointment confirmations produced a single split. The handful of divided votes a reader hears about are real; they are also 2.7% of the record.</description>
+      <pubDate>Sun, 09 Aug 2026 22:10:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Melbourne and Fremantle kicked the same 17 goals at the MCG — the four-point result was decided entirely by behinds</title>
       <link>https://claridas.com/articles/afl-melbourne-fremantle-behinds-margin-2026-08-08/</link>
       <guid isPermaLink="true">https://claridas.com/articles/afl-melbourne-fremantle-behinds-margin-2026-08-08/</guid>
       <description>Fremantle led by eight at the last change, moved the ball more cleanly, kicked more accurately, and had the game&apos;s leading goalscorer. Melbourne generated 28 scoring shots to 24, and its four extra minor scores were the exact margin of a 113-109 win.</description>
       <pubDate>Sun, 09 Aug 2026 21:07:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>Through nine months of fiscal 2026, federal agencies reported obligating $8.23 trillion and outlaying $7.89 trillion — and two agencies hold 91% of the $331 billion gap between the two</title>
+      <link>https://claridas.com/articles/federal-obligations-outlays-disbursement-lag-2026-q3/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/federal-obligations-outlays-disbursement-lag-2026-q3/</guid>
+      <description>Across the 30 top-tier agencies that obligated more than $1 billion in USAspending&apos;s account-level record, the ratio of outlays to obligations runs from 52.9% at Homeland Security to 224.9% at the National Science Foundation. The three agencies that are 64% of all obligations — Health and Human Services, Treasury, and Social Security — outlay 99.1% of what they obligate. The $331.5 billion of money committed but not yet paid is almost entirely Homeland Security ($161.8B) and Defense ($139.8B).</description>
+      <pubDate>Sun, 09 Aug 2026 20:04:11 GMT</pubDate>
     </item>
     <item>
       <title>Global child deaths fell by half since 2000 — and migrated into the first month of life: newborns are now the majority of under-5 deaths in 123 of 196 countries</title>
@@ -202,20 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/connecticut-multifamily-permit-concentration-2025/</guid>
       <description>We pulled the Census Building Permits Survey 2025 annual place file for every Connecticut permit-issuing jurisdiction and tallied each housing-type column. The state authorized 7,273 new residential units; 4,837 sat in buildings of 5 or more units, and Stamford alone accounted for 1,524 of them — 31.5%. Of 172 jurisdictions, 134 authorized zero large-multifamily units, 115 of them while reporting a full 12 months.</description>
       <pubDate>Sat, 08 Aug 2026 22:33:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>The average rate the Treasury pays on the federal debt hit 3.447% in July 2026 — a 17-year high, and 2.2× the record-low 1.556% of January 2022</title>
-      <link>https://claridas.com/articles/federal-debt-average-interest-rate-17-year-high-2026-07/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/federal-debt-average-interest-rate-17-year-high-2026-07/</guid>
-      <description>The weighted-average interest rate across all interest-bearing federal debt has climbed in 44 of the 54 months since its January 2022 trough — the lowest reading since the series began in 2001 — and is now the highest since June 2009. Gross interest expense on the public debt reached $1.22 trillion in FY2025 and $1.17 trillion through the first ten months of FY2026.</description>
-      <pubDate>Sat, 08 Aug 2026 22:26:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>A majority of the world&apos;s economies now sit below replacement fertility — and India crossed the line without a headline</title>
-      <link>https://claridas.com/articles/below-replacement-fertility-majority-economies-2023/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/below-replacement-fertility-majority-economies-2023/</guid>
-      <description>On the World Bank&apos;s 2023 series, 117 of 217 economies reported fewer than 2.1 births per woman, up from 98 a decade earlier and 80 in 2000. Among the 19 that fell below the benchmark since 2013 is India (2.40 to 1.98), the world&apos;s most populous country. The last region still overwhelmingly above the line is sub-Saharan Africa — 46 of its 48 economies.</description>
-      <pubDate>Sat, 08 Aug 2026 22:21:16 GMT</pubDate>
     </item>
   </channel>
 </rss>
