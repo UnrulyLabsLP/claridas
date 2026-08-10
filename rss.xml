@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Aug 2026 06:13:16 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 11:13:31 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Philadelphia reached base 21 times, stranded 16, and needed 12 innings to beat Toronto by one</title>
+      <link>https://claridas.com/articles/phillies-strand-16-walkoff-12-innings-2026-08-09/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/phillies-strand-16-walkoff-12-innings-2026-08-09/</guid>
+      <description>Both teams managed exactly 10 hits. The Phillies drew 11 walks to the Blue Jays&apos; 3, blew a 5-2 lead, fell behind again in the 12th — and won on a walk-off only after burying 16 runners on the bases.</description>
+      <pubDate>Mon, 10 Aug 2026 11:13:31 GMT</pubDate>
+    </item>
     <item>
       <title>Dallas out-shot the Lynx on twos, out-rebounded them, and shot 91% from the line — and lost by 13, because Minnesota made 12 more three-pointers</title>
       <link>https://claridas.com/articles/lynx-wings-three-point-margin-mcbride-record-2026-08-09/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/backup-withholding-threshold-roundtrip-ratchet-2026-08/</guid>
       <description>Final rule TD 10053 (FR document 2026-16269, RIN 1545-BR80), effective August 10, 2026 and applied to payments made after December 31, 2024, conforms § 3406 backup withholding to a de-minimis threshold that has round-tripped: $20,000 and 200 transactions (2008) → $600 with no transaction floor (2021) → $20,000 and 200 transactions (2025). Its preamble says the proposal was &apos;adopted without change&apos;; a line-level diff of the proposed and final regulatory text returns four.</description>
       <pubDate>Sun, 09 Aug 2026 03:14:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Every remittance dollar received was sent by someone — yet in 2024 the world reported receiving $237 billion more than it reported sending</title>
-      <link>https://claridas.com/articles/remittance-mirror-gap-received-exceeds-paid-2024/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/remittance-mirror-gap-received-exceeds-paid-2024/</guid>
-      <description>The World Bank&apos;s own ledger shows $856.6bn in personal remittances received in 2024 against $619.3bn paid — a 1.38-to-1 mismatch that runs the opposite direction from transfer fees, and has held every year since 2018 for a cumulative $1.5tn no country reports sending.</description>
-      <pubDate>Sun, 09 Aug 2026 03:00:18 GMT</pubDate>
     </item>
   </channel>
 </rss>
