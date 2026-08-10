@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Aug 2026 00:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The national jobless rate moved one-tenth of a point to 4.2% over the year — beneath it 25 states rose, 16 fell, and the June gap ran from 2.0% to 6.0%</title>
+      <link>https://claridas.com/articles/state-unemployment-dispersion-june-2026/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/state-unemployment-dispersion-june-2026/</guid>
+      <description>Across the 50 states and the District of Columbia, June 2026 seasonally-adjusted unemployment rates spanned 4.0 points — South Dakota at 2.0%, the District at 6.0%, a 3-to-1 ratio the single national figure conceals. The median state&apos;s rate was unchanged from a year earlier, yet Connecticut rose 1.3 points while Ohio fell 1.0 — a 2.3-point span of movement inside a national aggregate that shifted 0.1.</description>
+      <pubDate>Mon, 10 Aug 2026 01:11:23 GMT</pubDate>
+    </item>
     <item>
       <title>In 2023, 46 of 148 governments spent a larger share of their economy on the military than their own budget spent on health — and not one was in the Americas</title>
       <link>https://claridas.com/articles/military-exceeds-government-health-spending-2023/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/first-flight-out-late-aircraft-cascade-2025-12/</guid>
       <description>The advice to book the first flight of the day is folklore with a mechanism. Across all 571,924 arrivals the U.S. Department of Transportation logged in December, weather stayed a flat ~6–9% of delay minutes from dawn to midnight. What actually collapsed the on-time rate through the day was the late-aircraft cascade: 13% of the delay minutes on early-morning flights, 49% by evening — per the carriers&apos; own filings.</description>
       <pubDate>Sat, 08 Aug 2026 22:16:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>Seven MLB slates, 13,698 taken pitches: the two-strike accuracy edge is which pitches get taken, not how they get judged</title>
-      <link>https://claridas.com/articles/officiating-ledger-two-strike-selection-week-2026-08-08/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/officiating-ledger-two-strike-selection-week-2026-08-08/</guid>
-      <description>One night suggested umpires bear down with two strikes. Across 94 games the advantage is pitch selection — and on the closest calls it reverses.</description>
-      <pubDate>Sat, 08 Aug 2026 22:05:13 GMT</pubDate>
     </item>
   </channel>
 </rss>
