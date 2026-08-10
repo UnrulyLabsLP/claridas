@@ -3,6 +3,7 @@ headline: "Dallas out-shot the Lynx on twos, out-rebounded them, and shot 91% fr
 subhed: "The Wings scored 23 more points than Minnesota on everything that wasn't a three. Kayla McBride went 10-for-14 from behind the arc — a new WNBA single-game record — and the three-point column alone was a 36-point swing."
 vertical: sports
 published: "2026-08-10T06:13:16Z"
+correction: "2026-08-10: An earlier version described Arike Ogunbowale as both on the floor (scoring 5) and watching from the bench — an internal contradiction. Corrected at source from the ESPN game box score (event 401857130), which shows Ogunbowale started, played 28 minutes, and scored 5 for Dallas. Claridas confirmed she was on the court, not benched, when McBride broke the record, and fixed the closer to match. Flagged by our distribution adversarial check."
 facts: >
   On 9 August 2026 the Minnesota Lynx beat the Dallas Wings 103-90 at Target Center [verified].
   Dallas was the more efficient team almost everywhere the box score usually rewards: it shot
@@ -92,8 +93,8 @@ humanWouldMiss: >
   that wasn't a three. It still lost by 13, because the game was decided in the one column where it
   was buried: 18 made threes to 6, a 36-point swing that no amount of interior efficiency could
   answer. The detail a box score won't flag is who was standing in it: Arike Ogunbowale, one of the
-  six players who had shared the old record of nine, watched from the losing bench as McBride made
-  ten. The number nobody counts on a good shooting night is how little the rest of the game mattered
+  six players who had shared the old record of nine, was on the floor for Dallas — a starter who
+  played 28 minutes — as McBride broke it. The number nobody counts on a good shooting night is how little the rest of the game mattered
   once the three-point column ran 39 attempts to 20.
 sources:
   - label: "ESPN — WNBA summary API (event 401857130): team box score, player shooting splits, linescores"
