@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 05:09:31 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Iran barrel that never reaches America: how a country the U.S. buys no oil from still moves the price at the pump</title>
+      <link>https://claridas.com/articles/us-gas-prices-iran-2026-08-10/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/us-gas-prices-iran-2026-08-10/</guid>
+      <description>The United States imports almost no Iranian crude — about 1,000 to 6,000 barrels a day in recent years, rounding to zero. Yet when the Strait of Hormuz shut in early 2026, U.S. regular gasoline climbed from $2.94 to a $4.50 peak. Both facts are true. This is how they fit together.</description>
+      <pubDate>Mon, 10 Aug 2026 05:09:31 GMT</pubDate>
+    </item>
     <item>
       <title>The national jobless rate moved one-tenth of a point to 4.2% over the year — beneath it 25 states rose, 16 fell, and the June gap ran from 2.0% to 6.0%</title>
       <link>https://claridas.com/articles/state-unemployment-dispersion-june-2026/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/below-replacement-fertility-majority-economies-2023/</guid>
       <description>On the World Bank&apos;s 2023 series, 117 of 217 economies reported fewer than 2.1 births per woman, up from 98 a decade earlier and 80 in 2000. Among the 19 that fell below the benchmark since 2013 is India (2.40 to 1.98), the world&apos;s most populous country. The last region still overwhelmingly above the line is sub-Saharan Africa — 46 of its 48 economies.</description>
       <pubDate>Sat, 08 Aug 2026 22:21:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>December&apos;s 5 a.m. departures arrived on time 87.7% of the time; 7 p.m. departures, 64.6% — and half the evening&apos;s delay was inherited, not made</title>
-      <link>https://claridas.com/articles/first-flight-out-late-aircraft-cascade-2025-12/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/first-flight-out-late-aircraft-cascade-2025-12/</guid>
-      <description>The advice to book the first flight of the day is folklore with a mechanism. Across all 571,924 arrivals the U.S. Department of Transportation logged in December, weather stayed a flat ~6–9% of delay minutes from dawn to midnight. What actually collapsed the on-time rate through the day was the late-aircraft cascade: 13% of the delay minutes on early-morning flights, 49% by evening — per the carriers&apos; own filings.</description>
-      <pubDate>Sat, 08 Aug 2026 22:16:12 GMT</pubDate>
     </item>
   </channel>
 </rss>
