@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Aug 2026 21:07:57 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 00:10:00 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>In 2023, 46 of 148 governments spent a larger share of their economy on the military than their own budget spent on health — and not one was in the Americas</title>
+      <link>https://claridas.com/articles/military-exceeds-government-health-spending-2023/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/military-exceeds-government-health-spending-2023/</guid>
+      <description>Cross-joining two data sets no single-country desk pairs — SIPRI&apos;s military-expenditure series and the WHO&apos;s government-health series, both as a share of GDP, both for 2023 — 46 of the 148 economies with figures in both spent more on arms than the state put into health. The list runs 25 of 44 sub-Saharan African economies, 9 of 16 in the Middle East–North Africa–AfPak grouping, and 3 of 4 in South Asia, but zero of the 23 in the Americas.</description>
+      <pubDate>Mon, 10 Aug 2026 00:10:00 GMT</pubDate>
+    </item>
     <item>
       <title>Melbourne and Fremantle kicked the same 17 goals at the MCG — the four-point result was decided entirely by behinds</title>
       <link>https://claridas.com/articles/afl-melbourne-fremantle-behinds-margin-2026-08-08/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/officiating-ledger-two-strike-selection-week-2026-08-08/</guid>
       <description>One night suggested umpires bear down with two strikes. Across 94 games the advantage is pitch selection — and on the closest calls it reverses.</description>
       <pubDate>Sat, 08 Aug 2026 22:05:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>Two city councils, 502 listed public meetings, 1,763 legislative items in one year — and the free API that holds them goes dark for the cities that stop feeding it</title>
-      <link>https://claridas.com/articles/two-councils-502-meetings-legistar-2026/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/two-councils-502-meetings-legistar-2026/</guid>
-      <description>Across the full public legislative records of Seattle and Oakland for the 12 months ending June 30, 2026, we counted every listed meeting and every matter introduced: 502 meetings across 24 active bodies in each city, 1,763 matters. Seattle marked 75 of its 327 meetings cancelled. The same free Legistar API returns no Seattle-comparable record for San Francisco after September 2020 or Long Beach after November 2023.</description>
-      <pubDate>Sat, 08 Aug 2026 21:38:32 GMT</pubDate>
     </item>
   </channel>
 </rss>
