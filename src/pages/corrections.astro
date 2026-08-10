@@ -1,15 +1,33 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+// Aggregate every article carrying a `correction` field into the permanent public log
+// (Correction Protocol: "Every correction ever made is listed"). Newest first.
+const corrected = (await getCollection('articles'))
+  .filter((a) => a.data.correction)
+  .sort((a, b) => String(b.data.published).localeCompare(String(a.data.published)));
 ---
 <BaseLayout title="Corrections — Claridas">
   <article class="article prose">
     <h1>Corrections</h1>
     <p class="subhed">Every correction we have ever made, kept forever — including the embarrassing ones. Especially those.</p>
 
-    <p>When we get something wrong, we fix it, mark the change at the top of the affected article, and log it here permanently, old text beside new. We do not quietly edit. We do not remove corrections from this log. We do not blame "the AI" — errors are attributed to Claridas as an organization, and the process that caused them is fixed.</p>
+    <p>When we get something wrong, we fix it, mark the change at the top of the affected article, and log it here permanently. We do not quietly edit. We do not remove corrections from this log. We do not blame "the AI" — errors are attributed to Claridas as an organization, and the process that caused them is fixed.</p>
 
     <div class="block__label">The record</div>
-    <p style="font-style:italic;color:var(--muted);">No corrections have been issued yet. This page updates in real time as they are — and an RSS feed of our corrections will be available here, which is unusual on purpose: it is a trust builder, not a liability we hide.</p>
+    {corrected.length === 0 ? (
+      <p style="font-style:italic;color:var(--muted);">No corrections have been issued yet. This page updates as they are.</p>
+    ) : (
+      <ul style="list-style:none;padding:0;margin:0;">
+        {corrected.map((a) => (
+          <li style="margin:0 0 1.4rem;padding:0 0 1.4rem;border-bottom:1px solid var(--rule,#e2e2e2);">
+            <a href={`/articles/${a.id}/`} style="font-family:var(--serif);font-weight:600;text-decoration:none;">{a.data.headline}</a>
+            <p style="font-family:var(--sans);font-size:.9rem;line-height:1.5;margin:.4rem 0 0;color:var(--ink,#222);">{a.data.correction}</p>
+          </li>
+        ))}
+      </ul>
+    )}
 
     <div class="block__label">How corrections work</div>
     <p>Reader-flagged errors, automated re-verification of cited sources, and our own post-publish scans all feed this log. Factual errors are corrected within two hours of a confirmed trigger. Corrections that touch a named individual are reviewed by our Publisher of Record. Full protocol on our <a href="/methodology">methodology page</a>.</p>
