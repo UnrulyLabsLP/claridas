@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 06:13:16 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dallas out-shot the Lynx on twos, out-rebounded them, and shot 91% from the line — and lost by 13, because Minnesota made 12 more three-pointers</title>
+      <link>https://claridas.com/articles/lynx-wings-three-point-margin-mcbride-record-2026-08-09/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/lynx-wings-three-point-margin-mcbride-record-2026-08-09/</guid>
+      <description>The Wings scored 23 more points than Minnesota on everything that wasn&apos;t a three. Kayla McBride went 10-for-14 from behind the arc — a new WNBA single-game record — and the three-point column alone was a 36-point swing.</description>
+      <pubDate>Mon, 10 Aug 2026 06:13:16 GMT</pubDate>
+    </item>
     <item>
       <title>Federal receipts rose $143 billion through nine months of fiscal 2026 — but $136 billion of it was individuals alone, as a $55 billion jump in customs duties and a $34 billion rise in payroll taxes were nearly cancelled by an $87 billion drop in corporate income tax</title>
       <link>https://claridas.com/articles/federal-receipts-corporate-drop-customs-rise-fy2026/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/remittance-mirror-gap-received-exceeds-paid-2024/</guid>
       <description>The World Bank&apos;s own ledger shows $856.6bn in personal remittances received in 2024 against $619.3bn paid — a 1.38-to-1 mismatch that runs the opposite direction from transfer fees, and has held every year since 2018 for a cumulative $1.5tn no country reports sending.</description>
       <pubDate>Sun, 09 Aug 2026 03:00:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>On time to the gate, not to the sky: at O&apos;Hare in May, a third of punctual departures still taxied 30-plus minutes before takeoff</title>
-      <link>https://claridas.com/articles/on-time-gate-hidden-taxi-out-2026-05/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/on-time-gate-hidden-taxi-out-2026-05/</guid>
-      <description>The federal on-time clock stops the moment a plane leaves the gate — the runway queue after that is invisible to it. Reading all 611,735 May 2026 flights: nationwide, 9.0% of departures that pushed back on time or early were not airborne for at least 30 more minutes. At Chicago O&apos;Hare it was 33.3%; at St. Louis, 1.5%.</description>
-      <pubDate>Sun, 09 Aug 2026 02:51:14 GMT</pubDate>
     </item>
   </channel>
 </rss>
