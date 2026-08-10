@@ -1,6 +1,8 @@
 ---
+import { Fragment } from 'astro/jsx-runtime';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
+import { confMarkerHtml, VERIFIED_RE, MARKER_RE } from '../../lib/conf.mjs';
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles');
@@ -18,14 +20,15 @@ const hasBody = !!a.body?.trim();
 const { Content } = await render(a);
 
 // Confidence-tag rule (Ryan-directed 2026-08-08): VERIFIED is the DEFAULT state —
-// every factual claim is sourced, so chipping each one is noise that drowns the signal.
-// We render a chip ONLY for departures from verified: modeled / speculative / preprint.
+// every factual claim is sourced, so marking each one is noise that drowns the signal.
+// We render a marker ONLY for departures from verified: modeled / speculative / preprint.
 // [verified] tokens are stripped from display (kept in the source as an audit marker).
+// Rendering goes through the SINGLE SOURCE (src/lib/conf.mjs) so there is exactly one
+// implementation of the marker HTML — shared with the remark body plugin.
 function conf(text: string): string {
   return text
-    .replace(/\s*\[verified\]/g, '')
-    .replace(/\[(modeled|speculative|preprint)\]/g,
-      (_, lvl) => `<span class="conf conf--${lvl}" title="${lvl.toUpperCase()}">${lvl.toUpperCase()}</span>`);
+    .replace(VERIFIED_RE, '')
+    .replace(MARKER_RE, (_m, lvl) => confMarkerHtml(lvl));
 }
 // timeZone pinned to UTC: front-matter dates coerce to UTC-midnight, so formatting
 // in any behind-UTC build machine would render the prior day. UTC keeps it deterministic.
@@ -100,7 +103,7 @@ const articleLd = {
 
     <div class="methodology">
       <p><b>How this was made.</b> Models: {d.models}. Publisher of Record: {d.publisherOfRecord}. Published {fmt(d.published)}{d.updated && <> · last modified {fmt(d.updated)}</>}.</p>
-      <p><b>Confidence.</b> Every factual claim here is verified against a cited primary source. A chip appears only where a claim is <span class="conf conf--modeled">MODELED</span> or <span class="conf conf--speculative">SPECULATIVE</span> — the departures from verified worth flagging.</p>
+      <p><b>Confidence.</b> Every factual claim here is verified against a cited primary source. A marker appears only where a claim is modeled<Fragment set:html={confMarkerHtml('modeled')} />, speculative<Fragment set:html={confMarkerHtml('speculative')} />, or preprint<Fragment set:html={confMarkerHtml('preprint')} /> — the departures from verified worth flagging.</p>
       <p><b>Sources.</b> {d.sources.map((s, i) => (<>{i > 0 && ' · '}<a href={s.url}>{s.label}</a>{s.retrieved && ` (retrieved ${s.retrieved})`}</>))}</p>
     </div>
   </article>

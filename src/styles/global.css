@@ -121,12 +121,13 @@ a:hover { text-decoration: underline; }
 .zipstatus { font-family: var(--sans); font-size: .85rem; color: var(--muted); margin: 8px 0 0; }
 .geo-label { display: block; font-family: var(--sans); font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); font-weight: 700; margin-bottom: 2px; }
 
-/* Confidence tokens — inline, clickable */
-.conf { font-family: var(--sans); font-size: .62em; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: .12em .4em; border-radius: 2px; vertical-align: .18em; margin-left: .15em; color: #fff; cursor: help; }
-.conf--verified { background: var(--verified); }
-.conf--modeled { background: var(--modeled); }
-.conf--speculative { background: var(--speculative); }
-.conf--preprint { background: #4a4a6a; }
+/* Confidence markers — accessible inline superscript (single source: src/lib/conf.mjs) */
+.conf-marker { font-family: var(--sans); font-weight: 700; font-size: .7em; line-height: 0; margin-left: .1em; }
+.conf-marker abbr { text-decoration: none; border-bottom: 1px dotted currentColor; cursor: help; padding: 0 .05em; }
+.conf-modeled { color: var(--modeled); }
+.conf-speculative { color: var(--speculative); }
+.conf-preprint { color: #4a4a6a; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 
 /* Prose */
 .prose p { margin: 0 0 1em; }

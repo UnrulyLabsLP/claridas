@@ -1,8 +1,11 @@
 ---
-// Inline confidence token: <ConfidenceTag level="verified" source="..." />
-// The signature Claridas UI element — transparent epistemics as design.
+// Inline confidence token: <ConfidenceTag level="modeled" /> etc.
+// Renders via the SINGLE SOURCE (src/lib/conf.mjs) so there is exactly one
+// implementation of the marker HTML — shared with [slug].astro conf() and the
+// remark body plugin. `verified` is the default state (no marker), so it emits
+// nothing; only modeled / speculative / preprint produce a marker.
+import { confMarkerHtml } from '../lib/conf.mjs';
 interface Props { level: 'verified' | 'modeled' | 'speculative' | 'preprint'; source?: string; }
-const { level, source } = Astro.props;
-const label = level.toUpperCase();
+const { level } = Astro.props;
 ---
-<span class={`conf conf--${level}`} title={source ? `${label} — ${source}` : label}>{label}</span>
+<Fragment set:html={confMarkerHtml(level)} />

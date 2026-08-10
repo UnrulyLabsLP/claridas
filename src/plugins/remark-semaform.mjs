@@ -1,4 +1,5 @@
 import { visit } from 'unist-util-visit';
+import { confMarkerHtml, VERIFIED_RE, MARKER_RE } from '../lib/conf.mjs';
 
 /**
  * Claridas feature-body remark plugins.
@@ -40,19 +41,18 @@ export function remarkSemaform() {
   };
 }
 
-// Confidence-tag rule — MUST mirror `conf()` in src/pages/articles/[slug].astro:
+// Confidence-tag rule — renders via the SINGLE SOURCE (src/lib/conf.mjs):
 //   VERIFIED is the default state, so `[verified]` (and `[verified: detail]`)
 //   are STRIPPED from display. modeled / speculative / preprint (with optional
-//   `: detail`) render as a chip. We operate over markdown text nodes so it
-//   works inside the rendered <Content/> body without double-processing the
-//   block strings (those are handled by conf() at render time).
-const VERIFIED_RE = /\s*\[verified(?::[^\]]*)?\]/g;
-const CHIP_RE = /\[(modeled|speculative|preprint)(?::[^\]]*)?\]/g;
+//   `: detail`) render as the accessible marker from confMarkerHtml(). We
+//   operate over markdown text nodes so it works inside the rendered <Content/>
+//   body without double-processing the block strings (those are handled by
+//   conf() at render time, which calls the same single source).
 
 /**
  * remarkConfidenceTags — strip [verified]/[verified: …] and convert
  * [modeled]/[speculative]/[preprint] (with optional detail) inside the body into
- * `<span class="conf conf--LEVEL">LEVEL</span>` chips.
+ * the accessible marker from confMarkerHtml() (the single source).
  *
  * We replace matching text nodes with raw HTML nodes. `allowDangerousHtml` is
  * on for Astro's markdown pipeline, so an `html` mdast node renders verbatim —
@@ -63,12 +63,15 @@ export function remarkConfidenceTags() {
     visit(tree, 'text', (node, index, parent) => {
       if (!parent || index === null || index === undefined) return;
       const value = node.value;
-      if (!VERIFIED_RE.test(value) && !CHIP_RE.test(value)) return;
+      // Reset lastIndex — these regexes are global and shared (single source).
+      VERIFIED_RE.lastIndex = 0;
+      MARKER_RE.lastIndex = 0;
+      if (!VERIFIED_RE.test(value) && !MARKER_RE.test(value)) return;
 
       // Build a mixed sequence of text + html nodes preserving order.
       const out = [];
       let last = 0;
-      // Combined matcher: verified-strip OR chip.
+      // Combined matcher: verified-strip OR marker.
       const combined = /\s*\[verified(?::[^\]]*)?\]|\[(modeled|speculative|preprint)(?::[^\]]*)?\]/g;
       let m;
       while ((m = combined.exec(value)) !== null) {
@@ -77,10 +80,9 @@ export function remarkConfidenceTags() {
           out.push({ type: 'text', value: value.slice(last, m.index) });
         }
         if (level) {
-          const lvl = level;
           out.push({
             type: 'html',
-            value: `<span class="conf conf--${lvl}" title="${lvl.toUpperCase()}">${lvl.toUpperCase()}</span>`,
+            value: confMarkerHtml(level),
           });
         }
         // verified match: emit nothing (stripped).
