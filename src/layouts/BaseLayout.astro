@@ -52,6 +52,9 @@ const siteLd = {
     <script type="application/ld+json" set:html={JSON.stringify(orgLd)} />
     <script type="application/ld+json" set:html={JSON.stringify(siteLd)} />
     <slot name="head" />
+    <!-- Cloudflare Web Analytics (privacy-respecting: cookieless, no PII, no cross-site tracking) -->
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "e663b0886f1f4b4c988873f58604d93a"}'></script>
+    <!-- End Cloudflare Web Analytics -->
   </head>
   <body>
     <Masthead />
