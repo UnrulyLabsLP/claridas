@@ -42,7 +42,7 @@ notable:
   - outlet: "U.S. Energy Information Administration"
     title: "Malaysia Country Analysis Brief"
     url: "https://www.eia.gov/international/analysis/country/MYS"
-    note: "Malaysia's petroleum-and-other-liquids production declined to 597,000 b/d by 2023 — the free physical ceiling the 'Malaysian' import figure cannot meet."
+    note: "Malaysia's petroleum-and-other-liquids production declined to 597,000 b/d by 2023 — context for a 'Malaysian' crude figure in China's customs that exceeds what Malaysia reports exporting to the entire world."
   - outlet: "U.S. Department of the Treasury"
     title: "Economic Fury Targets Global Network Fueling Iran's Oil Trade and Shadow Fleet"
     url: "https://home.treasury.gov/news/press-releases/sb0472"
