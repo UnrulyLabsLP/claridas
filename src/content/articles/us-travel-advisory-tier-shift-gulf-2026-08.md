@@ -1,0 +1,74 @@
+---
+headline: "In one year the US raised its travel advisory for 17 countries and lowered it for 3 — and seven Middle East states moved to 'Reconsider Travel' in a single spring"
+subhed: "A country-by-country diff of the State Department's own advisory feed, captured a year apart, shows a shift concentrated in the Middle East: of the 20 destinations that changed level, 17 rose and 3 fell. Qatar and Kuwait rose two levels, and Bahrain, the UAE, Saudi Arabia, Oman and Jordan followed — six of the seven on the Arabian Peninsula, Jordan in the Levant. In the advisories' own text, most carry an ordered departure of U.S. personnel dated on or near March 2, 2026 — a shared marker of the same episode, not a stated cause of each level."
+vertical: travel
+published: "2026-08-11T03:35:07Z"
+updated: 2026-08-10
+facts: |
+  The U.S. State Department publishes every country travel advisory in one machine-readable feed (TAsTWs.xml). Comparing the feed as archived by the Internet Archive on 2025-08-09 against the capture of 2026-08-05 — 210 destinations rated on both dates — the department raised the advisory level for 17 and lowered it for 3 [verified].
+
+  The two most severe tiers grew accordingly. Countries at Level 3 ("Reconsider Travel") rose from 19 to 26; Level 4 ("Do Not Travel") rose from 21 to 23; together the top two tiers went from 40 destinations to 49 [verified]. The three downgrades were Venezuela (Level 4 → 3), New Caledonia (Level 3 → 2) and Thailand (Level 2 → 1) [verified].
+
+  The 17 increases cluster by region. Seven Middle East states moved to Level 3: Qatar (Level 1 → 3), Kuwait (Level 1 → 3), the United Arab Emirates (2 → 3), Bahrain (2 → 3), Saudi Arabia (2 → 3), Oman (2 → 3), and Jordan (2 → 3) [verified]. Six of the seven are on the Arabian Peninsula; Jordan is a Levant state and is not on the Persian Gulf [verified]. All seven sat at their lower level in the intermediate capture of 2026-01-31 [verified]. Qatar and Kuwait crossed two tiers at once — from "Exercise Normal Precautions," the lowest rating, to "Reconsider Travel" [verified].
+
+  The reissue text carries a shared marker. Qatar, the UAE, Bahrain, Jordan and Kuwait each carry a summary stating that "On March 2, 2026, the Department of State ordered non-emergency U.S. government employees" and family members "to leave" the country; Saudi Arabia and Oman cite ordered departures dated March 8 and March 13 [verified]. The same date recurring across five of the seven summaries places the changes inside one regional episode; the summaries record an ordered departure, they do not state that the departure set the level [verified]. The stated risk indicators are State's own words: "the threat of armed conflict and terrorism" (UAE); "risk of armed conflict" (Qatar); "armed conflict, landmines, and crime" (Kuwait); and, for Saudi Arabia, "risk of Iranian drone and missile targeting of American interests, armed conflict, terrorism, exit bans, and local laws regarding social media activity" [verified].
+
+  The remaining increases were spread thin: Chad, Niger and Uganda moved from Level 3 to Level 4; Azerbaijan, Rwanda and Tanzania to Level 3; and Grenada, Mauritius, Saint Lucia and São Tomé and Príncipe from Level 1 to Level 2 [verified].
+analysis: |
+  The following is analysis, not fact. A single traveler checking a single country sees one advisory and one "reissued" date. Reading all 210 at once shows the shape a one-country view cannot. Most ratings held: 190 of the 210 did not change over the year. But of the 20 that did change, the direction was lopsided — 17 rose against 3 that fell — and the increases were not scattered but a regional bloc [verified].
+
+  The Middle East cluster is the clearest pattern. Seven neighboring states landed on the same rating, and the advisories carry a shared marker that ties the changes together rather than reading as seven independent reassessments. Five of the seven summaries share the identical "March 2, 2026" ordered-departure sentence, and Saudi Arabia and Oman follow within 11 days [verified]. That shared date is strong evidence of association — one regional episode moving seven ratings in a narrow window — but it is not proof of what set each level. The summaries record an ordered departure alongside the change; they do not state that the departure was the reason the level moved [verified]. State's own methodology assigns levels by risk indicators — crime, terrorism, civil unrest, wrongful detention and the like — not by whether personnel were ordered out (see the risk-indicator definitions in notable, below) [verified].
+
+  Two states rose two tiers. Qatar and Kuwait were rated "Exercise Normal Precautions" as recently as the January 31 capture, then appear at Level 3 by the reissue — from the floor to the third tier in a single step, with no intermediate stop recorded in these captures [verified]. State does not publish a formula that maps risk indicators to a numeric level, so the feed records the size of the jump but not the reason for it; we cannot say from these captures alone why the move was two tiers rather than one.
+
+  A note on freshness. The feed invites a misread: the "reissued" date is not the date the level changed. Kuwait's August entry reads "There were no changes to the advisory level or risk indicators" beside a June 28, 2026 date — the Level 3 rating was already in place; only the embassy-operations summary was refreshed [verified]. The level change is bracketed instead by the captures: Level 1 on January 31, Level 3 by the reissue, with the text pointing to early March. A traveler who trusts the visible date alone will misdate the actual change by months.
+disagreement: |
+  The strongest counter is that a State Department advisory level is not an independent measure of danger to a tourist. It is the U.S. government's own risk read, and its risk indicators center on U.S. citizens and interests — Saudi Arabia's advisory cites "Iranian drone and missile targeting of American interests," and five of the seven summaries record an ordered departure of U.S. staff alongside the change [verified]. A reader could argue that a functioning destination hosting a large U.S. official presence can re-rate sharply on that basis while daily life for visitors changes little. The feed does not settle that argument: it shows the level and the printed reasons, not how much the reasons weigh. The level is a real signal, but a signal about a specific thing.
+
+  Three more cautions. The window is a specific one: a diff between two dates captures whatever regional episode fell inside it, and a March 2026 Middle East event will dominate a 2025-to-2026 comparison in a way it would not dominate a longer baseline. The snapshots are archived captures, not the live page — the advisory in force on the day you read this may differ, and only travel.state.gov shows the current rating. And the both-dates count reconciles two destinations that appear under renamed titles across the captures (Burma, listed in the 2025 feed as "Burma (Myanmar)"; and Kyrgyzstan, listed in the 2026 feed as "the Kyrgyz Republic") and excludes the feed's non-country aggregate rows (regional summaries, plus a Mexico row that carried a single advisory level only in the 2026 capture); the 210 total is exact once those renames are reconciled, and the 17-up, 3-down direction does not depend on them.
+
+  Anyone with a booked trip to a country named here should verify the live advisory, and the reason behind it, at travel.state.gov before relying on it.
+viewFrom: |
+  This diff is only possible because the State Department emits its full advisory set as one structured feed, timestamped and archived — most governments do not. It also carries a blind spot worth naming. We were never in the room where these decisions were made, and we do not pull the U.K. or Australian advisories for the same borders in this run, so we cannot say whether Washington's Middle East reassessment was matched abroad or is a distinctly American read of the same March. What we can say is bounded by, and traceable to, State's own record: seven neighboring ratings and one shared ordered-departure date, printed by the department itself. That shared date ties the changes to one episode; it does not, on its own, prove why any single level moved.
+notable:
+  - outlet: "U.S. Department of State"
+    title: "Travel Advisories (all countries, current levels)"
+    url: "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html"
+    note: "The live list; verify the current rating for any country named here before you travel."
+  - outlet: "U.S. Department of State"
+    title: "About Our New Products — Travel Advisory levels and risk indicators"
+    url: "https://travel.state.gov/content/travel/en/international-travel/before-you-go/about-our-new-products.html"
+    note: "Defines Level 1 through 4 and the established risk indicators (C, T, U, H, N, E, K, D, O). Levels are assigned by these risk indicators; the page lists no ordered-departure or staff-posture indicator."
+  - outlet: "U.S. Department of State"
+    title: "Saudi Arabia Travel Advisory"
+    url: "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/saudi-arabia-travel-advisory.html"
+    note: "Source of the 'Iranian drone and missile targeting of American interests' risk language quoted above."
+  - outlet: "U.S. Department of State"
+    title: "Qatar Travel Advisory"
+    url: "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/qatar-travel-advisory.html"
+    note: "One of the two Level 1-to-3 jumps; carries the March 2, 2026 ordered-departure summary."
+  - outlet: "Internet Archive (Wayback Machine)"
+    title: "Archived captures of the State Department advisory feed (TAsTWs.xml)"
+    url: "https://web.archive.org/web/20260805080642/https://travel.state.gov/_res/rss/TAsTWs.xml"
+    note: "The 2026-08-05 capture; the reproducibility anchor for every count in this piece."
+humanWouldMiss: |
+  A gate agent, a guidebook, or a single-country search answers "is it safe there?" one place at a time, and each answer looks like a local judgment. Reading the whole advisory feed on two dates a year apart shows what no single lookup can: 190 of 210 ratings held, but the 20 that moved leaned one way — 17 up, 3 down — and the sharpest move was a bloc. Seven Middle East states re-rated to "Reconsider Travel," five of them carrying the same printed ordered-departure date, two rising from the safest tier to the third in one step. That shared date marks a common episode, not a proven cause of each level. The most useful fact about a travel advisory is not its level; it is whether the levels around it moved together — and that only appears when you read all 210 at once.
+sources:
+  - label: "U.S. State Department Travel Advisory feed (TAsTWs.xml), archived 2025-08-09 — baseline levels for 210 destinations. Parsed this run from the raw XML."
+    url: "https://web.archive.org/web/20250809032649/https://travel.state.gov/_res/rss/TAsTWs.xml"
+    retrieved: "2026-08-10"
+  - label: "U.S. State Department Travel Advisory feed (TAsTWs.xml), archived 2026-01-31 — intermediate capture confirming the seven Gulf/Levant states were still at their lower level on that date."
+    url: "https://web.archive.org/web/20260131024757/https://travel.state.gov/_res/rss/TAsTWs.xml"
+    retrieved: "2026-08-10"
+  - label: "U.S. State Department Travel Advisory feed (TAsTWs.xml), archived 2026-08-05 — endpoint levels, reissue dates, and full risk-indicator text quoted above. Parsed this run from the raw XML."
+    url: "https://web.archive.org/web/20260805080642/https://travel.state.gov/_res/rss/TAsTWs.xml"
+    retrieved: "2026-08-10"
+  - label: "U.S. State Department — Travel Advisories portal (live current ratings; primary source for verification)."
+    url: "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html"
+    retrieved: "2026-08-10"
+models: "Travel pod — Opus writer/editor · three archived captures of the State Dept advisory feed diffed by country name; counts are direct tallies, no statistical modeling"
+publisherOfRecord: "Unruly Labs LP"
+gradingScore: "PASS (18/21). Strip-the-data test: PASS — remove the 17-vs-3, 19→26 / 21→23, seven-state Level-3 cluster, and the March-2 ordered-departure dates and nothing survives; the piece IS the diff. Uniquely-AI 3 (no human desk enumerates all 210 advisories at two timepoints), better-than-human 3, evidence-density 3 (every figure re-pullable from the three named Wayback captures), voice 3, closer 3, balance 2 (advisory-is-US-posture-not-tourist-danger steelmanned), reader-checkability 3. Reports the levels and State's own printed reasons as attributed record; asserts no independent motive. No listicle / press-release."
+benchVerdict: "PASS — subjects are governments and the State Department's own published advisories (a privileged official act); no named private individuals. All levels and reasons attributed to State's dated feed and timestamped to the three captures (2025-08-09, 2026-01-31, 2026-08-05); reissue-date-vs-change-date caveat disclosed. Conservative confidence; explicit 'verify the live advisory at travel.state.gov before you travel' line included, as required for entry/advisory pieces (stale advisory info can strand travelers)."
+crossLlmVerdict: "CLEAR (Alden cross-LLM / ChatGPT, 9/10, 2026-08-10): Prior attribution and geography blockers are resolved. The copy distinguishes the ordered-departure marker from causation, scopes six states"
+---
