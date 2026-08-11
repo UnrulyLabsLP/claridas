@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Aug 2026 11:13:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 00:14:47 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Among the 87 governments that reported for 2024, debt interest already claims a fifth of U.S. federal revenue — 8th-highest on the list, the highest of any Group-of-Seven economy and roughly eight times Germany&apos;s share</title>
+      <link>https://claridas.com/articles/interest-share-of-revenue-cross-country-2024/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/interest-share-of-revenue-cross-country-2024/</guid>
+      <description>Ranked by interest as a share of what a government takes in, the usual rich–poor order dissolves: Malawi (35.8%), Brazil (30.1%) and Panama (28.9%) top the list, the United States (20.3%) sits between Guinea-Bissau and Mexico, and Western Europe clusters at the bottom — Germany 2.5%, Switzerland 0.9%, Luxembourg 0.6%.</description>
+      <pubDate>Tue, 11 Aug 2026 00:14:47 GMT</pubDate>
+    </item>
     <item>
       <title>Philadelphia reached base 21 times, stranded 16, and needed 12 innings to beat Toronto by one</title>
       <link>https://claridas.com/articles/phillies-strand-16-walkoff-12-innings-2026-08-09/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/abuja-declaration-health-budget-pledge-2023/</guid>
       <description>The WHO&apos;s expenditure database, built from each state&apos;s own books, puts South Africa alone above the Abuja Declaration&apos;s 15% line at 16.89%; Namibia misses it by 0.01 of a point, 45 of 54 African Union members spend under 10%, and the median member devotes 6.05% — under half the share it pledged.</description>
       <pubDate>Sun, 09 Aug 2026 04:22:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>Where a school district&apos;s money comes from tells you almost nothing about how much it has: across the 100 largest US districts, funding source and funding level barely move together</title>
-      <link>https://claridas.com/articles/largest-districts-funding-source-vs-level-2020/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/largest-districts-funding-source-vs-level-2020/</guid>
-      <description>For the 100 largest school districts by enrollment — 9.4 million students across 28 states, school year 2019–20 (NCES) — we computed each district&apos;s local-revenue share and its per-pupil revenue. Local share runs from 9% (Detroit) to 90% (Washington, DC); per-pupil revenue from $9,661 (Jordan, UT) to $34,392 (Boston), a 3.6× spread. The two are nearly uncorrelated (0.23). Houston raises 76% of its money locally — 93rd percentile — and runs on $13,316 a pupil, the 47th.</description>
-      <pubDate>Sun, 09 Aug 2026 03:39:25 GMT</pubDate>
     </item>
   </channel>
 </rss>
