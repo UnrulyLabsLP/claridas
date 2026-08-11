@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 11:08:42 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Angels hit the only home run of the game and scored once; Texas hit none, singled eight times, and won 4-1 in ten innings</title>
+      <link>https://claridas.com/articles/rangers-angels-all-singles-trout-homer-extra-innings-2026-08-10/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/rangers-angels-all-singles-trout-homer-extra-innings-2026-08-10/</guid>
+      <description>Every run the Rangers drove in came on a single. Every base the Angels earned above first came on one swing — Mike Trout&apos;s 418-foot homer in the first — after which they were shut out for nine innings.</description>
+      <pubDate>Tue, 11 Aug 2026 11:08:42 GMT</pubDate>
+    </item>
     <item>
       <title>Two halves of one 2030 energy pledge have come apart: across 189 economies, electricity access outruns clean-cooking access in 183 — and Lao PDR wired nine homes for every one it gave a clean stove</title>
       <link>https://claridas.com/articles/energy-access-electricity-vs-clean-cooking-2023/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/nwsl-courage-four-goals-nine-shots-2026-08-08/</guid>
       <description>At Audi Field the Spirit held 58.1% of the ball, out-shot the Courage more than two-to-one, and won every possession metric on the sheet. The Courage scored three times inside 15 minutes, conceded the lead entirely, and won in the 95th minute on a fast break.</description>
       <pubDate>Sun, 09 Aug 2026 16:07:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sacramento&apos;s City Council routed 84% of its year&apos;s votable business through the consent calendar — and the free public API records how the council voted on almost none of it</title>
-      <link>https://claridas.com/articles/sacramento-consent-calendar-share-2026/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/sacramento-consent-calendar-share-2026/</guid>
-      <description>We pulled every Sacramento City Council agenda from the Granicus Legistar API for the 12 months ending July 31, 2026 and classified each item by its matter type. Of 466 items the council could act on, 390 — 83.7% — were placed on the consent calendar for bundled adoption and 76 were pulled for individual discussion. The largest single consent bundle held 42 items. Across 517 action and public-hearing items, the API publishes a recorded outcome for 25 and a numeric vote tally for none.</description>
-      <pubDate>Sun, 09 Aug 2026 15:44:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
