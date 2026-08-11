@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2026 03:35:07 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 04:07:52 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>In 31 of 192 economies, households paid more than half of all health costs out of their own pockets in 2022 — and the two heaviest burdens fell on upper-middle-income states, not the poorest</title>
+      <link>https://claridas.com/articles/out-of-pocket-health-majority-192-economies-2022/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/out-of-pocket-health-majority-192-economies-2022/</guid>
+      <description>On the World Bank&apos;s 2022 out-of-pocket health series (WHO health-accounts source, SH.XPD.OOPC.CH.ZS), 31 of 192 economies financed the majority of health spending directly from patients&apos; pockets. The two highest shares belong to Turkmenistan (79.2%) and Armenia (79.1%) — both upper-middle-income — ahead of Afghanistan and Yemen. No high-income economy exceeds 50%, yet the burden tracks national income only loosely (correlation −0.42), and the world&apos;s spending-weighted average of 17.2% sits below the figure in most individual countries.</description>
+      <pubDate>Tue, 11 Aug 2026 04:07:52 GMT</pubDate>
+    </item>
     <item>
       <title>Boston&apos;s City Council passed 3 of every 4 measures in 2026 by suspending its own rules. It adopted 212 of them the same day they were filed, under a waiver it invoked 213 times.</title>
       <link>https://claridas.com/articles/boston-council-rule-33-suspension-same-day-passage-2026/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/schedule-buffer-on-time-padding-2026-05/</guid>
       <description>On identical Atlanta–Newark flights, Delta schedules 134 minutes of block time and Frontier 158 — a 24-minute gap on a route the two actually fly about 6 minutes apart. Across 604,346 completed flights, the timetable carried roughly 185,000 hours of built-in cushion, per the carriers&apos; own schedules filed with the Department of Transportation.</description>
       <pubDate>Sun, 09 Aug 2026 13:27:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Oakland posted every public-body agenda at least 72 hours out — except its agenda-setting committee, which posted all 33 about 20 hours before it met</title>
-      <link>https://claridas.com/articles/oakland-agenda-setting-committee-72-hour-notice-2026-08/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/oakland-agenda-setting-committee-72-hour-notice-2026-08/</guid>
-      <description>We pulled the agenda-publication timestamp on every listed meeting of 81 public bodies across 5 California cities on the Legistar platform for the 12 months ending 2026-08-09. Of 615 regular meetings, 79 (12.8%) had their final agenda published less than the 72 hours before the meeting that the Brown Act sets for regular meetings. The 79 are not spread evenly: 32 of them are a single Oakland body — the Rules &amp; Legislation Committee, which sets the City Council&apos;s agenda — and its 33 meetings were published a median of 20.3 hours before they began, every one between 18.0 and 21.6 hours out.</description>
-      <pubDate>Sun, 09 Aug 2026 12:10:01 GMT</pubDate>
     </item>
   </channel>
 </rss>
