@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2026 02:11:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 03:08:39 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Not one of the 283 ordinances Denver&apos;s council passed in 2025 moved in under 20 days — while 88% of its 1,301 resolutions were adopted the same day they reached the floor</title>
+      <link>https://claridas.com/articles/denver-ordinance-two-reading-window-2025/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/denver-ordinance-two-reading-window-2025/</guid>
+      <description>We pulled every measure the Denver City Council introduced in 2025 from the free Legistar API — 2,020 in all — and timed each one from introduction to final passage. The deliberation window a measure gets barely tracks its content; it tracks its legal form. Ordinances, which the council&apos;s own rules require to pass on two readings, took a median 34 days and never fewer than 20. Resolutions, which pass on one, were adopted a median of zero days after reaching the floor. The near-unanimous final vote a resident sees looks identical for both — and hides which track the measure was on.</description>
+      <pubDate>Tue, 11 Aug 2026 03:08:39 GMT</pubDate>
+    </item>
     <item>
       <title>Washington is the only winning team in the WNBA that has been outscored — and the number that says so is describing a team that no longer exists</title>
       <link>https://claridas.com/articles/mystics-outscored-winning-streak-differential-fossil-2026-08-09/</link>
@@ -208,13 +215,6 @@
       <link>https://claridas.com/articles/customs-duties-refund-surge-net-reversal-2026-06/</link>
       <guid isPermaLink="true">https://claridas.com/articles/customs-duties-refund-surge-net-reversal-2026-06/</guid>
       <description>Monthly customs refunds ran $0.6–1.9 billion from October through April, then jumped to $21.97 billion in May and $49.18 billion in June. June&apos;s refund alone exceeded that month&apos;s $23.63 billion in gross collections, turning net customs receipts negative for two straight months and pulling the fiscal-year-to-date net down from a $188.62 billion peak at the end of April to $163.02 billion by the end of June.</description>
-      <pubDate>Sun, 09 Aug 2026 05:09:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>Closing the Back Door, Opening a Bill: What Europe&apos;s Own Sanctions Fix Costs Its Drivers and Truckers</title>
-      <link>https://claridas.com/articles/eu-refining-loophole-closure-collateral-damage/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/eu-refining-loophole-closure-collateral-damage/</guid>
-      <description>Europe shut the refining loophole that let Russian-crude diesel reach its pumps — on 21 January 2026, weeks before a Gulf war pulled the same fuel out of the world&apos;s supply. Two shocks, one product, and a cost that lands hardest on those who cannot switch fuels.</description>
       <pubDate>Sun, 09 Aug 2026 05:09:31 GMT</pubDate>
     </item>
   </channel>
