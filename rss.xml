@@ -5,8 +5,36 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2026 03:08:39 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 03:35:07 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boston&apos;s City Council passed 3 of every 4 measures in 2026 by suspending its own rules. It adopted 212 of them the same day they were filed, under a waiver it invoked 213 times.</title>
+      <link>https://claridas.com/articles/boston-council-rule-33-suspension-same-day-passage-2026/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/boston-council-rule-33-suspension-same-day-passage-2026/</guid>
+      <description>We pulled every item the Boston City Council disposed of across its 21 recorded-action meetings from January 5 to July 22, 2026, from the free Legistar API. Of the 391 measures it carried to final passage, 296 — 75.7% — passed by suspension of the rules rather than through committee. The council&apos;s Rule 33 forbids adopting a measure at the meeting where it is introduced and can be waived only by unanimous consent; the record shows that waiver invoked 213 times. Ordinances, loan orders, and most home-rule petitions still went the long way.</description>
+      <pubDate>Tue, 11 Aug 2026 03:35:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Denver&apos;s City Council introduced 4.37 resolutions for every bill in 2025 — and read across all 1,654 legislative items, nearly two-thirds carried contract, agreement, or amendment language in their titles</title>
+      <link>https://claridas.com/articles/denver-council-resolutions-contracts-composition-2025/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/denver-council-resolutions-contracts-composition-2025/</guid>
+      <description>We pulled every matter the City and County of Denver introduced in calendar 2025 through the Granicus Legistar API — 2,020 in all. Of the 1,654 that were bills or resolutions, 1,346 (81.4%) were resolutions and 308 (18.6%) bills, a 4.37-to-1 ratio. Classifying each by title, 1,054 of the 1,654 (63.7%) carried contract, agreement, or amendment language, and 818 of the 1,346 resolution titles carried an explicit dollar figure. General ordinances — actual lawmaking, as distinct from bills that ratify a contract or set the budget — were 154 items, 9.3% of the 1,654, fewer than one in ten.</description>
+      <pubDate>Tue, 11 Aug 2026 03:35:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Through nine months of fiscal 2026 FEMA declared 82 disasters and posted $20.7 billion in net outlays — more disasters than two years earlier, less money, and 58% below last year</title>
+      <link>https://claridas.com/articles/fema-declarations-vs-outlays-nine-months-2026-06/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/fema-declarations-vs-outlays-nine-months-2026-06/</guid>
+      <description>FEMA&apos;s disaster-declaration count fell about a quarter from a year ago; its net outlays fell nearly three-fifths. Net dollars dropped 2.3 times as fast as disasters — and 2026&apos;s 82 declarations already outnumber 2024&apos;s 73, a year the agency spent 28% more (net) than 2026. Across four years the count and the cash don&apos;t even rank together: 2024 had the most major declarations and middling spending; 2025 had fewer major declarations than 2024 but nearly double the money.</description>
+      <pubDate>Tue, 11 Aug 2026 03:35:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>In one year the US raised its travel advisory for 17 countries and lowered it for 3 — and seven Middle East states moved to &apos;Reconsider Travel&apos; in a single spring</title>
+      <link>https://claridas.com/articles/us-travel-advisory-tier-shift-gulf-2026-08/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/us-travel-advisory-tier-shift-gulf-2026-08/</guid>
+      <description>A country-by-country diff of the State Department&apos;s own advisory feed, captured a year apart, shows a shift concentrated in the Middle East: of the 20 destinations that changed level, 17 rose and 3 fell. Qatar and Kuwait rose two levels, and Bahrain, the UAE, Saudi Arabia, Oman and Jordan followed — six of the seven on the Arabian Peninsula, Jordan in the Levant. In the advisories&apos; own text, most carry an ordered departure of U.S. personnel dated on or near March 2, 2026 — a shared marker of the same episode, not a stated cause of each level.</description>
+      <pubDate>Tue, 11 Aug 2026 03:35:07 GMT</pubDate>
+    </item>
     <item>
       <title>Not one of the 283 ordinances Denver&apos;s council passed in 2025 moved in under 20 days — while 88% of its 1,301 resolutions were adopted the same day they reached the floor</title>
       <link>https://claridas.com/articles/denver-ordinance-two-reading-window-2025/</link>
@@ -188,34 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/oakland-agenda-setting-committee-72-hour-notice-2026-08/</guid>
       <description>We pulled the agenda-publication timestamp on every listed meeting of 81 public bodies across 5 California cities on the Legistar platform for the 12 months ending 2026-08-09. Of 615 regular meetings, 79 (12.8%) had their final agenda published less than the 72 hours before the meeting that the Brown Act sets for regular meetings. The 79 are not spread evenly: 32 of them are a single Oakland body — the Rules &amp; Legislation Committee, which sets the City Council&apos;s agenda — and its 33 meetings were published a median of 20.3 hours before they began, every one between 18.0 and 21.6 hours out.</description>
       <pubDate>Sun, 09 Aug 2026 12:10:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Four Brazilian first-division matches on Saturday, four teams that kept the ball — and two points from a possible twelve</title>
-      <link>https://claridas.com/articles/brazil-serie-a-possession-lost-matchday-2026-08-08/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/brazil-serie-a-possession-lost-matchday-2026-08-08/</guid>
-      <description>In every one of the day&apos;s completed Série A games, the side with majority possession failed to win. The four teams with less of the ball took 8 of 12 points, and in three of four they also put more shots on target.</description>
-      <pubDate>Sun, 09 Aug 2026 11:07:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>The median federal comment period opened this year ran 45 days — and 30 days, not the 60 two executive orders recommend, was the single most common window across 979 proposed rules</title>
-      <link>https://claridas.com/articles/federal-register-comment-window-median-2026-08/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/federal-register-comment-window-median-2026-08/</guid>
-      <description>Of the 979 fresh public comment periods opened by proposed rules in the Federal Register from January 1 to August 8, 2026, 692 (70.7%) ran shorter than 60 days and the modal window was exactly 30 days. Even among the 90 rules agencies themselves flagged as &apos;significant&apos; — the category the 60-day standard targets — 39 (43.3%) closed comments in under 60 days, the shortest at 21.</description>
-      <pubDate>Sun, 09 Aug 2026 10:10:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>The Barrels That Vanish at the Border: Reading Iran&apos;s War Economy Through the Holes in the World&apos;s Trade Ledger</title>
-      <link>https://claridas.com/articles/barrels-that-vanish-at-the-border/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/barrels-that-vanish-at-the-border/</guid>
-      <description>China says it bought billions of kilograms of crude &apos;from Malaysia&apos; — several times more than Malaysia sells to the entire planet. The missing origin is printed, free, in the UN&apos;s own database. You do not need a spy. You need a calculator.</description>
-      <pubDate>Sun, 09 Aug 2026 05:09:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>US customs collected a record $244.3 billion in duties through June 2026 and refunded $81.3 billion of it — 15.4× the refunds a year earlier</title>
-      <link>https://claridas.com/articles/customs-duties-refund-surge-net-reversal-2026-06/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/customs-duties-refund-surge-net-reversal-2026-06/</guid>
-      <description>Monthly customs refunds ran $0.6–1.9 billion from October through April, then jumped to $21.97 billion in May and $49.18 billion in June. June&apos;s refund alone exceeded that month&apos;s $23.63 billion in gross collections, turning net customs receipts negative for two straight months and pulling the fiscal-year-to-date net down from a $188.62 billion peak at the end of April to $163.02 billion by the end of June.</description>
-      <pubDate>Sun, 09 Aug 2026 05:09:31 GMT</pubDate>
     </item>
   </channel>
 </rss>
