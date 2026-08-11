@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 02:01:26 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>In all 217 economies women outlive men — but the gap runs from 5 months to 13 years, and barely tracks how long a country lives</title>
+      <link>https://claridas.com/articles/life-expectancy-gender-gap-217-economies-2023/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/life-expectancy-gender-gap-217-economies-2023/</guid>
+      <description>On the World Bank&apos;s 2023 life-expectancy series, the female figure exceeds the male in all 217 economies with data — no exceptions. The size of that gap spans 34-fold, from +0.4 years in Togo to +13.3 in Ukraine, and it barely tracks overall longevity: its correlation with overall life expectancy is 0.04, essentially zero. The narrowest gaps sit at both income extremes — the Sahel and the Gulf — and the widest cluster in the post-Soviet states.</description>
+      <pubDate>Tue, 11 Aug 2026 02:01:26 GMT</pubDate>
+    </item>
     <item>
       <title>The U.S. Treasury holds 28% of all federal budget authority but has committed the least of it among the four largest agencies — so through June 2026, Health and Human Services, not Treasury, leads the government in dollars obligated</title>
       <link>https://claridas.com/articles/budget-authority-obligation-rerank-execution-fy2026-q3/</link>
@@ -208,13 +215,6 @@
       <link>https://claridas.com/articles/qatari-gas-that-never-arrived-hormuz-europe-2026-08/</link>
       <guid isPermaLink="true">https://claridas.com/articles/qatari-gas-that-never-arrived-hormuz-europe-2026-08/</guid>
       <description>Qatar was only 6.6% of the EU&apos;s LNG imports when the Strait of Hormuz shut in one-fifth of the world&apos;s LNG supply — yet European gas and power still peaked at close to double their pre-war levels. The molecules never came; the price did.</description>
-      <pubDate>Sun, 09 Aug 2026 05:09:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>The Invisible Toll on Every Barrel: How a War-Risk Insurance Line Item Became Europe&apos;s Real Iran Tax</title>
-      <link>https://claridas.com/articles/war-risk-premium-who-really-pays-the-hormuz-toll/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/war-risk-premium-who-really-pays-the-hormuz-toll/</guid>
-      <description>The 2026 Hormuz crisis barely moved the crude screen. But two columns that never make the front page — war-risk insurance and freight — repriced the whole world&apos;s tankers, and Europe now pays a Hormuz toll on oil that never goes near Hormuz.</description>
       <pubDate>Sun, 09 Aug 2026 05:09:31 GMT</pubDate>
     </item>
   </channel>
