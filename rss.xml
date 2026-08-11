@@ -8,6 +8,13 @@
     <lastBuildDate>Tue, 11 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Two halves of one 2030 energy pledge have come apart: across 189 economies, electricity access outruns clean-cooking access in 183 — and Lao PDR wired nine homes for every one it gave a clean stove</title>
+      <link>https://claridas.com/articles/energy-access-electricity-vs-clean-cooking-2023/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/energy-access-electricity-vs-clean-cooking-2023/</guid>
+      <description>On the World Bank&apos;s 2023 SDG-7 tracking series, the world reached 91.6% electricity access but 74.4% clean-cooking access — a 17.2-point gap. Electricity meets or exceeds clean cooking in 183 of 189 economies; six are fully electrified yet cook clean in under half of homes: Timor-Leste (19.1%), Bangladesh (28.4%), Sri Lanka (35.4%), Bosnia and Herzegovina (39.5%), Samoa (39.7%) and Guatemala (46.5%).</description>
+      <pubDate>Tue, 11 Aug 2026 09:10:25 GMT</pubDate>
+    </item>
+    <item>
       <title>American blamed weather for 94% of its May cancellations; Delta blamed itself for 91% of its own — two carriers the same size, cancelling at nearly the same rate, filing opposite reasons</title>
       <link>https://claridas.com/articles/cancellation-code-weather-hub-exposure-2026-05/</link>
       <guid isPermaLink="true">https://claridas.com/articles/cancellation-code-weather-hub-exposure-2026-05/</guid>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/sacramento-consent-calendar-share-2026/</guid>
       <description>We pulled every Sacramento City Council agenda from the Granicus Legistar API for the 12 months ending July 31, 2026 and classified each item by its matter type. Of 466 items the council could act on, 390 — 83.7% — were placed on the consent calendar for bundled adoption and 76 were pulled for individual discussion. The largest single consent bundle held 42 items. Across 517 action and public-hearing items, the API publishes a recorded outcome for 25 and a numeric vote tally for none.</description>
       <pubDate>Sun, 09 Aug 2026 15:44:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Of 1,645 final federal rules issued in 2026, 810 took effect in fewer than the 30 days the Administrative Procedure Act sets as its default — and 517 took effect the day they were published</title>
-      <link>https://claridas.com/articles/final-rules-effective-date-under-30-days-2026-08/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/final-rules-effective-date-under-30-days-2026-08/</guid>
-      <description>Across every Rule document in the Federal Register from January 1 to August 9, 2026, the median gap between publication and effective date is exactly 30 days — the statutory floor. But the single most common gap is zero: 517 rules took effect on their publication day, and 87 carried an effective date earlier than the day they appeared. The pattern survives removing the fisheries agency that drives most immediate rules; the largest single rule-writer, the FAA, mostly kept the 30-day wait.</description>
-      <pubDate>Sun, 09 Aug 2026 15:10:39 GMT</pubDate>
     </item>
   </channel>
 </rss>
