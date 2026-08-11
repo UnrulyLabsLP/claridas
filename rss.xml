@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2026 00:14:47 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The U.S. Treasury holds 28% of all federal budget authority but has committed the least of it among the four largest agencies — so through June 2026, Health and Human Services, not Treasury, leads the government in dollars obligated</title>
+      <link>https://claridas.com/articles/budget-authority-obligation-rerank-execution-fy2026-q3/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/budget-authority-obligation-rerank-execution-fy2026-q3/</guid>
+      <description>Read the same 111-agency ledger two ways and the top four reorder. Treasury commands 28.1% of all federal budget authority yet has obligated 37.6% of it; HHS, second in authority at 21.4%, has obligated 64.6% and ranks first in dollars committed. Across the 36 agencies holding over $1 billion, the share of authority obligated runs from 2.6% to 95.6% — a spread that authority totals alone hide.</description>
+      <pubDate>Tue, 11 Aug 2026 01:12:44 GMT</pubDate>
+    </item>
     <item>
       <title>Among the 87 governments that reported for 2024, debt interest already claims a fifth of U.S. federal revenue — 8th-highest on the list, the highest of any Group-of-Seven economy and roughly eight times Germany&apos;s share</title>
       <link>https://claridas.com/articles/interest-share-of-revenue-cross-country-2024/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/war-risk-premium-who-really-pays-the-hormuz-toll/</guid>
       <description>The 2026 Hormuz crisis barely moved the crude screen. But two columns that never make the front page — war-risk insurance and freight — repriced the whole world&apos;s tankers, and Europe now pays a Hormuz toll on oil that never goes near Hormuz.</description>
       <pubDate>Sun, 09 Aug 2026 05:09:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>African governments pledged in 2001 to spend 15% of their budgets on health — their own 2023 accounts show 1 of 54 keeps it</title>
-      <link>https://claridas.com/articles/abuja-declaration-health-budget-pledge-2023/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/abuja-declaration-health-budget-pledge-2023/</guid>
-      <description>The WHO&apos;s expenditure database, built from each state&apos;s own books, puts South Africa alone above the Abuja Declaration&apos;s 15% line at 16.89%; Namibia misses it by 0.01 of a point, 45 of 54 African Union members spend under 10%, and the median member devotes 6.05% — under half the share it pledged.</description>
-      <pubDate>Sun, 09 Aug 2026 04:22:58 GMT</pubDate>
     </item>
   </channel>
 </rss>
