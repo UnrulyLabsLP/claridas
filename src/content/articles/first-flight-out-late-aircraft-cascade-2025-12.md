@@ -51,4 +51,6 @@ models: "Travel pod — Opus writer/editor · single-month DOT BTS pull, no stat
 gradingScore: "PASS (18/21). Strip-the-data test: PASS — remove the 87.7%-vs-64.6% / 20.5-point / 41.1%-late-aircraft / 12.9%-to-49.1% / flat-6-9%-weather figures and nothing survives; the piece IS the pull. Uniquely-AI 3 (hour-by-hour decomposition of 571,924 arrivals), better-than-human 3, evidence-density 3, voice 3, closer 3, balance 2 (late-aircraft-is-a-residual and seasonality steelmanned in Room-for-Disagreement), reader-checkability 3 (every figure re-pullable from the Dec-2025 CSV named in sources). Reports the DOT-filed cause-minute decomposition, not motive. No listicle / press-release."
 benchVerdict: "PASS — subjects are aggregate flight records and DOT's own filed delay-cause categories; no named private individuals; all figures timestamped to December 2025 data (retrieved 2026-08-08); not a visa/entry piece, no pricing. Late-aircraft framed as an inherited/residual category per DOT's own definition, with that limitation disclosed. No affiliate links."
 crossLlmVerdict: "SKIPPED: browser locked (cross-LLM gate offline this session)"
+publisherOfRecord: "Unruly Labs LP"
+affiliateDisclosure: "This article contains no affiliate links. Claridas earns nothing from any carrier or booking service named here."
 ---
