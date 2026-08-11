@@ -37,7 +37,7 @@ notable:
     title: "Public preview API — HS 2709 crude, reporter/partner mirror queries"
     url: "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&period=2023&partnerCode=458&cmdCode=2709&flowCode=M"
     note: "The primary, free, one-line-reproducible source of the entire finding. China-from-Malaysia = 46,939,955,132 kg (2023); Malaysia-to-world = 10,367,873,490 kg."
-humanWouldMiss: "The single most important methodological trap: reading Malaysia's export figure from the per-transport-mode rows and SUMMING them, which double-counts to ~20.7B kg and halves the apparent scandal. The motCode=0 (all-modes) row already equals the sum of sub-modes (10,362,847,100 + 5,026,290 + 100 = 10,367,873,490). A human skimming the JSON would likely add the rows and quietly understate the gap. The correct read makes the impossibility larger, not smaller. Also easy to miss: the 2020 caveat — the anomaly is visible in 2020 only in the China-Malaysia bilateral mirror, not yet against Malaysia's global total, because the trade had not yet outgrown Malaysia's total book. It decisively does by 2023."
+humanWouldMiss: "The single most important methodological trap: reading Malaysia's export figure from the per-transport-mode rows and SUMMING them, which double-counts to ~20.7B kg and halves the apparent scandal. The motCode=0 (all-modes) row already equals the sum of sub-modes (10,362,847,100 + 5,026,290 + 100 = 10,367,873,490). A human skimming the JSON would likely add the rows and quietly understate the gap. The correct read makes the gap larger, not smaller. Also easy to miss: the 2020 caveat — the anomaly is visible in 2020 only in the China-Malaysia bilateral mirror, not yet against Malaysia's global total, because the trade had not yet outgrown Malaysia's total book. It decisively does by 2023."
 sources:
   - label: "UN Comtrade preview API — China imports of crude (HS 2709) from Malaysia, 2023"
     url: "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=156&period=2023&partnerCode=458&cmdCode=2709&flowCode=M"
@@ -74,7 +74,7 @@ There is a stretch of sea off the eastern coast of Peninsular Malaysia where the
 
 You will not read the vessel names here, and you do not need them. Because the entire operation, run at industrial scale across years, leaves a fingerprint that no rope-and-rubber transfer at sea can hide. It leaves it in a spreadsheet. A free one.
 
-Here is the fingerprint, stated as plainly as it can be stated: **a country reports importing several times more crude oil "from Malaysia" than Malaysia sells to the entire planet combined.** That is not a leak. It is not an intercept. It is an arithmetic impossibility, published by the United Nations, downloadable by anyone with a browser.
+Here is the fingerprint, stated as plainly as it can be stated: **a country reports importing several times more crude oil "from Malaysia" than Malaysia sells to the entire planet combined.** That is not a leak. It is not an intercept. It is an arithmetic gap that Malaysia's own production and exports cannot account for — published by the United Nations, downloadable by anyone with a browser.
 
 > **THE ONE-LINE FINDING**
 > - China's 2023 crude imports **from Malaysia** (its own customs, via UN Comtrade): **46,939,955,132 kg** — worth **$28,611,452,764**.
@@ -90,7 +90,7 @@ For crude petroleum (HS code 2709) the China-Malaysia mirror does not have a gap
 
 Start in 2020, before the operation had fully scaled. China's books say it received **12,463,031,000 kg** of crude from Malaysia — around 250,000 barrels a day. Malaysia's books say it shipped China just **852,349,000 kg** — around 17,000 barrels a day. That is a **14.6x** bilateral mirror gap: China "received" almost fifteen times what Malaysia says it "sent." [verified]
 
-An honest caveat, placed here so no fact-checker can spring it later: in 2020 the trick was still small enough to hide inside Malaysia's own book. Malaysia's *total* crude export to the whole world that year (13.69 billion kg) was still slightly larger than China's reported import from Malaysia — so the 2020 impossibility is visible only in the bilateral mirror, not yet against Malaysia's global total. The pipe had not yet outgrown the country it claimed to run through. [verified]
+An honest caveat, placed here so no fact-checker can spring it later: in 2020 the trick was still small enough to hide inside Malaysia's own book. Malaysia's *total* crude export to the whole world that year (13.69 billion kg) was still slightly larger than China's reported import from Malaysia — so the 2020 gap is visible only in the bilateral mirror, not yet against Malaysia's global total. The pipe had not yet outgrown the country it claimed to run through. [verified]
 
 By 2023 it had. Spectacularly.
 
@@ -108,7 +108,7 @@ You could imagine an innocent explanation — perhaps Malaysia is a great re-exp
 
 The U.S. Energy Information Administration's Malaysia Country Analysis Brief (last updated November 12, 2024) states flatly that "Malaysia's petroleum and other liquids production declined from 2017 to 2023—to **597,000 barrels per day**—due to maturing fields." Crude-and-condensate alone is lower still. And EIA, working directly from Chinese customs data, states in plain English that China's "Malaysian" crude imports **exceeded Malaysia's total crude oil production** outright. [verified]
 
-You cannot ship what you do not have. The surplus — the difference between the 4.53x that China booked and the trickle Malaysia can actually produce and export — is not Malaysian oil. It never was.
+Production alone is not a ceiling — a refining-and-transshipment hub can re-export crude it imports. But re-exports appear in a country's own export ledger, and Malaysia's does not carry them at this scale. The surplus — the difference between the 4.53x China booked and what Malaysia actually produces and exports — is hard to explain except as crude that was not Malaysian to begin with [modeled].
 
 ## Where the missing barrels went in: Iran's disappearing act
 
@@ -132,7 +132,7 @@ Set the two anomalies side by side. The Iranian barrels that vanished from China
 
 This is the elegance and the scandal of it at once. You do not need to prove intent through a document nobody will hand you. You subtract.
 
-**(China-reported "Malaysian" crude) − (Malaysia's real production and exports) = the Iranian volume.** Both halves are published for free.
+**(China-reported "Malaysian" crude) − (Malaysia's real production and exports)** is close in size to the Iranian barrels that quietly dropped out of China's Iran ledger [modeled]. Both halves are published for free.
 
 And crucially, you do not have to take an investigative journalist's word that the surplus is relabeled Iranian oil — because the EIA says it. In its Today in Energy briefing of April 16, 2024, using Chinese customs data, EIA reports that "China imported 54% more crude oil (1.1 million b/d) from Malaysia in 2023 than in 2022," that "crude oil imports from Malaysia exceeded Malaysia's total crude oil production," and then, without hedging:
 
@@ -175,6 +175,6 @@ The mirror gap is a free download from UN Comtrade. Malaysia's production ceilin
 > - Malaysia's 2023 crude export to world: `reporterCode=458, partnerCode=0, cmdCode=2709, flowCode=X` → read the **all-modes (motCode=0)** row = **10,367,873,490 kg**.
 > - **Do NOT sum the per-transport-mode rows** — the motCode=0 row already equals their sum (10,362,847,100 + 5,026,290 + 100). Adding it on top double-counts to ~20.7B and halves the scandal.
 > - Compare both to EIA's Malaysia total production of **~597,000 b/d** in 2023.
-> - The impossibility is self-evident.
+> - The gap is hard to explain as legitimate trade.
 
 The scandal is not that the war economy is concealed. It is that it is published — in the world's own trade ledger, free to anyone — and that, for years, no one had to do anything harder than subtract.
