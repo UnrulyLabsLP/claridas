@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Aug 2026 02:18:20 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The federal debt&apos;s 3.447% average hides 13 rates from 1.127% to 7.577% — and Treasury now pays more on bills than bonds</title>
+      <link>https://claridas.com/articles/treasury-interest-rate-by-instrument-inverted-cost-curve-2026-07/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/treasury-interest-rate-by-instrument-inverted-cost-curve-2026-07/</guid>
+      <description>One blended rate stands in for the whole federal debt. We pulled the complete July 2026 ledger it summarizes: 13 categories of interest-bearing securities, spanning 1.127% on inflation-protected notes to 7.577% on a legacy nonmarketable series. On the tradable book the order has flipped from the textbook — Treasury Bills average 3.758%, above Bonds (3.442%) and Notes (3.309%) — and that inversion has held in every January since 2023, after three straight Januaries (2020–2022) in which the rate rose normally from bills to notes to bonds.</description>
+      <pubDate>Sat, 15 Aug 2026 17:16:32 GMT</pubDate>
+    </item>
     <item>
       <title>Colorado had Monday&apos;s second-highest expected offense of 20 lineups — and scored the fewest runs of all 20: none</title>
       <link>https://claridas.com/articles/rockies-second-best-expected-offense-shut-out-2026-08-10/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/state-unemployment-dispersion-june-2026/</guid>
       <description>Across the 50 states and the District of Columbia, June 2026 seasonally-adjusted unemployment rates spanned 4.0 points — South Dakota at 2.0%, the District at 6.0%, a 3-to-1 ratio the single national figure conceals. The median state&apos;s rate was unchanged from a year earlier, yet Connecticut rose 1.3 points while Ohio fell 1.0 — a 2.3-point span of movement inside a national aggregate that shifted 0.1.</description>
       <pubDate>Mon, 10 Aug 2026 01:11:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>In 2023, 46 of 148 governments spent a larger share of their economy on the military than their own budget spent on health — and not one was in the Americas</title>
-      <link>https://claridas.com/articles/military-exceeds-government-health-spending-2023/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/military-exceeds-government-health-spending-2023/</guid>
-      <description>Cross-joining two data sets no single-country desk pairs — SIPRI&apos;s military-expenditure series and the WHO&apos;s government-health series, both as a share of GDP, both for 2023 — 46 of the 148 economies with figures in both spent more on arms than the state put into health. The list runs 25 of 44 sub-Saharan African economies, 9 of 16 in the Middle East–North Africa–AfPak grouping, and 3 of 4 in South Asia, but zero of the 23 in the Americas.</description>
-      <pubDate>Mon, 10 Aug 2026 00:10:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
