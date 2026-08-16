@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 15:30:00 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Breece Hall out-gained Josh Jacobs by 204 yards on identical catches — yet finished 8 fantasy spots back, on 9 fewer TDs</title>
+      <link>https://claridas.com/articles/nfl-rb-touchdown-share-opportunity-vs-output-2025/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/nfl-rb-touchdown-share-opportunity-vs-output-2025/</guid>
+      <description>We read all 46,452 regular-season plays of 2025 and every touch by the 55 running backs who cleared 100 opportunities. Fantasy rank tracks volume at 0.94. The gap left over is almost entirely touchdowns — the rarest thing a back does, on 3.4% of his touches.</description>
+      <pubDate>Sun, 16 Aug 2026 15:30:00 GMT</pubDate>
+    </item>
     <item>
       <title>The federal debt&apos;s 3.447% average hides 13 rates from 1.127% to 7.577% — and Treasury now pays more on bills than bonds</title>
       <link>https://claridas.com/articles/treasury-interest-rate-by-instrument-inverted-cost-curve-2026-07/</link>
@@ -208,13 +215,6 @@
       <link>https://claridas.com/articles/iran-oil-exit-routes-2026-08-10/</link>
       <guid isPermaLink="true">https://claridas.com/articles/iran-oil-exit-routes-2026-08-10/</guid>
       <description>Iran sold about 1.58 million barrels a day of crude in 2025, and roughly 1.57 million of it went to one buyer. The route is not secret. It is printed in the U.S. government&apos;s own report — and in the gap between two countries&apos; trade ledgers, free to anyone with a calculator.</description>
-      <pubDate>Mon, 10 Aug 2026 05:09:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>The Iran barrel that never reaches America: how a country the U.S. buys no oil from still moves the price at the pump</title>
-      <link>https://claridas.com/articles/us-gas-prices-iran-2026-08-10/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/us-gas-prices-iran-2026-08-10/</guid>
-      <description>The United States imports almost no Iranian crude — about 1,000 to 6,000 barrels a day in recent years, rounding to zero. Yet when the Strait of Hormuz shut in early 2026, U.S. regular gasoline climbed from $2.94 to a $4.50 peak. Both facts are true. This is how they fit together.</description>
       <pubDate>Mon, 10 Aug 2026 05:09:31 GMT</pubDate>
     </item>
   </channel>
