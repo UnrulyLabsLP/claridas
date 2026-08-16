@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2026 11:08:42 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 02:18:20 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Colorado had Monday&apos;s second-highest expected offense of 20 lineups — and scored the fewest runs of all 20: none</title>
+      <link>https://claridas.com/articles/rockies-second-best-expected-offense-shut-out-2026-08-10/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/rockies-second-best-expected-offense-shut-out-2026-08-10/</guid>
+      <description>No human desk ranks all 20 team-performances on a slate by expected offense. We did. Colorado posted a .387 team expected wOBA — a rate on the on-base scale — reached base 10 times, and lost 9-0 at Arizona. Its two hardest-hit balls in play, 104.5 and 103.4 mph, came back as a fly out and a double play.</description>
+      <pubDate>Wed, 12 Aug 2026 02:18:20 GMT</pubDate>
+    </item>
     <item>
       <title>The Angels hit the only home run of the game and scored once; Texas hit none, singled eight times, and won 4-1 in ten innings</title>
       <link>https://claridas.com/articles/rangers-angels-all-singles-trout-homer-extra-innings-2026-08-10/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/diverted-flights-invisible-on-time-2026-05/</guid>
       <description>A diverted flight is neither a cancellation nor a late arrival, so it drops out of the 78.6% on-time rate entirely. Reading all 1,734 of May&apos;s diversions at once shows where they went instead: one in six was bound for Dallas–Fort Worth, and Oklahoma City was the overflow lot — per the carriers&apos; own filings with the Department of Transportation.</description>
       <pubDate>Sun, 09 Aug 2026 18:33:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>San José scheduled 440 board and council meetings in a year and cancelled 73 — its elected City Council called off 3, its volunteer commissions the rest</title>
-      <link>https://claridas.com/articles/san-jose-cancelled-meetings-citizen-commissions-2026/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/san-jose-cancelled-meetings-citizen-commissions-2026/</guid>
-      <description>We pulled every meeting the City of San José noticed through the Granicus Legistar API for the 12 months ending July 31, 2026 and marked each cancelled or held. Of 440 meetings of the city&apos;s councils, boards, and commissions, 73 — one in six — were cancelled. The elected City Council cancelled 3 of its 58 (5.2%). Every other body combined cancelled 70 of 382 (18.3%), and the cancellations pile up on the volunteer citizen commissions: the Board of Fair Campaign and Political Practices cancelled 10 of 14, the Historic Landmarks Commission 15 of 23.</description>
-      <pubDate>Sun, 09 Aug 2026 17:24:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
