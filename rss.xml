@@ -22,6 +22,20 @@
       <pubDate>Tue, 11 Aug 2026 19:03:20 GMT</pubDate>
     </item>
     <item>
+      <title>The US inflation index has no October 2025 — in our sample, the three survivors line up with BLS&apos;s non-survey series</title>
+      <link>https://claridas.com/articles/cpi-october-2025-hole-selective-survivors-2026/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/cpi-october-2025-hole-selective-survivors-2026/</guid>
+      <description>You skim one number; we pull a set of series and read the footnote layer whole. In this run the all-items CPI and six of the eight major expenditure groups we queried return footnote code X for October 2025: &apos;Data unavailable due to the 2025 lapse in appropriations.&apos; Three narrow indexes underneath them kept their reading: gasoline (277.021), new vehicles (178.723), used cars (186.962). BLS says it did not publish the October aggregates because the lapse stopped survey collection, and that it could still publish the few indexes it builds from non-survey data. That the three we saw survive are those non-survey indexes is our inference [modeled], not a per-series BLS statement.</description>
+      <pubDate>Tue, 11 Aug 2026 15:11:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>A plane pushes back late on the last row of its scheduled sequence ~3.4x as often as the first — hold the hour fixed and it is a morning thing</title>
+      <link>https://claridas.com/articles/aircraft-rotation-delay-cascade-time-of-day-2026-05/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/aircraft-rotation-delay-cascade-time-of-day-2026-05/</guid>
+      <description>No desk reconstructs all 148,478 aircraft-days; we did, from the tail numbers, and read them at once. The first row of a plane&apos;s scheduled sequence departed more than 15 minutes late 9.3% of the time, the last row 31.3%. Hold the scheduled hour fixed and a plane deep in its same-tail scheduled-row sequence departed later than a fresh one only before noon — by 18.7 minutes at 10 a.m., near zero by evening. And when an aircraft landed more than 30 minutes late, its next departure ran a mean 68.8 minutes behind — 18 minutes less than the inbound delay, the rest reappearing on the next departure.</description>
+      <pubDate>Tue, 11 Aug 2026 13:53:04 GMT</pubDate>
+    </item>
+    <item>
       <title>The Angels hit the only home run of the game and scored once; Texas hit none, singled eight times, and won 4-1 in ten innings</title>
       <link>https://claridas.com/articles/rangers-angels-all-singles-trout-homer-extra-innings-2026-08-10/</link>
       <guid isPermaLink="true">https://claridas.com/articles/rangers-angels-all-singles-trout-homer-extra-innings-2026-08-10/</guid>
@@ -202,20 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/afl-melbourne-fremantle-behinds-margin-2026-08-08/</guid>
       <description>Fremantle led by eight at the last change, moved the ball more cleanly, kicked more accurately, and had the game&apos;s leading goalscorer. Melbourne generated 28 scoring shots to 24, and its four extra minor scores were the exact margin of a 113-109 win.</description>
       <pubDate>Sun, 09 Aug 2026 21:07:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>Through nine months of fiscal 2026, federal agencies reported obligating $8.23 trillion and outlaying $7.89 trillion — and two agencies hold 91% of the $331 billion gap between the two</title>
-      <link>https://claridas.com/articles/federal-obligations-outlays-disbursement-lag-2026-q3/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/federal-obligations-outlays-disbursement-lag-2026-q3/</guid>
-      <description>Across the 30 top-tier agencies that obligated more than $1 billion in USAspending&apos;s account-level record, the ratio of outlays to obligations runs from 52.9% at Homeland Security to 224.9% at the National Science Foundation. The three agencies that are 64% of all obligations — Health and Human Services, Treasury, and Social Security — outlay 99.1% of what they obligate. The $331.5 billion of money committed but not yet paid is almost entirely Homeland Security ($161.8B) and Defense ($139.8B).</description>
-      <pubDate>Sun, 09 Aug 2026 20:04:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>Global child deaths fell by half since 2000 — and migrated into the first month of life: newborns are now the majority of under-5 deaths in 123 of 196 countries</title>
-      <link>https://claridas.com/articles/neonatal-share-of-child-deaths-2024/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/neonatal-share-of-child-deaths-2024/</guid>
-      <description>The UN&apos;s own estimates put under-5 mortality down 51% from 2000 to 2024 but neonatal mortality down only 43%, so the newborn share of under-5 deaths rose from 39.5% to 46.0% worldwide — and 9 countries have already cleared the Sustainable Development Goals&apos; headline child-survival target while still missing its separate neonatal one, against just 2 the other way.</description>
-      <pubDate>Sun, 09 Aug 2026 19:12:49 GMT</pubDate>
     </item>
   </channel>
 </rss>
