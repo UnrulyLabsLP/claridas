@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 14:13:16 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Across the 78 WRs with 50+ targets in 2025, fantasy and opportunity ranks diverge — and the wedge is touchdowns</title>
+      <link>https://claridas.com/articles/nfl-wr-opportunity-vs-touchdown-output-2025/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/nfl-wr-opportunity-vs-touchdown-output-2025/</guid>
+      <description>Justin Jefferson out-targeted, out-caught and out-gained Davante Adams last season — and finished 12 fantasy spots behind him, his 12-touchdown deficit outweighing every volume edge. We ranked the whole pool two ways to find where the box score and the workload disagree.</description>
+      <pubDate>Mon, 17 Aug 2026 14:13:16 GMT</pubDate>
+    </item>
     <item>
       <title>In the global totals oceans look nearly as protected as land — 14.0% to 16.4% — but country by country the median nation guards just 1.85% of its seas</title>
       <link>https://claridas.com/articles/world-30x30-ocean-protection-median-gap-2024/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/budget-authority-obligation-rerank-execution-fy2026-q3/</guid>
       <description>Read the same 111-agency ledger two ways and the top four reorder. Treasury commands 28.1% of all federal budget authority yet has obligated 37.6% of it; HHS, second in authority at 21.4%, has obligated 64.6% and ranks first in dollars committed. Across the 36 agencies holding over $1 billion, the share of authority obligated runs from 2.6% to 95.6% — a spread that authority totals alone hide.</description>
       <pubDate>Tue, 11 Aug 2026 01:12:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Among the 87 governments that reported for 2024, debt interest already claims a fifth of U.S. federal revenue — 8th-highest on the list, the highest of any Group-of-Seven economy and roughly eight times Germany&apos;s share</title>
-      <link>https://claridas.com/articles/interest-share-of-revenue-cross-country-2024/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/interest-share-of-revenue-cross-country-2024/</guid>
-      <description>Ranked by interest as a share of what a government takes in, the usual rich–poor order dissolves: Malawi (35.8%), Brazil (30.1%) and Panama (28.9%) top the list, the United States (20.3%) sits between Guinea-Bissau and Mexico, and Western Europe clusters at the bottom — Germany 2.5%, Switzerland 0.9%, Luxembourg 0.6%.</description>
-      <pubDate>Tue, 11 Aug 2026 00:14:47 GMT</pubDate>
     </item>
   </channel>
 </rss>
