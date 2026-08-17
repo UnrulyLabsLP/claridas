@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Aug 2026 23:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>In the global totals oceans look nearly as protected as land — 14.0% to 16.4% — but country by country the median nation guards just 1.85% of its seas</title>
+      <link>https://claridas.com/articles/world-30x30-ocean-protection-median-gap-2024/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/world-30x30-ocean-protection-median-gap-2024/</guid>
+      <description>We pulled the World Bank&apos;s 2024 protected-area coverage for every economy that reports it — 213 for land, 174 for sea — and read the two halves of the 30×30 pledge side by side. In the global area-weighted totals they look alike. In the distribution they are opposites: the typical economy has designated 16.9% of its land and 1.85% of its waters, 88 of 174 protect under 2% of their seas, and 26 protect none. The near-parity in the ocean total is a composition effect — the global figure (14.0%) sits above the average economy (9.6%) and far above the median (1.85%) because it is area-weighted: economies with larger marine areas tend to have higher-than-average coverage, so the weighted total runs well above the typical country. Only 5 of the 174 clear 30% on both land and sea. Figures are designated coverage, not the &apos;effectively conserved and managed&apos; the pledge asks for.</description>
+      <pubDate>Mon, 17 Aug 2026 12:40:00 GMT</pubDate>
+    </item>
     <item>
       <title>We read all 16 NFL preseason games at once: turnover margin picked the winner in just 7 — and 4 won it backward</title>
       <link>https://claridas.com/articles/nfl-preseason-turnover-battle-16-games-2026-08/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/interest-share-of-revenue-cross-country-2024/</guid>
       <description>Ranked by interest as a share of what a government takes in, the usual rich–poor order dissolves: Malawi (35.8%), Brazil (30.1%) and Panama (28.9%) top the list, the United States (20.3%) sits between Guinea-Bissau and Mexico, and Western Europe clusters at the bottom — Germany 2.5%, Switzerland 0.9%, Luxembourg 0.6%.</description>
       <pubDate>Tue, 11 Aug 2026 00:14:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>Treasury&apos;s customs ledger recorded the tariff take reversing in June — net receipts turned negative on a refund surge, a realized drop distinct from CBO&apos;s later full-year forecast cut</title>
-      <link>https://claridas.com/articles/tariff-windfall-reversal-customs-ledger-vs-cbo-2026-08/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/tariff-windfall-reversal-customs-ledger-vs-cbo-2026-08/</guid>
-      <description>Treasury&apos;s own June statement, which we read on August 9, already recorded $71.16 billion refunded on customs duties in May and June and net customs receipts turning negative. On August 10 the Congressional Budget Office raised its FY2026 deficit projection to about $2.1 trillion and said tariff collections would fall roughly $250 billion short of earlier expectations. The two numbers measure different things: one is a realized reversal in the actual ledger, the other is a forward cut to a full-year forecast.</description>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
