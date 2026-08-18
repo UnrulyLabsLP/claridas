@@ -1,0 +1,6 @@
+# Claridas News — security contact (RFC 9116)
+# If you find a security issue, tell us before you tell anyone else.
+Contact: https://claridas.com/contact
+Expires: 2027-08-11T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://claridas.com/.well-known/security.txt
