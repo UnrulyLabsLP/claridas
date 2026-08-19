@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Aug 2026 14:13:16 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 17:15:23 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The US labor market shed 787,000 monthly job exits since 2022 — and all of the drop is people who stopped quitting, while layoffs rose</title>
+      <link>https://claridas.com/articles/labor-market-cooling-quits-not-layoffs-jolts-2026-06/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/labor-market-cooling-quits-not-layoffs-jolts-2026-06/</guid>
+      <description>We read every month of the government&apos;s job-turnover record back to 2000. From the 2022 peak, monthly quits fell 1.27 million and layoffs and discharges rose about 450,000 — so the quits rate, now 2.0%, sits below where it was before the pandemic, while the layoff rate, 1.1%, stays lower than four-fifths of the past quarter-century.</description>
+      <pubDate>Mon, 17 Aug 2026 17:15:23 GMT</pubDate>
+    </item>
     <item>
       <title>Across the 78 WRs with 50+ targets in 2025, fantasy and opportunity ranks diverge — and the wedge is touchdowns</title>
       <link>https://claridas.com/articles/nfl-wr-opportunity-vs-touchdown-output-2025/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/life-expectancy-gender-gap-217-economies-2023/</guid>
       <description>On the World Bank&apos;s 2023 life-expectancy series, the female figure exceeds the male in all 217 economies with data — no exceptions. The size of that gap spans 34-fold, from +0.4 years in Togo to +13.3 in Ukraine, and it barely tracks overall longevity: its correlation with overall life expectancy is 0.04, essentially zero. The narrowest gaps sit at both income extremes — the Sahel and the Gulf — and the widest cluster in the post-Soviet states.</description>
       <pubDate>Tue, 11 Aug 2026 02:01:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>The U.S. Treasury holds 28% of all federal budget authority but has committed the least of it among the four largest agencies — so through June 2026, Health and Human Services, not Treasury, leads the government in dollars obligated</title>
-      <link>https://claridas.com/articles/budget-authority-obligation-rerank-execution-fy2026-q3/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/budget-authority-obligation-rerank-execution-fy2026-q3/</guid>
-      <description>Read the same 111-agency ledger two ways and the top four reorder. Treasury commands 28.1% of all federal budget authority yet has obligated 37.6% of it; HHS, second in authority at 21.4%, has obligated 64.6% and ranks first in dollars committed. Across the 36 agencies holding over $1 billion, the share of authority obligated runs from 2.6% to 95.6% — a spread that authority totals alone hide.</description>
-      <pubDate>Tue, 11 Aug 2026 01:12:44 GMT</pubDate>
     </item>
   </channel>
 </rss>
