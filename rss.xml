@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2026 23:11:07 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 14:18:22 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The gap between PPR and standard fantasy scoring is exactly one number — catches — and it reorders the receiver board</title>
+      <link>https://claridas.com/articles/nfl-ppr-vs-standard-reception-wedge-2025/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/nfl-ppr-vs-standard-reception-wedge-2025/</guid>
+      <description>We read every 2025 pass-catcher on both scoring systems most leagues draft from. The two boards differ by a single input — receptions — and it sorts possession receivers and field-stretchers into opposite tiers.</description>
+      <pubDate>Thu, 20 Aug 2026 14:18:22 GMT</pubDate>
+    </item>
     <item>
       <title>Toronto took 17 more shots than Indiana, grabbed 18 offensive boards — and led for none of the 40 minutes</title>
       <link>https://claridas.com/articles/toronto-tempo-17-more-shots-18-offensive-boards-never-led-2026-08-18/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/energy-access-electricity-vs-clean-cooking-2023/</guid>
       <description>On the World Bank&apos;s 2023 SDG-7 tracking series, the world reached 91.6% electricity access but 74.4% clean-cooking access — a 17.2-point gap. Electricity meets or exceeds clean cooking in 183 of 189 economies; six are fully electrified yet cook clean in under half of homes: Timor-Leste (19.1%), Bangladesh (28.4%), Sri Lanka (35.4%), Bosnia and Herzegovina (39.5%), Samoa (39.7%) and Guatemala (46.5%).</description>
       <pubDate>Tue, 11 Aug 2026 09:10:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>American blamed weather for 94% of its May cancellations; Delta blamed itself for 91% of its own — two carriers the same size, cancelling at nearly the same rate, filing opposite reasons</title>
-      <link>https://claridas.com/articles/cancellation-code-weather-hub-exposure-2026-05/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/cancellation-code-weather-hub-exposure-2026-05/</guid>
-      <description>Reading all 611,735 scheduled flights shows why: 82% of American&apos;s cancellations fell on five days and 40% were at its Dallas/Fort Worth hub — and on those storm days every airline at DFW coded &apos;weather,&apos; but American scrubbed 21% of its schedule there while Delta, United and Frontier cancelled 3 to 6%.</description>
-      <pubDate>Tue, 11 Aug 2026 08:23:24 GMT</pubDate>
     </item>
   </channel>
 </rss>
