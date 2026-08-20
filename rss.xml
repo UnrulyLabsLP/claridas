@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Aug 2026 23:16:35 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 13:30:00 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>16 economies withdraw more freshwater than their renewable supply provides each year — and in 12 of them, agriculture alone already exceeds it</title>
+      <link>https://claridas.com/articles/world-water-stress-16-economies-overdraw-irrigation-2026-08/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/world-water-stress-16-economies-overdraw-irrigation-2026-08/</guid>
+      <description>We read all 176 economies with a 2022 UN water-stress figure. The median country draws 10.7% of what its rivers, lakes and aquifers renew; these 16 draw more than 100%. The overdraft isn&apos;t the thirsty desert city of the cliché — it&apos;s farming, and it runs the length of the income ladder, from Kuwait to Pakistan.</description>
+      <pubDate>Wed, 19 Aug 2026 13:30:00 GMT</pubDate>
+    </item>
     <item>
       <title>New Orleans was 89% to win at halftime, then never scored again — and lost to Jacksonville on even yardage</title>
       <link>https://claridas.com/articles/nfl-saints-jaguars-second-half-collapse-2026-08-15/</link>
@@ -208,13 +215,6 @@
       <link>https://claridas.com/articles/denver-council-resolutions-contracts-composition-2025/</link>
       <guid isPermaLink="true">https://claridas.com/articles/denver-council-resolutions-contracts-composition-2025/</guid>
       <description>We pulled every matter the City and County of Denver introduced in calendar 2025 through the Granicus Legistar API — 2,020 in all. Of the 1,654 that were bills or resolutions, 1,346 (81.4%) were resolutions and 308 (18.6%) bills, a 4.37-to-1 ratio. Classifying each by title, 1,054 of the 1,654 (63.7%) carried contract, agreement, or amendment language, and 818 of the 1,346 resolution titles carried an explicit dollar figure. General ordinances — actual lawmaking, as distinct from bills that ratify a contract or set the budget — were 154 items, 9.3% of the 1,654, fewer than one in ten.</description>
-      <pubDate>Tue, 11 Aug 2026 03:35:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Through nine months of fiscal 2026 FEMA declared 82 disasters and posted $20.7 billion in net outlays — more disasters than two years earlier, less money, and 58% below last year</title>
-      <link>https://claridas.com/articles/fema-declarations-vs-outlays-nine-months-2026-06/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/fema-declarations-vs-outlays-nine-months-2026-06/</guid>
-      <description>FEMA&apos;s disaster-declaration count fell about a quarter from a year ago; its net outlays fell nearly three-fifths. Net dollars dropped 2.3 times as fast as disasters — and 2026&apos;s 82 declarations already outnumber 2024&apos;s 73, a year the agency spent 28% more (net) than 2026. Across four years the count and the cash don&apos;t even rank together: 2024 had the most major declarations and middling spending; 2025 had fewer major declarations than 2024 but nearly double the money.</description>
       <pubDate>Tue, 11 Aug 2026 03:35:07 GMT</pubDate>
     </item>
   </channel>
