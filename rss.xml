@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 23:11:07 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Toronto took 17 more shots than Indiana, grabbed 18 offensive boards — and led for none of the 40 minutes</title>
+      <link>https://claridas.com/articles/toronto-tempo-17-more-shots-18-offensive-boards-never-led-2026-08-18/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/toronto-tempo-17-more-shots-18-offensive-boards-never-led-2026-08-18/</guid>
+      <description>We charted every field-goal attempt in the Tempo&apos;s first home date with the Fever. Toronto out-shot, out-rebounded and out-shot-from-deep the visitor by raw counts — and lost by six, because Indiana turned 70 shots into 101 points while Toronto needed 87 to score 95.</description>
+      <pubDate>Wed, 19 Aug 2026 23:11:07 GMT</pubDate>
+    </item>
     <item>
       <title>Through ten months of fiscal 2025 the federal debt grew $176 billion less than the deficit; through the same ten months of fiscal 2026 it grew $335 billion more — a $511 billion swing, while the deficit itself rose $170 billion</title>
       <link>https://claridas.com/articles/deficit-debt-change-reconciliation-debt-limit-fy2026/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/nashville-council-2025-three-no-votes-rulebook-deferral/</guid>
       <description>We pulled all 27 Metropolitan Council meetings of calendar 2025 through the Granicus Legistar API — 3,440 agenda line-items, 2,653 with a recorded disposition. Exactly 3 carried the action label &apos;failed&apos;, and all three were proposed amendments to the council&apos;s own Rules of Procedure (Rule 12, brought and beaten twice; Rule 29). No bill, resolution, appointment, or contract carried that label. What the council slowed, it deferred: 212 times across 137 matters, with three zoning ordinances held six meetings each.</description>
       <pubDate>Tue, 11 Aug 2026 07:15:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>Retraction: this article has been withdrawn in full</title>
-      <link>https://claridas.com/articles/war-risk-premium-who-really-pays-the-hormuz-toll/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/war-risk-premium-who-really-pays-the-hormuz-toll/</guid>
-      <description>Published in August 2026, this piece did not meet our standards and has been retracted. We do not quietly delete — the notice below explains what was wrong and why.</description>
-      <pubDate>Tue, 11 Aug 2026 05:22:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
