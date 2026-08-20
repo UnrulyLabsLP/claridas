@@ -162,6 +162,13 @@
       <pubDate>Tue, 11 Aug 2026 20:09:11 GMT</pubDate>
     </item>
     <item>
+      <title>St Paul&apos;s City Council introduced 62 ordinances in 2025 — and 603 property cases. One in three items on its 2025 docket wasn&apos;t a law; it was a code or tax-assessment hearing.</title>
+      <link>https://claridas.com/articles/st-paul-council-603-hearings-62-ordinances-2025/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/st-paul-council-603-hearings-62-ordinances-2025/</guid>
+      <description>Across the full 2025 record of the Saint Paul City Council in the Granicus Legistar API — 1,790 matters introduced by the council body between Jan 1 and Dec 31, 2025 — 603 were &apos;Legislative Hearing&apos; resolutions: property-tax assessment appeals, nuisance-abatement orders, vacant-building registrations, condemnations. That is 33.7% of the council&apos;s 2025 docket, and 9.7 such quasi-judicial resolutions for every one of the 62 ordinances it introduced. Of 320 tax-assessment appeals on that docket, the titles record 177 upheld, 105 cancelled and 38 amended.</description>
+      <pubDate>Tue, 11 Aug 2026 19:11:55 GMT</pubDate>
+    </item>
+    <item>
       <title>We read all 68 reporters: the low-income trade-tax median (15.3%) is 16x the high-income median (0.95%); US 46th of 68</title>
       <link>https://claridas.com/articles/trade-tax-share-of-revenue-cross-country-2024/</link>
       <guid isPermaLink="true">https://claridas.com/articles/trade-tax-share-of-revenue-cross-country-2024/</guid>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/cancellation-code-weather-hub-exposure-2026-05/</guid>
       <description>Reading all 611,735 scheduled flights shows why: 82% of American&apos;s cancellations fell on five days and 40% were at its Dallas/Fort Worth hub — and on those storm days every airline at DFW coded &apos;weather,&apos; but American scrubbed 21% of its schedule there while Delta, United and Frontier cancelled 3 to 6%.</description>
       <pubDate>Tue, 11 Aug 2026 08:23:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nashville&apos;s 40-member Metro Council recorded 2,653 agenda actions in 2025 and voted down 3 — every one an edit to its own rulebook</title>
-      <link>https://claridas.com/articles/nashville-council-2025-three-no-votes-rulebook-deferral/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/nashville-council-2025-three-no-votes-rulebook-deferral/</guid>
-      <description>We pulled all 27 Metropolitan Council meetings of calendar 2025 through the Granicus Legistar API — 3,440 agenda line-items, 2,653 with a recorded disposition. Exactly 3 carried the action label &apos;failed&apos;, and all three were proposed amendments to the council&apos;s own Rules of Procedure (Rule 12, brought and beaten twice; Rule 29). No bill, resolution, appointment, or contract carried that label. What the council slowed, it deferred: 212 times across 137 matters, with three zoning ordinances held six meetings each.</description>
-      <pubDate>Tue, 11 Aug 2026 07:15:09 GMT</pubDate>
     </item>
   </channel>
 </rss>
