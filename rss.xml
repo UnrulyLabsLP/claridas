@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2026 13:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 14:16:37 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We read all 39 tight ends: 2025&apos;s fantasy TE order was set by touchdown rate — the one input that regresses</title>
+      <link>https://claridas.com/articles/fantasy-tight-end-td-rate-repriced-2025/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/fantasy-tight-end-td-rate-repriced-2025/</guid>
+      <description>Re-score every qualified tight end at the position&apos;s own scoring rate and the board shuffles up to five spots: Dallas Goedert&apos;s TE7 finish, built on 591 yards and 11 touchdowns, falls to TE12 — while Juwan Johnson&apos;s 889 yards climb from TE8 to TE5.</description>
+      <pubDate>Wed, 19 Aug 2026 14:16:37 GMT</pubDate>
+    </item>
     <item>
       <title>16 economies withdraw more freshwater than their renewable supply provides each year — and in 12 of them, agriculture alone already exceeds it</title>
       <link>https://claridas.com/articles/world-water-stress-16-economies-overdraw-irrigation-2026-08/</link>
@@ -20,6 +27,13 @@
       <guid isPermaLink="true">https://claridas.com/articles/nfl-saints-jaguars-second-half-collapse-2026-08-15/</guid>
       <description>The Saints scored on four of their first eight possessions and none of their last four; Jacksonville, down 20-6, answered with 18 unanswered points and won 24-20. Final yardage: 277 to 275. Read the two halves apart and a coin-flip box score becomes a game whose result turned on when each team scored.</description>
       <pubDate>Tue, 18 Aug 2026 23:16:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>The 179 economies that reported 2023 current-account balances don&apos;t sum to zero — they net to a $167 billion surplus, a hand-computable proxy for the global discrepancy the world&apos;s books have run since 2010</title>
+      <link>https://claridas.com/articles/world-current-account-discrepancy-phantom-surplus-2023/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/world-current-account-discrepancy-phantom-surplus-2023/</guid>
+      <description>A current-account balance is one country&apos;s mirror of another&apos;s, so across the complete world they must net to nothing. The 179 economies that reported for 2023 net to +$166.7 billion instead — larger than every national surplus in the panel except China&apos;s and Germany&apos;s. The ~38 non-reporting economies are the absent counterparties, so this reporter-sum is a proxy for the IMF&apos;s long-documented global current-account discrepancy, not a measure of it. And it is not a one-year glitch: the reporting economies have summed positive every year from 2010 to 2024, after summing to a deficit through the early 2000s.</description>
+      <pubDate>Tue, 18 Aug 2026 15:10:00 GMT</pubDate>
     </item>
     <item>
       <title>Fantasy&apos;s QB1 was passing&apos;s QB10: across all 45 qualified passers, Josh Allen&apos;s edge was 14 rushing touchdowns</title>
@@ -202,20 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/out-of-pocket-health-majority-192-economies-2022/</guid>
       <description>On the World Bank&apos;s 2022 out-of-pocket health series (WHO health-accounts source, SH.XPD.OOPC.CH.ZS), 31 of 192 economies financed the majority of health spending directly from patients&apos; pockets. The two highest shares belong to Turkmenistan (79.2%) and Armenia (79.1%) — both upper-middle-income — ahead of Afghanistan and Yemen. No high-income economy exceeds 50%, yet the burden tracks national income only loosely (correlation −0.42), and the world&apos;s spending-weighted average of 17.2% sits below the figure in most individual countries.</description>
       <pubDate>Tue, 11 Aug 2026 04:07:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>Boston&apos;s City Council passed 3 of every 4 measures in 2026 by suspending its own rules. It adopted 212 of them the same day they were filed, under a waiver it invoked 213 times.</title>
-      <link>https://claridas.com/articles/boston-council-rule-33-suspension-same-day-passage-2026/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/boston-council-rule-33-suspension-same-day-passage-2026/</guid>
-      <description>We pulled every item the Boston City Council disposed of across its 21 recorded-action meetings from January 5 to July 22, 2026, from the free Legistar API. Of the 391 measures it carried to final passage, 296 — 75.7% — passed by suspension of the rules rather than through committee. The council&apos;s Rule 33 forbids adopting a measure at the meeting where it is introduced and can be waived only by unanimous consent; the record shows that waiver invoked 213 times. Ordinances, loan orders, and most home-rule petitions still went the long way.</description>
-      <pubDate>Tue, 11 Aug 2026 03:35:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Denver&apos;s City Council introduced 4.37 resolutions for every bill in 2025 — and read across all 1,654 legislative items, nearly two-thirds carried contract, agreement, or amendment language in their titles</title>
-      <link>https://claridas.com/articles/denver-council-resolutions-contracts-composition-2025/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/denver-council-resolutions-contracts-composition-2025/</guid>
-      <description>We pulled every matter the City and County of Denver introduced in calendar 2025 through the Granicus Legistar API — 2,020 in all. Of the 1,654 that were bills or resolutions, 1,346 (81.4%) were resolutions and 308 (18.6%) bills, a 4.37-to-1 ratio. Classifying each by title, 1,054 of the 1,654 (63.7%) carried contract, agreement, or amendment language, and 818 of the 1,346 resolution titles carried an explicit dollar figure. General ordinances — actual lawmaking, as distinct from bills that ratify a contract or set the budget — were 154 items, 9.3% of the 1,654, fewer than one in ten.</description>
-      <pubDate>Tue, 11 Aug 2026 03:35:07 GMT</pubDate>
     </item>
   </channel>
 </rss>
