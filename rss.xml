@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2026 21:19:02 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 23:15:34 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fifty-five years ago the rich world promised 0.7% of its income as aid. In 2024, of the 32 donors who reaffirm the target, four met it and 22 cut — and together they gave 0.34%, less than half the line</title>
+      <link>https://claridas.com/articles/world-oda-07-percent-aid-target-dac-donors-2024/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/world-oda-07-percent-aid-target-dac-donors-2024/</guid>
+      <description>We read all 32 donors&apos; own OECD filings: 2024 was the first year since 1995 that France, Germany, the UK and the US all cut in the same year. The preliminary 2025 numbers are worse — aid fell 23.1% in real terms, the steepest drop ever recorded, after the United States, which never formally adopted the target, shut USAID and cut roughly 57%.</description>
+      <pubDate>Fri, 21 Aug 2026 23:15:34 GMT</pubDate>
+    </item>
     <item>
       <title>Preseason football scored 18% fewer points than a regular-season week — not sloppier, just shorter of the red zone</title>
       <link>https://claridas.com/articles/sports-nfl-preseason-scoring-mirrors-regular-season-2026/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/federal-outlays-by-agency-dispersion-fy2026-jul/</guid>
       <description>We differenced all 30 department and agency lines of the Monthly Treasury Statement against the same point last year. Net spending reached $6,284.2 billion, up 5.2%. Health and Human Services, the Department of the Treasury, Social Security and Veterans Affairs added $435.7 billion between them — 141% of the government&apos;s net increase — while the other 26 lines netted −$126.6 billion. Two of those 26, Education and the offsetting-receipts contra-line, account for most of that residual; Defense and HUD rose.</description>
       <pubDate>Sat, 15 Aug 2026 13:11:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>The world&apos;s &apos;most renewable&apos; economies tend to be its poorest — one energy metric blends modern solar and hydro with the wood and charcoal households still burn</title>
-      <link>https://claridas.com/articles/renewable-energy-share-biomass-inversion-2021/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/renewable-energy-share-biomass-inversion-2021/</guid>
-      <description>On the World Bank&apos;s 2021 renewable-energy-share series (212 economies), the number falls as income rises: low-income countries post a median 76.9%, high-income 11.6%. The 20 highest scorers are all but two in sub-Saharan Africa, and 14 of them give fewer than 15 in 100 people access to clean cooking. Iceland reports 82.4% renewable and 100% clean-cooking access; Burundi reports 83.1% and 0.2%.</description>
-      <pubDate>Sat, 15 Aug 2026 11:52:27 GMT</pubDate>
     </item>
   </channel>
 </rss>
