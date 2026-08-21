@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 14:11:40 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We read the UK&apos;s travel advice for all 29 Schengen countries: the same Entry/Exit System update landed on every page on the same six days</title>
+      <link>https://claridas.com/articles/uk-fcdo-ees-synchronized-waves-schengen-2026-08/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/uk-fcdo-ees-synchronized-waves-schengen-2026-08/</guid>
+      <description>Britain&apos;s Foreign Office publishes a dated change log for each country. Across all 29 Schengen states, its guidance on the EU Entry/Exit System moved on six shared dates between September 2024 and August 2026 — the wording word-for-word identical across the whole zone on five of them. Cyprus and Ireland, EU members outside the EES border zone, carry none of it. Only reading all 29 pages at once shows the edits are one central block, fanned out; the April 10, 2026 wave landed on the day the system went fully operational.</description>
+      <pubDate>Fri, 21 Aug 2026 14:11:40 GMT</pubDate>
+    </item>
     <item>
       <title>The federal debt crossed $40 trillion on Aug. 18. We read all 8,375 daily entries since 1993: the last ten trillion dollars took 4½ years, the first ten took nearly 16.</title>
       <link>https://claridas.com/articles/us-debt-40-trillion-milestone-pace-1993-2026/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/senate-recorded-votes-nominations-vs-bills-2026/</guid>
       <description>No desk reads every roll call end to end; we did. Through vote 231 on August 8, nomination business drew 94 of the 231 — 40.7%. Watch the three units, because they are not the same: of those 94, 49 were final confirmation votes; those 49 confirmed 170 nominations, because 2 were en-bloc votes that cleared 123 matters at once. Final passage of a bill accounts for 6 roll calls; cloture, 70.</description>
       <pubDate>Tue, 11 Aug 2026 20:09:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>St Paul&apos;s City Council introduced 62 ordinances in 2025 — and 603 property cases. One in three items on its 2025 docket wasn&apos;t a law; it was a code or tax-assessment hearing.</title>
-      <link>https://claridas.com/articles/st-paul-council-603-hearings-62-ordinances-2025/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/st-paul-council-603-hearings-62-ordinances-2025/</guid>
-      <description>Across the full 2025 record of the Saint Paul City Council in the Granicus Legistar API — 1,790 matters introduced by the council body between Jan 1 and Dec 31, 2025 — 603 were &apos;Legislative Hearing&apos; resolutions: property-tax assessment appeals, nuisance-abatement orders, vacant-building registrations, condemnations. That is 33.7% of the council&apos;s 2025 docket, and 9.7 such quasi-judicial resolutions for every one of the 62 ordinances it introduced. Of 320 tax-assessment appeals on that docket, the titles record 177 upheld, 105 cancelled and 38 amended.</description>
-      <pubDate>Tue, 11 Aug 2026 19:11:55 GMT</pubDate>
     </item>
   </channel>
 </rss>
