@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2026 11:11:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The federal debt crossed $40 trillion on Aug. 18. We read all 8,375 daily entries since 1993: the last ten trillion dollars took 4½ years, the first ten took nearly 16.</title>
+      <link>https://claridas.com/articles/us-debt-40-trillion-milestone-pace-1993-2026/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/us-debt-40-trillion-milestone-pace-1993-2026/</guid>
+      <description>Across the 35 one-trillion crossings the Treasury&apos;s daily ledger has fully recorded, the interval between them roughly halved around 2020 — from a median of about a year to about five months — and stayed there. The most recent trillion took 154 days, the 11th-fastest on record. Every figure here is nominal, and a fixed $1-trillion step is a shrinking share of a growing debt.</description>
+      <pubDate>Fri, 21 Aug 2026 13:11:40 GMT</pubDate>
+    </item>
     <item>
       <title>194 governments set a 90% child-vaccination floor to reach by 2020. In the target year the count of economies clearing it fell to 105 of 193 — and 2023 still trails 2019</title>
       <link>https://claridas.com/articles/world-child-vaccination-90-target-2020-193-economies-dtp3/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/st-paul-council-603-hearings-62-ordinances-2025/</guid>
       <description>Across the full 2025 record of the Saint Paul City Council in the Granicus Legistar API — 1,790 matters introduced by the council body between Jan 1 and Dec 31, 2025 — 603 were &apos;Legislative Hearing&apos; resolutions: property-tax assessment appeals, nuisance-abatement orders, vacant-building registrations, condemnations. That is 33.7% of the council&apos;s 2025 docket, and 9.7 such quasi-judicial resolutions for every one of the 62 ordinances it introduced. Of 320 tax-assessment appeals on that docket, the titles record 177 upheld, 105 cancelled and 38 amended.</description>
       <pubDate>Tue, 11 Aug 2026 19:11:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>We read all 68 reporters: the low-income trade-tax median (15.3%) is 16x the high-income median (0.95%); US 46th of 68</title>
-      <link>https://claridas.com/articles/trade-tax-share-of-revenue-cross-country-2024/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/trade-tax-share-of-revenue-cross-country-2024/</guid>
-      <description>A trade desk covers one tariff. We read the whole 2024 panel — taxes on international trade as a share of central-government revenue — and it sorts by income at the median: 15.3% for the eight low-income reporters against 0.95% for the 24 high-income ones. But the top of the panel is set by trade structure, not income: Namibia, a lower-middle-income economy, leads the 68 at 32.7%, nine points clear of the next, while France, Romania and Greece report near zero.</description>
-      <pubDate>Tue, 11 Aug 2026 19:03:20 GMT</pubDate>
     </item>
   </channel>
 </rss>
