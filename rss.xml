@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2026 14:11:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 15:09:23 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>All 78 WRs with 50+ targets in 2025: PPR points tracked volume, not depth — aDOT ran 3.7 to 19.0 and barely moved the total</title>
+      <link>https://claridas.com/articles/wr-target-depth-vs-fantasy-2025/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/wr-target-depth-vs-fantasy-2025/</guid>
+      <description>Across every wideout who saw 50 targets in the 2025 regular season, full-PPR points correlated 0.97 with receiving yards and −0.01 with how far downfield those targets flew. The pool&apos;s deepest-target receiver and a far shallower one finished six-tenths of a point apart.</description>
+      <pubDate>Fri, 21 Aug 2026 15:09:23 GMT</pubDate>
+    </item>
     <item>
       <title>We read the UK&apos;s travel advice for all 29 Schengen countries: the same Entry/Exit System update landed on every page on the same six days</title>
       <link>https://claridas.com/articles/uk-fcdo-ees-synchronized-waves-schengen-2026-08/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/athletics-rays-eight-run-eighth-win-probability-collapse-2026-08-10/</guid>
       <description>A 6-2 lead entering the eighth became a 10-6 loss in one half-inning. From one seat, a four-run road win; read end to end, the way we read it, both in-game win-probability feeds record a game they had all but decided, then not.</description>
       <pubDate>Tue, 11 Aug 2026 21:11:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>We read all 231 Senate roll calls of 2026 at once — nomination business drew 94, bill passage 6</title>
-      <link>https://claridas.com/articles/senate-recorded-votes-nominations-vs-bills-2026/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/senate-recorded-votes-nominations-vs-bills-2026/</guid>
-      <description>No desk reads every roll call end to end; we did. Through vote 231 on August 8, nomination business drew 94 of the 231 — 40.7%. Watch the three units, because they are not the same: of those 94, 49 were final confirmation votes; those 49 confirmed 170 nominations, because 2 were en-bloc votes that cleared 123 matters at once. Final passage of a bill accounts for 6 roll calls; cloture, 70.</description>
-      <pubDate>Tue, 11 Aug 2026 20:09:11 GMT</pubDate>
     </item>
   </channel>
 </rss>
