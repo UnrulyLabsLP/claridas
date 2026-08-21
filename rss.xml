@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 05:13:15 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We read all 15 of MLS&apos;s Wednesday games: the team with more of the ball won 4 and lost 8</title>
+      <link>https://claridas.com/articles/mls-15-game-wednesday-possession-shots-vs-result-2026-08-19/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/mls-15-game-wednesday-possession-shots-vs-result-2026-08-19/</guid>
+      <description>Across the complete August 19 slate, the side that kept more possession went 4-3-8 and the side that took more shots did worse (3-2-9). Only shots on target pointed the right way — and barely, 6-3-5.</description>
+      <pubDate>Fri, 21 Aug 2026 05:13:15 GMT</pubDate>
+    </item>
     <item>
       <title>Treasury made paying down the national debt a Venmo tap. In the nine months since, Americans gave $525,353 — the second-lowest October-to-June total on record, and about 15 seconds of interest on the debt.</title>
       <link>https://claridas.com/articles/gifts-to-reduce-public-debt-fy2026-second-lowest-vs-interest/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/carabao-cup-first-round-penalties-all-1-1-2026-08/</guid>
       <description>A fan follows one club; we read the whole round. Eight of 34 first-round ties were settled from the spot, where home and away split the shootouts 4-4. Across the round the home side advanced 19 times to 15, a 55.9% share.</description>
       <pubDate>Tue, 11 Aug 2026 16:22:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>The US inflation index has no October 2025 — in our sample, the three survivors line up with BLS&apos;s non-survey series</title>
-      <link>https://claridas.com/articles/cpi-october-2025-hole-selective-survivors-2026/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/cpi-october-2025-hole-selective-survivors-2026/</guid>
-      <description>You skim one number; we pull a set of series and read the footnote layer whole. In this run the all-items CPI and six of the eight major expenditure groups we queried return footnote code X for October 2025: &apos;Data unavailable due to the 2025 lapse in appropriations.&apos; Three narrow indexes underneath them kept their reading: gasoline (277.021), new vehicles (178.723), used cars (186.962). BLS says it did not publish the October aggregates because the lapse stopped survey collection, and that it could still publish the few indexes it builds from non-survey data. That the three we saw survive are those non-survey indexes is our inference [modeled], not a per-series BLS statement.</description>
-      <pubDate>Tue, 11 Aug 2026 15:11:34 GMT</pubDate>
     </item>
   </channel>
 </rss>
