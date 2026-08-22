@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Aug 2026 02:14:21 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 03:16:18 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We read the four completed NFL preseason games: the losers went 0-for-5 in the red zone, the winners 12-for-13</title>
+      <link>https://claridas.com/articles/sports-nfl-preseason-red-zone-winners-losers-2026/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/sports-nfl-preseason-red-zone-winners-losers-2026/</guid>
+      <description>The four beaten teams — Steelers, Jaguars, Texans, Chargers — reached the red zone five times and scored no touchdowns. Two of them found the end zone on defense — pick-sixes of 80 and 16 yards — but none scored one from inside the 20, and Houston put up 20 points on zero red-zone snaps and still lost by two.</description>
+      <pubDate>Sat, 22 Aug 2026 03:16:18 GMT</pubDate>
+    </item>
     <item>
       <title>We read all 32 kickers: accuracy barely moved the 2025 fantasy order — attempts did, and the offense owns those</title>
       <link>https://claridas.com/articles/sports-nfl-kicker-fantasy-accuracy-vs-attempts-2025/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/treasury-interest-rate-by-instrument-inverted-cost-curve-2026-07/</guid>
       <description>One blended rate stands in for the whole federal debt. We pulled the complete July 2026 ledger it summarizes: 13 categories of interest-bearing securities, spanning 1.127% on inflation-protected notes to 7.577% on a legacy nonmarketable series. On the tradable book the order has flipped from the textbook — Treasury Bills average 3.758%, above Bonds (3.442%) and Notes (3.309%) — and that inversion has held in every January since 2023, after three straight Januaries (2020–2022) in which the rate rose normally from bills to notes to bonds.</description>
       <pubDate>Sat, 15 Aug 2026 17:16:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Seattle won four box-score columns and never led once. We read the whole sheet: it shot 31% on two-pointers</title>
-      <link>https://claridas.com/articles/storm-never-led-two-point-shooting-fire-2026-08-14/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/storm-never-led-two-point-shooting-fire-2026-08-14/</guid>
-      <description>Portland won 84-82 at Climate Pledge Arena on 19 made two-pointers to Seattle&apos;s 13. That column was a 12-point edge — the final margin, once you subtract the Storm&apos;s +6 from three and +4 from the line. It is the one column the final score hides.</description>
-      <pubDate>Sat, 15 Aug 2026 15:30:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
