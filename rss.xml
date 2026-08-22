@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2026 23:15:34 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 02:14:21 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We read all 32 kickers: accuracy barely moved the 2025 fantasy order — attempts did, and the offense owns those</title>
+      <link>https://claridas.com/articles/sports-nfl-kicker-fantasy-accuracy-vs-attempts-2025/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/sports-nfl-kicker-fantasy-accuracy-vs-attempts-2025/</guid>
+      <description>One primary kicker per team, the full 2025 regular season. Field-goal accuracy ranged 66.7% to 96.6% and correlated 0.39 with fantasy points. Attempts correlated 0.95 — and attempts belong to the offense, not the leg.</description>
+      <pubDate>Sat, 22 Aug 2026 02:14:21 GMT</pubDate>
+    </item>
     <item>
       <title>Fifty-five years ago the rich world promised 0.7% of its income as aid. In 2024, of the 32 donors who reaffirm the target, four met it and 22 cut — and together they gave 0.34%, less than half the line</title>
       <link>https://claridas.com/articles/world-oda-07-percent-aid-target-dac-donors-2024/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/storm-never-led-two-point-shooting-fire-2026-08-14/</guid>
       <description>Portland won 84-82 at Climate Pledge Arena on 19 made two-pointers to Seattle&apos;s 13. That column was a 12-point edge — the final margin, once you subtract the Storm&apos;s +6 from three and +4 from the line. It is the one column the final score hides.</description>
       <pubDate>Sat, 15 Aug 2026 15:30:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Federal outlays rose $309 billion through July, yet 19 of 29 agencies spent less — four lines covered the whole increase</title>
-      <link>https://claridas.com/articles/federal-outlays-by-agency-dispersion-fy2026-jul/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/federal-outlays-by-agency-dispersion-fy2026-jul/</guid>
-      <description>We differenced all 30 department and agency lines of the Monthly Treasury Statement against the same point last year. Net spending reached $6,284.2 billion, up 5.2%. Health and Human Services, the Department of the Treasury, Social Security and Veterans Affairs added $435.7 billion between them — 141% of the government&apos;s net increase — while the other 26 lines netted −$126.6 billion. Two of those 26, Education and the offsetting-receipts contra-line, account for most of that residual; Defense and HUD rose.</description>
-      <pubDate>Sat, 15 Aug 2026 13:11:41 GMT</pubDate>
     </item>
   </channel>
 </rss>
