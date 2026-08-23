@@ -5,8 +5,22 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 21:13:42 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We read all 15 of Friday&apos;s MLB games: home teams went 14-1, and swept every one-run game</title>
+      <link>https://claridas.com/articles/mlb-home-teams-14-1-full-slate-august-21-2026/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/mlb-home-teams-14-1-full-slate-august-21-2026/</guid>
+      <description>On a night the league is normally a 52.7% coin flip at home, the road won exactly once — Cleveland&apos;s 9-1 rout at Coors, an 8-run blowout, though not the night&apos;s biggest: that was Arizona&apos;s 9-0 shutout of Cincinnati, a home win. Every game decided by a single run went to the home team, three of them on a 10th-inning walk-off.</description>
+      <pubDate>Sat, 22 Aug 2026 21:13:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>The U.S. government finalized 1,932 rules in the first eight months of 2026 — and posted almost as many notices asking the public for paperwork. Read all 16,775 Federal Register entries and four in five are notices, not law</title>
+      <link>https://claridas.com/articles/us-federal-register-2026-mostly-notices-not-rules/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/us-federal-register-2026-mostly-notices-not-rules/</guid>
+      <description>Every document the Federal Register published from Jan. 1 to Aug. 22, 2026 is filed under exactly one type. Notices ran 80.4% of the total, rulemaking 18.6% — the same 80-to-83% notice band the Register has held three straight years. The largest single notice genre isn&apos;t a decision at all; it&apos;s an agency asking OMB for permission to collect information.</description>
+      <pubDate>Sat, 22 Aug 2026 19:14:31 GMT</pubDate>
+    </item>
     <item>
       <title>A flesh-eating parasite closed the US cattle border for 15 months. The Aug. 24 reopening at one Arizona port turns a disease-control call into a fight over who gets the animals — and the high prices they carry.</title>
       <link>https://claridas.com/articles/us-screwworm-cattle-border-closure-reopening-2026/</link>
@@ -134,6 +148,13 @@
       <pubDate>Fri, 21 Aug 2026 11:11:14 GMT</pubDate>
     </item>
     <item>
+      <title>The world&apos;s forests shrank by 96 million hectares in 20 years — but 82 of 207 countries gained forest, and five tropical nations drove more than half the loss</title>
+      <link>https://claridas.com/articles/world-forest-2000-2020-net-loss-concentrated-china-offset/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/world-forest-2000-2020-net-loss-concentrated-china-offset/</guid>
+      <description>Read every national ledger and the net decline dissolves into a tug-of-war: China alone added half of all the forest the world gained — offsetting a quarter of the losses on a metric that counts a new plantation the same as a felled rainforest.</description>
+      <pubDate>Fri, 21 Aug 2026 05:20:00 GMT</pubDate>
+    </item>
+    <item>
       <title>We read all 15 of MLS&apos;s Wednesday games: the team with more of the ball won 4 and lost 8</title>
       <link>https://claridas.com/articles/mls-15-game-wednesday-possession-shots-vs-result-2026-08-19/</link>
       <guid isPermaLink="true">https://claridas.com/articles/mls-15-game-wednesday-possession-shots-vs-result-2026-08-19/</guid>
@@ -195,27 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/world-water-stress-16-economies-overdraw-irrigation-2026-08/</guid>
       <description>We read all 176 economies with a 2022 UN water-stress figure. The median country draws 10.7% of what its rivers, lakes and aquifers renew; these 16 draw more than 100%. The overdraft isn&apos;t the thirsty desert city of the cliché — it&apos;s farming, and it runs the length of the income ladder, from Kuwait to Pakistan.</description>
       <pubDate>Wed, 19 Aug 2026 13:30:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>New Orleans was 89% to win at halftime, then never scored again — and lost to Jacksonville on even yardage</title>
-      <link>https://claridas.com/articles/nfl-saints-jaguars-second-half-collapse-2026-08-15/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/nfl-saints-jaguars-second-half-collapse-2026-08-15/</guid>
-      <description>The Saints scored on four of their first eight possessions and none of their last four; Jacksonville, down 20-6, answered with 18 unanswered points and won 24-20. Final yardage: 277 to 275. Read the two halves apart and a coin-flip box score becomes a game whose result turned on when each team scored.</description>
-      <pubDate>Tue, 18 Aug 2026 23:16:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>The 179 economies that reported 2023 current-account balances don&apos;t sum to zero — they net to a $167 billion surplus, a hand-computable proxy for the global discrepancy the world&apos;s books have run since 2010</title>
-      <link>https://claridas.com/articles/world-current-account-discrepancy-phantom-surplus-2023/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/world-current-account-discrepancy-phantom-surplus-2023/</guid>
-      <description>A current-account balance is one country&apos;s mirror of another&apos;s, so across the complete world they must net to nothing. The 179 economies that reported for 2023 net to +$166.7 billion instead — larger than every national surplus in the panel except China&apos;s and Germany&apos;s. The ~38 non-reporting economies are the absent counterparties, so this reporter-sum is a proxy for the IMF&apos;s long-documented global current-account discrepancy, not a measure of it. And it is not a one-year glitch: the reporting economies have summed positive every year from 2010 to 2024, after summing to a deficit through the early 2000s.</description>
-      <pubDate>Tue, 18 Aug 2026 15:10:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Fantasy&apos;s QB1 was passing&apos;s QB10: across all 45 qualified passers, Josh Allen&apos;s edge was 14 rushing touchdowns</title>
-      <link>https://claridas.com/articles/nfl-qb1-rushing-td-vs-passing-2025/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/nfl-qb1-rushing-td-vs-passing-2025/</guid>
-      <description>We read every quarterback who threw 100 passes in 2025 and ranked them twice. On his arm alone Josh Allen finishes 10th; his QB1 season is 138 points of rushing — and Drake Maye ran nearly as often for a quarter of the scores.</description>
-      <pubDate>Tue, 18 Aug 2026 14:18:59 GMT</pubDate>
     </item>
   </channel>
 </rss>
