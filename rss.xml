@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Aug 2026 18:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 23:18:28 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One 2030 deadline covers both safe water and safe sewage — but across the 123 countries and economies reporting both for 2024, water leads in 83 and sanitation leads in 37</title>
+      <link>https://claridas.com/articles/world-sdg6-water-sanitation-crossover-123-countries-2024/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/world-sdg6-water-sanitation-crossover-123-countries-2024/</guid>
+      <description>We read the WHO and UNICEF Joint Monitoring Programme&apos;s 2024 estimates for every economy carrying both halves of SDG 6. Globally, safely managed drinking water (74%) outruns sanitation (58%) — yet country by country the lead flips: Morocco&apos;s water beats its sanitation by 71 points, Nepal&apos;s sanitation beats its water by 37.</description>
+      <pubDate>Sun, 23 Aug 2026 23:18:28 GMT</pubDate>
+    </item>
     <item>
       <title>The world promised zero hunger by 2030. Its official gauge can&apos;t report any value below 2.5% — and 62 of the 165 economies it scored for 2023 are recorded at that floor</title>
       <link>https://claridas.com/articles/world-zero-hunger-undernourishment-25-percent-floor-2023/</link>
@@ -41,6 +48,13 @@
       <guid isPermaLink="true">https://claridas.com/articles/world-tax-to-gdp-2024-measures-structure-not-burden/</guid>
       <description>We read every economy&apos;s latest filing in the IMF/World Bank tax series. The number most often cited for how heavily a country taxes barely tracks income, and doesn&apos;t rise with it in order — because it counts only central-government tax, drops most social security, and omits every state and local levy. So it can&apos;t be read across countries as total tax burden — the ranking is shaped by fiscal architecture as much as by how much a country taxes.</description>
       <pubDate>Sun, 23 Aug 2026 11:14:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>We read all 33 backs who carried 150+ times in 2025: the yards they made after contact ran 33% to 61% of their total</title>
+      <link>https://claridas.com/articles/nfl-rb-2025-yards-before-after-contact-split/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/nfl-rb-2025-yards-before-after-contact-split/</guid>
+      <description>Pro Football Reference splits every rushing yard into what a back gained before a defender touched him and what he gained after. Read across the whole workhorse pool, the same rushing-yards line hides two very different stories — Jahmyr Gibbs got two-thirds of his yards before contact, Quinshon Judkins made 61% of his after it, on the thinnest before-contact cushion of the group.</description>
+      <pubDate>Sun, 23 Aug 2026 02:09:02 GMT</pubDate>
     </item>
     <item>
       <title>The U.S. Treasury took in $35.4 trillion through August of fiscal 2026 — and 84 cents of every dollar of it was fresh borrowing, not revenue</title>
@@ -202,20 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/wr-target-depth-vs-fantasy-2025/</guid>
       <description>Across every wideout who saw 50 targets in the 2025 regular season, full-PPR points correlated 0.97 with receiving yards and −0.01 with how far downfield those targets flew. The pool&apos;s deepest-target receiver and a far shallower one finished six-tenths of a point apart.</description>
       <pubDate>Fri, 21 Aug 2026 15:09:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>We read the UK&apos;s travel advice for all 29 Schengen countries: the same Entry/Exit System update landed on every page on the same six days</title>
-      <link>https://claridas.com/articles/uk-fcdo-ees-synchronized-waves-schengen-2026-08/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/uk-fcdo-ees-synchronized-waves-schengen-2026-08/</guid>
-      <description>Britain&apos;s Foreign Office publishes a dated change log for each country. Across all 29 Schengen states, its guidance on the EU Entry/Exit System moved on six shared dates between September 2024 and August 2026 — the wording word-for-word identical across the whole zone on five of them. Cyprus and Ireland, EU members outside the EES border zone, carry none of it. Only reading all 29 pages at once shows the edits are one central block, fanned out; the April 10, 2026 wave landed on the day the system went fully operational.</description>
-      <pubDate>Fri, 21 Aug 2026 14:11:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>The federal debt crossed $40 trillion on Aug. 18. We read all 8,375 daily entries since 1993: the last ten trillion dollars took 4½ years, the first ten took nearly 16.</title>
-      <link>https://claridas.com/articles/us-debt-40-trillion-milestone-pace-1993-2026/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/us-debt-40-trillion-milestone-pace-1993-2026/</guid>
-      <description>Across the 35 one-trillion crossings the Treasury&apos;s daily ledger has fully recorded, the interval between them roughly halved around 2020 — from a median of about a year to about five months — and stayed there. The most recent trillion took 154 days, the 11th-fastest on record. Every figure here is nominal, and a fixed $1-trillion step is a shrinking share of a growing debt.</description>
-      <pubDate>Fri, 21 Aug 2026 13:11:40 GMT</pubDate>
     </item>
   </channel>
 </rss>
