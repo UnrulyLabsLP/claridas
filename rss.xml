@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2026 02:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 09:12:00 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We read all 15 of Sunday&apos;s MLB games: in 12, the winner&apos;s biggest inning matched or beat the loser&apos;s whole night</title>
+      <link>https://claridas.com/articles/mlb-big-inning-outscored-loser-total-slate-2026-08-23/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/mlb-big-inning-outscored-loser-total-slate-2026-08-23/</guid>
+      <description>Across 141 runs on the Aug. 23 slate, 56.7% scored in each team&apos;s single biggest inning. Only three winners ground it out — one of them without ever scoring more than a single run in an inning.</description>
+      <pubDate>Mon, 24 Aug 2026 09:12:00 GMT</pubDate>
+    </item>
     <item>
       <title>We read all 32 NFL backfields: on a third, the back who runs the ball isn&apos;t the back who catches it</title>
       <link>https://claridas.com/articles/nfl-rb-runner-vs-receiver-backfield-split-2025/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/travel-advisory-six-month-review-overdue-2026-08/</guid>
       <description>We read the timestamp on every U.S. travel advisory in the government&apos;s own feed: 210 destinations, each carrying the date it was last reissued. Measured against the review cadence State commits to in writing — 12 months for Levels 1–2, six months for Levels 3–4 — 80 were past due, and the breaches cluster in the tier the department says it watches most closely.</description>
       <pubDate>Fri, 21 Aug 2026 20:40:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>The office that compiles the Code of Federal Regulations keeps a public log of its own editorial errors. We read all 3,410: it fixes them in weeks now, not the months it once took — and one title holds nearly a fifth.</title>
-      <link>https://claridas.com/articles/us-ecfr-corrections-log-federal-register-editorial-errors/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/us-ecfr-corrections-log-federal-register-editorial-errors/</guid>
-      <description>The eCFR Corrections Compilation records only mistakes the Office of the Federal Register itself makes processing amendments into the code; agency errors are excluded. Across the 3,410 corrections logged since 2005, Title 40 (Protection of Environment) accounts for 18.8%, the median fix time fell from about five months to about three weeks, and the decades-long errors are nearly all cleanup from when the code first went electronic.</description>
-      <pubDate>Fri, 21 Aug 2026 19:08:48 GMT</pubDate>
     </item>
   </channel>
 </rss>
