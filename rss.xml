@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Aug 2026 17:17:36 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 18:30:00 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The world promised zero hunger by 2030. Its official gauge can&apos;t report any value below 2.5% — and 62 of the 165 economies it scored for 2023 are recorded at that floor</title>
+      <link>https://claridas.com/articles/world-zero-hunger-undernourishment-25-percent-floor-2023/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/world-zero-hunger-undernourishment-25-percent-floor-2023/</guid>
+      <description>The same series lands China, Brazil and Norway alike on that single 2.5% floor and can&apos;t tell which of them sit at it and which fall below. Its companion SDG indicator puts food insecurity at 10% in the United States and 14% in Brazil — the floor is the instrument&apos;s limit, not the finding.</description>
+      <pubDate>Sun, 23 Aug 2026 18:30:00 GMT</pubDate>
+    </item>
     <item>
       <title>The EU has pledged 3% of GDP on research for 24 years, through deadlines in 2010, 2020 and now 2030 — its own data show the bloc has never reached it, and no more than 6 of 27 members clear the line</title>
       <link>https://claridas.com/articles/world-eu-rd-3-percent-target-6-of-27-2023/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/us-debt-40-trillion-milestone-pace-1993-2026/</guid>
       <description>Across the 35 one-trillion crossings the Treasury&apos;s daily ledger has fully recorded, the interval between them roughly halved around 2020 — from a median of about a year to about five months — and stayed there. The most recent trillion took 154 days, the 11th-fastest on record. Every figure here is nominal, and a fixed $1-trillion step is a shrinking share of a growing debt.</description>
       <pubDate>Fri, 21 Aug 2026 13:11:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>194 governments set a 90% child-vaccination floor to reach by 2020. In the target year the count of economies clearing it fell to 105 of 193 — and 2023 still trails 2019</title>
-      <link>https://claridas.com/articles/world-child-vaccination-90-target-2020-193-economies-dtp3/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/world-child-vaccination-90-target-2020-193-economies-dtp3/</guid>
-      <description>We read WHO and UNICEF&apos;s DTP3 coverage estimates for every economy, every year since 2019. The backslide isn&apos;t only poor or war-torn states — nine high-income economies miss the mark, and on measles, the disease that needs near-95% coverage, barely half the world clears even 90 on the first dose.</description>
-      <pubDate>Fri, 21 Aug 2026 11:11:14 GMT</pubDate>
     </item>
   </channel>
 </rss>
