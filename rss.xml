@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Aug 2026 23:18:28 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 02:20:00 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We read all 32 NFL backfields: on a third, the back who runs the ball isn&apos;t the back who catches it</title>
+      <link>https://claridas.com/articles/nfl-rb-runner-vs-receiver-backfield-split-2025/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/nfl-rb-runner-vs-receiver-backfield-split-2025/</guid>
+      <description>In 2025 the leading rusher and the leading pass-catcher were different players in 10 of 32 backfields, and 15 lead runners took under half their own backfield&apos;s catches — the passing down is a separately owned job the depth-chart &apos;starter&apos; label hides.</description>
+      <pubDate>Mon, 24 Aug 2026 02:20:00 GMT</pubDate>
+    </item>
     <item>
       <title>One 2030 deadline covers both safe water and safe sewage — but across the 123 countries and economies reporting both for 2024, water leads in 83 and sanitation leads in 37</title>
       <link>https://claridas.com/articles/world-sdg6-water-sanitation-crossover-123-countries-2024/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/us-ecfr-corrections-log-federal-register-editorial-errors/</guid>
       <description>The eCFR Corrections Compilation records only mistakes the Office of the Federal Register itself makes processing amendments into the code; agency errors are excluded. Across the 3,410 corrections logged since 2005, Title 40 (Protection of Environment) accounts for 18.8%, the median fix time fell from about five months to about three weeks, and the decades-long errors are nearly all cleanup from when the code first went electronic.</description>
       <pubDate>Fri, 21 Aug 2026 19:08:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>The world set two remittance-cost targets for 2030 — under 3%, nothing above 5%. Across the 103 economies the World Bank prices, 52 clear the goal and 24 remain above the ceiling — and what a country pays barely tracks how much it leans on the money</title>
-      <link>https://claridas.com/articles/world-remittance-cost-sdg-2030-target-103-economies/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/world-remittance-cost-sdg-2030-target-103-economies/</guid>
-      <description>We joined receiving cost with remittance dependence for 102 of them, and the correlation is 0.05. El Salvador takes in remittances worth 27.5% of its GDP at 2.00%; Cuba pays 19.63%. The number that stays stubbornly high is the one migrants actually face — the transaction-weighted global average, 6.4%, more than double our country-level median of 2.9%.</description>
-      <pubDate>Fri, 21 Aug 2026 17:08:28 GMT</pubDate>
     </item>
   </channel>
 </rss>
