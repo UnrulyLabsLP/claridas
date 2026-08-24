@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Aug 2026 13:11:56 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 17:17:36 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The EU has pledged 3% of GDP on research for 24 years, through deadlines in 2010, 2020 and now 2030 — its own data show the bloc has never reached it, and no more than 6 of 27 members clear the line</title>
+      <link>https://claridas.com/articles/world-eu-rd-3-percent-target-6-of-27-2023/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/world-eu-rd-3-percent-target-6-of-27-2023/</guid>
+      <description>At the 2010 deadline 2 of the 27 member states cleared 3%; at the 2020 deadline, 4; in the latest year, 6 — the same count in Eurostat&apos;s own data, which put Denmark at 3.07%. The EU-wide figure was 2.26% in 2023, fractionally below the 2.28% of its 2020 target year. The median member spends 1.56% of GDP on research — barely half the pledge — and 18 of the 27 sit below even 2%, from Sweden&apos;s 3.60% down to Romania&apos;s 0.52%.</description>
+      <pubDate>Sun, 23 Aug 2026 17:17:36 GMT</pubDate>
+    </item>
     <item>
       <title>We read all 387 Treasury auctions of fiscal 2026: the primary dealers expected to bid at every sale were awarded 34% of the bills — and 11% of the bonds</title>
       <link>https://claridas.com/articles/treasury-auctions-fy2026-primary-dealer-takedown-bills-vs-bonds/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/senate-2026-pac-share-7-percent-of-976-million-candidate-receipts/</guid>
       <description>The candidate committees of the 307 active Senate contenders who have reported money to the FEC took in $977.6 million this cycle. Political-action committees account for $69.4 million of it — 7.1%. The picture inverts the popular one: the biggest war chests are among the least PAC-reliant, PAC dollars cluster on a handful of veteran incumbents, and none of it counts the unlimited super-PAC money that never touches a candidate&apos;s account.</description>
       <pubDate>Fri, 21 Aug 2026 07:24:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>The world&apos;s forests shrank by 96 million hectares in 20 years — but 82 of 207 countries gained forest, and five tropical nations drove more than half the loss</title>
-      <link>https://claridas.com/articles/world-forest-2000-2020-net-loss-concentrated-china-offset/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/world-forest-2000-2020-net-loss-concentrated-china-offset/</guid>
-      <description>Read every national ledger and the net decline dissolves into a tug-of-war: China alone added half of all the forest the world gained — offsetting a quarter of the losses on a metric that counts a new plantation the same as a felled rainforest.</description>
-      <pubDate>Fri, 21 Aug 2026 05:20:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
