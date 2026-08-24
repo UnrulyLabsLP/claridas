@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Aug 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 13:11:56 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We read all 387 Treasury auctions of fiscal 2026: the primary dealers expected to bid at every sale were awarded 34% of the bills — and 11% of the bonds</title>
+      <link>https://claridas.com/articles/treasury-auctions-fy2026-primary-dealer-takedown-bills-vs-bonds/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/treasury-auctions-fy2026-primary-dealer-takedown-bills-vs-bonds/</guid>
+      <description>The broker-dealers the New York Fed expects to bid pro-rata at every auction were awarded 30.9% of the $26.86 trillion Treasury sold competitively through Aug. 20. But that dealer share is almost entirely a bills phenomenon — on notes and bonds, end-user bidders took 86.7%. Whether a heavy dealer takedown signals weak demand is a market convention, not something the record proves, and &apos;indirect&apos; is a bidding channel, not a synonym for foreign buyers.</description>
+      <pubDate>Sun, 23 Aug 2026 13:11:56 GMT</pubDate>
+    </item>
     <item>
       <title>One in three dollars of the Treasury&apos;s $31.45 trillion in marketable debt comes due within a year — we read all 462 securities, and the share is rising while the average maturity shortens</title>
       <link>https://claridas.com/articles/us-treasury-marketable-debt-maturity-wall-one-third-2026/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/world-forest-2000-2020-net-loss-concentrated-china-offset/</guid>
       <description>Read every national ledger and the net decline dissolves into a tug-of-war: China alone added half of all the forest the world gained — offsetting a quarter of the losses on a metric that counts a new plantation the same as a felled rainforest.</description>
       <pubDate>Fri, 21 Aug 2026 05:20:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>We read all 15 of MLS&apos;s Wednesday games: the team with more of the ball won 4 and lost 8</title>
-      <link>https://claridas.com/articles/mls-15-game-wednesday-possession-shots-vs-result-2026-08-19/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/mls-15-game-wednesday-possession-shots-vs-result-2026-08-19/</guid>
-      <description>Across the complete August 19 slate, the side that kept more possession went 4-3-8 and the side that took more shots did worse (3-2-9). Only shots on target pointed the right way — and barely, 6-3-5.</description>
-      <pubDate>Fri, 21 Aug 2026 05:13:15 GMT</pubDate>
     </item>
   </channel>
 </rss>
