@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2026 21:22:02 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 23:33:21 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The world pledged electricity for everyone by 2030. On its own 2024 numbers 655 million people are still without it — and among the 210 countries that report both rates, 83% of the unpowered live in the countryside</title>
+      <link>https://claridas.com/articles/world-electricity-access-2030-rural-deficit-2024/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/world-electricity-access-2030-rural-deficit-2024/</guid>
+      <description>We read the World Bank&apos;s 2024 access figures for all 215 reporting economies. Access is nearly universal in the cities — 98% globally — and the shortfall has collapsed onto the village: DR Congo reaches 55% of its urban residents and 1% of its rural ones, and eight countries hold half the people still in the dark.</description>
+      <pubDate>Fri, 28 Aug 2026 23:33:21 GMT</pubDate>
+    </item>
     <item>
       <title>We read all 10 Serie A openers: home and away scored 12 goals apiece — and the road teams won 6 of 10</title>
       <link>https://claridas.com/articles/serie-a-opening-round-road-teams-6-of-10-2026-08/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/us-federal-interest-expense-composition-short-end-fy2026/</guid>
       <description>We read the Treasury&apos;s full interest-expense ledger for the first ten months of fiscal 2026 by security type. Interest accrued on Treasury notes rose 17.8% from a year earlier, bonds 13.5% and inflation-linked TIPS 58.3% — while interest on bills fell 8.0% and floating-rate notes 7.2%. The relief is real but concentrated: bills and FRNs are about a quarter of the $900 billion marketable interest bill, and their decline is consistent with lower short-term rates, not something these data can separate from issuance.</description>
       <pubDate>Sat, 22 Aug 2026 07:19:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>In 2024 the world&apos;s second-largest net gainer of people was Ukraine — two years after it recorded the biggest one-year population outflow of any country this decade</title>
-      <link>https://claridas.com/articles/world-net-migration-ukraine-reversal-2024/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/world-net-migration-ukraine-reversal-2024/</guid>
-      <description>We summed the UN&apos;s net-migration estimate for all 217 countries. Ukraine swings from −5,699,445 in 2022 to +1,146,012 in 2024, behind only the United States — and read whole, 2024&apos;s ledger tracks where wars paused more than where opportunity concentrates.</description>
-      <pubDate>Sat, 22 Aug 2026 05:10:04 GMT</pubDate>
     </item>
   </channel>
 </rss>
