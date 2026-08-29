@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Aug 2026 15:15:52 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 17:09:02 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The EU writes two numbers into its own treaties — debt under 60% of GDP, deficit under 3%. On its 2024 books, 16 of 27 members breach at least one, and only 11 clear both</title>
+      <link>https://claridas.com/articles/world-eu-maastricht-fiscal-rules-16-of-27-breach-2024/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/world-eu-maastricht-fiscal-rules-16-of-27-breach-2024/</guid>
+      <description>We read Eurostat&apos;s own excessive-deficit filings for all 27 members. Twelve exceed the debt ceiling, eleven the deficit limit — but only seven breach both, and the biggest debtors are rarely the biggest deficit-runners. Greece carries the bloc&apos;s largest debt, 154% of GDP, and still ran a surplus.</description>
+      <pubDate>Sat, 29 Aug 2026 17:09:02 GMT</pubDate>
+    </item>
     <item>
       <title>We read all 49 workhorse backs of 2025: rushing touchdowns tracked goal-line carries, not total volume</title>
       <link>https://claridas.com/articles/nfl-rb-2025-goal-line-carries-drive-rushing-touchdowns/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/us-treasury-marketable-debt-maturity-wall-one-third-2026/</guid>
       <description>As of July 31, $10.48 trillion of the government&apos;s tradable debt — 33.3% — matures within 12 months, and as it is rolled over the government&apos;s cost on it reprices toward whatever rate the market sets then. A year earlier that share was 31.9%; the weighted-average maturity slipped from 5.99 to 5.84 years even as the stock grew $2.5 trillion. More than half (54.7%) comes due within three years. And it isn&apos;t only bills: $3.5 trillion of notes, bonds and other non-bill securities mature inside the year too.</description>
       <pubDate>Sun, 23 Aug 2026 12:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Of the 89 economies that filed 2024 tax figures, the two with the highest tax-to-GDP are lower-middle-income — and the U.S., Switzerland and the UAE rank near the bottom, alongside Somalia</title>
-      <link>https://claridas.com/articles/world-tax-to-gdp-2024-measures-structure-not-burden/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/world-tax-to-gdp-2024-measures-structure-not-burden/</guid>
-      <description>We read every economy&apos;s latest filing in the IMF/World Bank tax series. The number most often cited for how heavily a country taxes barely tracks income, and doesn&apos;t rise with it in order — because it counts only central-government tax, drops most social security, and omits every state and local levy. So it can&apos;t be read across countries as total tax burden — the ranking is shaped by fiscal architecture as much as by how much a country taxes.</description>
-      <pubDate>Sun, 23 Aug 2026 11:14:48 GMT</pubDate>
     </item>
   </channel>
 </rss>
