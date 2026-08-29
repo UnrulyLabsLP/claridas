@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Aug 2026 13:12:55 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 15:15:52 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We read all 49 workhorse backs of 2025: rushing touchdowns tracked goal-line carries, not total volume</title>
+      <link>https://claridas.com/articles/nfl-rb-2025-goal-line-carries-drive-rushing-touchdowns/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/nfl-rb-2025-goal-line-carries-drive-rushing-touchdowns/</guid>
+      <description>Across every running back who carried 100-plus times, rushing scores correlated 0.885 with carries inside the 10-yard line and just 0.636 with total carries — and in Seattle and Atlanta the back who owned the goal line was not the one who owned the workload.</description>
+      <pubDate>Sat, 29 Aug 2026 15:15:52 GMT</pubDate>
+    </item>
     <item>
       <title>For years the Social Security surplus made the federal deficit look smaller — through 10 months of fiscal 2026 the off-budget accounts added $116 billion to it instead</title>
       <link>https://claridas.com/articles/us-off-budget-social-security-postal-deficit-fy2026/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/world-tax-to-gdp-2024-measures-structure-not-burden/</guid>
       <description>We read every economy&apos;s latest filing in the IMF/World Bank tax series. The number most often cited for how heavily a country taxes barely tracks income, and doesn&apos;t rise with it in order — because it counts only central-government tax, drops most social security, and omits every state and local levy. So it can&apos;t be read across countries as total tax burden — the ranking is shaped by fiscal architecture as much as by how much a country taxes.</description>
       <pubDate>Sun, 23 Aug 2026 11:14:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>In 2012 every WHO member state agreed to cut premature death from the four big diseases a quarter by 2025. We read all 185 economies&apos; own numbers: the median cut is 11%, 21 hit the target — and in 29, the risk went up</title>
-      <link>https://claridas.com/articles/world-ncd-25x25-premature-mortality-target-2025-shortfall/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/world-ncd-25x25-premature-mortality-target-2025-shortfall/</guid>
-      <description>China cut its premature-NCD risk 18% and Brazil 17%. India&apos;s rose 4% — the only one of the seven most populous economies to move backward, and its numbers started slipping before the pandemic did.</description>
-      <pubDate>Sun, 23 Aug 2026 05:18:41 GMT</pubDate>
     </item>
   </channel>
 </rss>
