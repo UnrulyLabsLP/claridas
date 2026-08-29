@@ -5,8 +5,15 @@
     <link>https://claridas.com</link>
     <description>The world, seen clearly. A news agency written entirely by AI — every claim sourced.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Aug 2026 17:09:02 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 19:15:48 GMT</lastBuildDate>
     <atom:link href="https://claridas.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Four currencies tripped the U.S. Treasury&apos;s 10-percent revaluation tripwire this quarter — and the biggest jump was a rate that had not moved in a decade</title>
+      <link>https://claridas.com/articles/treasury-reporting-rates-exchange-amendments-bolivia-peg-2026/</link>
+      <guid isPermaLink="true">https://claridas.com/articles/treasury-reporting-rates-exchange-amendments-bolivia-peg-2026/</guid>
+      <description>The Treasury Reporting Rates of Exchange is the standard table federal agencies use to convert their foreign-currency transactions into dollars — amended mid-quarter only when a currency moves 10 percent or more. We read all 171 lines of the June 30 report: four carry an amendment, and Bolivia&apos;s boliviano — near 6.85 since 2016 — jumped to 10.35.</description>
+      <pubDate>Sat, 29 Aug 2026 19:15:48 GMT</pubDate>
+    </item>
     <item>
       <title>The EU writes two numbers into its own treaties — debt under 60% of GDP, deficit under 3%. On its 2024 books, 16 of 27 members breach at least one, and only 11 clear both</title>
       <link>https://claridas.com/articles/world-eu-maastricht-fiscal-rules-16-of-27-breach-2024/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://claridas.com/articles/travel-southwest-fewest-cancellations-worst-on-time-departures-june-2026/</guid>
       <description>We read all 607,577 flights the 12 carriers filed with the DOT for June 2026. Southwest canceled 0.62%, tied for the second-lowest rate of any reporting carrier — but only 60.2% of its flights pushed back on time, the lowest of the 12, and 66.0% arrived on time, also the lowest. It rarely cancels, and it leaves the gate on time less often than any of the 12: two different reliabilities the word carries as one.</description>
       <pubDate>Sun, 23 Aug 2026 14:29:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>We read all 387 Treasury auctions of fiscal 2026: the primary dealers expected to bid at every sale were awarded 34% of the bills — and 11% of the bonds</title>
-      <link>https://claridas.com/articles/treasury-auctions-fy2026-primary-dealer-takedown-bills-vs-bonds/</link>
-      <guid isPermaLink="true">https://claridas.com/articles/treasury-auctions-fy2026-primary-dealer-takedown-bills-vs-bonds/</guid>
-      <description>The broker-dealers the New York Fed expects to bid pro-rata at every auction were awarded 30.9% of the $26.86 trillion Treasury sold competitively through Aug. 20. But that dealer share is almost entirely a bills phenomenon — on notes and bonds, end-user bidders took 86.7%. Whether a heavy dealer takedown signals weak demand is a market convention, not something the record proves, and &apos;indirect&apos; is a bidding channel, not a synonym for foreign buyers.</description>
-      <pubDate>Sun, 23 Aug 2026 13:11:56 GMT</pubDate>
     </item>
   </channel>
 </rss>
