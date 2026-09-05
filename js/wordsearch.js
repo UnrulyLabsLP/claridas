@@ -137,8 +137,9 @@ import { recordResult } from '/js/game-shell.js';
       let msg = 'Solved — all ' + words.length + ' found.';
       try {
         // Record the solve through the shell; surface the streak when it's building.
-        // revealUsed gates: a reveal-assisted win records played but not a streak solve.
-        const stats = recordResult('wordsearch', data.date || '', { solved: !revealUsed });
+        // revealUsed gates: reveal = no-op on streak (skip entirely, don't record a miss).
+        if (revealUsed) return;
+        const stats = recordResult('wordsearch', data.date || '', { solved: true });
         if (stats && stats.currentStreak > 1) msg += ' Streak: ' + stats.currentStreak + ' days.';
       } catch (e) { /* stats are a bonus — never block or break the win */ }
       setStatus(msg);
