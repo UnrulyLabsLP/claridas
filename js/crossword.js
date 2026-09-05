@@ -4,6 +4,9 @@
 // active word, check-letter / reveal-letter / reveal-puzzle, and a win state when every
 // fillable cell holds its correct letter. Guards every DOM lookup so nothing throws.
 
+// GAM-002/003: wire to the shared game shell for solve + streak persistence.
+import { recordResult } from '/js/game-shell.js';
+
 (function () {
   const root = document.getElementById('crossword');
   const dataEl = document.getElementById('crossword-data');
@@ -36,6 +39,7 @@
   const checkBtn = root.querySelector('.cw-check');
   const revealCellBtn = root.querySelector('.cw-reveal-cell');
   const revealAllBtn = root.querySelector('.cw-reveal-all');
+  let revealUsed = false; // W-1: gate recordResult so reveal path can't inflate streak
   if (!gridEl) return;
 
   // Solution letters per cell (from clue answers); null for block cells.
@@ -192,7 +196,14 @@
           if (v !== sol[r][c]) return false;
         }
     root.classList.add('is-won');
-    setStatus('Solved — the whole grid is correct.');
+    let msg = 'Solved — the whole grid is correct.';
+    try {
+      // Record the solve through the shell; surface the streak when it's building.
+      // revealUsed gates: a reveal-assisted win records played but not a streak solve.
+      const stats = recordResult('crossword', data.date || '', { solved: !revealUsed });
+      if (stats && stats.currentStreak > 1) msg += ' Streak: ' + stats.currentStreak + ' days.';
+    } catch (e) { /* stats are a bonus — never block or break the win */ }
+    setStatus(msg);
     return true;
   }
 
@@ -296,6 +307,7 @@
   if (revealCellBtn) {
     revealCellBtn.addEventListener('click', () => {
       if (!cur || !fillable(cur.r, cur.c)) { setStatus('Pick a cell first, then reveal it.'); return; }
+      revealUsed = true;
       inputEls[cur.r][cur.c].value = sol[cur.r][cur.c] || '';
       const div = cellDiv(cur.r, cur.c);
       if (div) div.classList.remove('is-wrong');
@@ -305,6 +317,7 @@
 
   if (revealAllBtn) {
     revealAllBtn.addEventListener('click', () => {
+      revealUsed = true;
       for (let r = 0; r < rows; r++)
         for (let c = 0; c < cols; c++)
           if (fillable(r, c)) {

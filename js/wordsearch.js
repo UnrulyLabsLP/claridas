@@ -6,6 +6,10 @@
 // stay marked, the word checks off the list, and when all are found a win state shows.
 // Guards every DOM lookup so a missing node never throws.
 
+// GAM-002/003: this game is the shell's first consumer — it records a solve + streak
+// through the shared persistence layer. Import is CSP-clean (same-origin ES module).
+import { recordResult } from '/js/game-shell.js';
+
 (function () {
   const root = document.getElementById('wordsearch');
   const dataEl = document.getElementById('wordsearch-data');
@@ -41,6 +45,7 @@
 
   const found = new Set(); // words already located
   const cellEls = []; // cellEls[r][c] -> button element
+  let revealUsed = false; // W-1: gate recordResult so reveal-all can't inflate streak
 
   // --- Build the grid as a table of buttons (keyboard-focusable, accessible). ---
   gridEl.setAttribute('role', 'grid');
@@ -129,7 +134,14 @@
     if (li) li.classList.add('is-done');
     if (found.size === words.length) {
       root.classList.add('is-won');
-      setStatus('Solved — all ' + words.length + ' found.');
+      let msg = 'Solved — all ' + words.length + ' found.';
+      try {
+        // Record the solve through the shell; surface the streak when it's building.
+        // revealUsed gates: a reveal-assisted win records played but not a streak solve.
+        const stats = recordResult('wordsearch', data.date || '', { solved: !revealUsed });
+        if (stats && stats.currentStreak > 1) msg += ' Streak: ' + stats.currentStreak + ' days.';
+      } catch (e) { /* stats are a bonus — never block or break the win */ }
+      setStatus(msg);
     } else {
       setStatus('Found ' + word + '. ' + (words.length - found.size) + ' to go.');
     }
@@ -229,6 +241,7 @@
   // --- Reveal all ---
   if (revealBtn) {
     revealBtn.addEventListener('click', () => {
+      revealUsed = true;
       const dirs = [[0, 1], [1, 0], [1, 1], [1, -1], [0, -1], [-1, 0], [-1, -1], [-1, 1]];
       words.forEach((w) => {
         if (found.has(w)) return;
