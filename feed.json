@@ -7,6 +7,16 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://claridas.com/articles/us-revolving-credit-12-month-reversal-2025-g19/",
+      "url": "https://claridas.com/articles/us-revolving-credit-12-month-reversal-2025-g19/",
+      "title": "Revolving credit fell year-over-year for 12 straight months through November 2025 — without a recession",
+      "summary": "After growing 27.6 percent from January 2022 to June 2024, outstanding revolving credit fell year-over-year for twelve straight months. The Federal Reserve's G.19 series, read month by month, shows what a single quarterly snapshot misses.",
+      "date_published": "2026-09-06T00:00:00.000Z",
+      "tags": [
+        "us"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/us-robotaxi-hype-vs-record-2026-09-05/",
       "url": "https://claridas.com/articles/us-robotaxi-hype-vs-record-2026-09-05/",
       "title": "The robotaxi thread promised 20-cent miles. We pulled two Austin receipts: about $2.80 a mile.",
@@ -498,17 +508,6 @@
       "date_published": "2026-08-25T03:14:27.000Z",
       "tags": [
         "sports"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/federal-contract-ledger-recipient-fragmentation-lockheed-fy2025/",
-      "url": "https://claridas.com/articles/federal-contract-ledger-recipient-fragmentation-lockheed-fy2025/",
-      "title": "We read the 100 largest lines on the government's FY2025 contract ledger: Lockheed Martin fills eight of them — and counting the identical name once lifts its share from 4.4% to 7.6% of all $778 billion",
-      "summary": "The single biggest recipient record is Lockheed Martin at $34.1 billion. But the same name — LOCKHEED MARTIN CORPORATION, spelled identically — appears as eight separate entries among the 100 largest, each a distinct entity ID, together $59.0 billion. Add a second spelling and it is ten records and $64.7 billion. Boeing appears seven times, Raytheon four. The government's own ranking sums by registration, not by parent, so a single company's identical name can hold eight separate lines.",
-      "date_published": "2026-08-25T01:15:10.000Z",
-      "date_modified": "2026-08-24T00:00:00.000Z",
-      "tags": [
-        "us"
       ]
     }
   ]
