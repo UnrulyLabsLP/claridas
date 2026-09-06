@@ -7,6 +7,16 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://claridas.com/articles/us-robotaxi-hype-vs-record-2026-09-05/",
+      "url": "https://claridas.com/articles/us-robotaxi-hype-vs-record-2026-09-05/",
+      "title": "The robotaxi thread promised 20-cent miles. We pulled two Austin receipts: about $2.80 a mile.",
+      "summary": "A viral post says ownership, parking, tickets, insurance and snow plows all disappear in 10-15 years. The 20-cents-a-mile at its center is a 2024 Musk projection. The fleet furthest along of those tracked here costs an estimated $1.40/mile to run, and two Austin receipts read roughly $2.80.",
+      "date_published": "2026-09-05T21:00:00.000Z",
+      "tags": [
+        "us"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/sports-mlb-sept2-five-extra-innings-tied-through-nine-2026/",
       "url": "https://claridas.com/articles/sports-mlb-sept2-five-extra-innings-tied-through-nine-2026/",
       "title": "We read all 15 September 2 MLB games: 5 went to extras — and every one was tied through nine",
@@ -499,16 +509,6 @@
       "date_modified": "2026-08-24T00:00:00.000Z",
       "tags": [
         "us"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/serie-a-opening-round-road-teams-6-of-10-2026-08/",
-      "url": "https://claridas.com/articles/serie-a-opening-round-road-teams-6-of-10-2026-08/",
-      "title": "We read all 10 Serie A openers: home and away scored 12 goals apiece — and the road teams won 6 of 10",
-      "summary": "Across the complete 2026-27 opening round on Aug. 22-24, visitors kept five of the six clean sheets — and the only two shut-out hosts who still held a majority of the ball, Venezia at 71% and Bologna at 59%, lost by two and by one.",
-      "date_published": "2026-08-24T21:22:02.000Z",
-      "tags": [
-        "sports"
       ]
     }
   ]
