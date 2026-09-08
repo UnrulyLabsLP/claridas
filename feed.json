@@ -7,6 +7,16 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://claridas.com/articles/us-gdp-gdi-income-side-gap-15-quarters/",
+      "url": "https://claridas.com/articles/us-gdp-gdi-income-side-gap-15-quarters/",
+      "title": "The government measures the size of the economy two ways — and for 15 straight quarters, the spending count has topped the income count",
+      "summary": "GDP counts what the country spends; GDI counts what it earns. In theory they are the same number. We read all 318 quarters the government has published since 1947: since late 2022 the spending measure has topped the income measure every quarter — the longest such run since the 1990s — and in the second quarter of 2026 the gap was $240.9 billion.",
+      "date_published": "2026-09-08T15:00:00.000Z",
+      "tags": [
+        "us"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/us-revolving-credit-12-month-reversal-2025-g19/",
       "url": "https://claridas.com/articles/us-revolving-credit-12-month-reversal-2025-g19/",
       "title": "Revolving credit fell year-over-year for 12 straight months through November 2025 — without a recession",
@@ -498,16 +508,6 @@
       "date_published": "2026-08-25T07:21:13.000Z",
       "tags": [
         "us"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/world-sex-ratio-birth-caucasus-vietnam-not-india-2024/",
-      "url": "https://claridas.com/articles/world-sex-ratio-birth-caucasus-vietnam-not-india-2024/",
-      "title": "The natural sex ratio at birth is about 105 boys per 100 girls — in the UN's 2024 estimates the three economies over a million people furthest above it aren't India: they're Azerbaijan, Vietnam and China",
-      "summary": "We read all 217 economies' modeled 2024 figures. Four economies over a million people sit above 1.08 — Azerbaijan, Vietnam, China and Armenia — while India, long the emblem, has eased to 1.071. The two nominal chart-toppers are very small populations where year-to-year estimates can be less stable.",
-      "date_published": "2026-08-25T05:08:01.000Z",
-      "tags": [
-        "world"
       ]
     }
   ]
