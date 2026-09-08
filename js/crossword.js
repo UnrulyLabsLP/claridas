@@ -5,7 +5,7 @@
 // fillable cell holds its correct letter. Guards every DOM lookup so nothing throws.
 
 // GAM-002/003: wire to the shared game shell for solve + streak persistence.
-import { recordResult } from '/js/game-shell.js';
+import { recordResult, offerShare } from '/js/game-shell.js';
 
 (function () {
   const root = document.getElementById('crossword');
@@ -205,6 +205,9 @@ import { recordResult } from '/js/game-shell.js';
       if (stats && stats.currentStreak > 1) msg += ' Streak: ' + stats.currentStreak + ' days.';
     } catch (e) { /* stats are a bonus — never block or break the win */ }
     setStatus(msg);
+    // GAM-004: offer a shareable result on a genuine (non-reveal) win.
+    const toolsEl = root.querySelector('.cw-tools');
+    offerShare(toolsEl, 'Claridas Crossword ' + (data.date || '') + ' ✓ solved — full grid correct.');
     return true;
   }
 

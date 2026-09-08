@@ -8,7 +8,7 @@
 
 // GAM-002/003: this game is the shell's first consumer — it records a solve + streak
 // through the shared persistence layer. Import is CSP-clean (same-origin ES module).
-import { recordResult } from '/js/game-shell.js';
+import { recordResult, offerShare } from '/js/game-shell.js';
 
 (function () {
   const root = document.getElementById('wordsearch');
@@ -143,6 +143,9 @@ import { recordResult } from '/js/game-shell.js';
         if (stats && stats.currentStreak > 1) msg += ' Streak: ' + stats.currentStreak + ' days.';
       } catch (e) { /* stats are a bonus — never block or break the win */ }
       setStatus(msg);
+      // GAM-004: offer a shareable result on a genuine (non-reveal) win.
+      const sideEl = root.querySelector('.ws-side');
+      offerShare(sideEl, 'Claridas Word Search ' + (data.date || '') + ' ✓ solved — all ' + words.length + ' found.');
     } else {
       setStatus('Found ' + word + '. ' + (words.length - found.size) + ' to go.');
     }
