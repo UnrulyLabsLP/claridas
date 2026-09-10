@@ -7,6 +7,16 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://claridas.com/articles/mlb-leads-locked-first-score-sept-7-8-2026/",
+      "url": "https://claridas.com/articles/mlb-leads-locked-first-score-sept-7-8-2026/",
+      "title": "We read the 26 completed games ESPN listed across two days: in 18 of them, the first team to lead was never overtaken",
+      "summary": "Thirteen finished within one run, yet 18 of 26 saw no lead change — and the 4th inning was scoreless in 45 of 52 half-innings",
+      "date_published": "2026-09-09T20:00:00.000Z",
+      "tags": [
+        "sports"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/us-gdp-gdi-income-side-gap-15-quarters/",
       "url": "https://claridas.com/articles/us-gdp-gdi-income-side-gap-15-quarters/",
       "title": "The government measures the size of the economy two ways — and for 15 straight quarters, the spending count has topped the income count",
@@ -498,16 +508,6 @@
       "date_modified": "2026-08-25T00:00:00.000Z",
       "tags": [
         "us"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/world-ldc-internet-access-sdg9c-2020-pledge-2023/",
-      "url": "https://claridas.com/articles/world-ldc-internet-access-sdg9c-2020-pledge-2023/",
-      "title": "The UN set 2020 to bring the least-developed countries universal internet. In the deadline year 24% of their people were online — and across the 37 with 2023 data, the median country is still majority-offline",
-      "summary": "The World Bank's own series puts the LDC average at 31% in 2024 — below the level the world as a whole had already passed in 2015, while high-income economies sit at 93%. None of the 37 reporting LDCs has reached universal; use runs from Burundi's 7% to Kiribati's 88%.",
-      "date_published": "2026-08-25T11:17:41.000Z",
-      "tags": [
-        "world"
       ]
     }
   ]
