@@ -7,6 +7,16 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://claridas.com/articles/mlb-sept9-conversion-rate-wins-2026/",
+      "url": "https://claridas.com/articles/mlb-sept9-conversion-rate-wins-2026/",
+      "title": "We read the 15 MLB games ESPN listed for September 9: hits matched the winner 10 times — conversion rate matched 14",
+      "summary": "In 4 games the team with more hits lost — and in all 4, the winner converted baserunner opportunities into runs at a higher rate.",
+      "date_published": "2026-09-10T09:33:04.000Z",
+      "tags": [
+        "sports"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/mlb-leads-locked-first-score-sept-7-8-2026/",
       "url": "https://claridas.com/articles/mlb-leads-locked-first-score-sept-7-8-2026/",
       "title": "We read the 26 completed games ESPN listed across two days: in 18 of them, the first team to lead was never overtaken",
@@ -497,17 +507,6 @@
       "date_published": "2026-08-25T15:12:25.000Z",
       "tags": [
         "sports"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/us-119th-congress-measure-composition-force-of-law-2026/",
-      "url": "https://claridas.com/articles/us-119th-congress-measure-composition-force-of-law-2026/",
-      "title": "The 119th Congress has introduced 18,433 measures — we counted every one, and 2,491 of them, about one in seven, belong to categories that can never become law",
-      "summary": "Bills and joint resolutions can be signed into law; the 153 concurrent and 2,338 simple resolutions cannot, by the Constitution's own design. Of the 15,942 bills and joint resolutions, 102 have made it into the statute books — about 1 in 156 — and the simple resolutions alone outnumber the enacted laws by more than 22 to 1.",
-      "date_published": "2026-08-25T13:34:33.000Z",
-      "date_modified": "2026-08-25T00:00:00.000Z",
-      "tags": [
-        "us"
       ]
     }
   ]
