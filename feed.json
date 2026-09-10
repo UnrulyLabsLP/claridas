@@ -7,6 +7,16 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://claridas.com/articles/world-china-india-trade-bilateral-mirror-reversed-2022-2023/",
+      "url": "https://claridas.com/articles/world-china-india-trade-bilateral-mirror-reversed-2022-2023/",
+      "title": "China's export tally topped India's import count by $16 billion in 2022 — reversing the usual freight-cost expectation.",
+      "summary": "Both countries file to the same UN database, and freight costs usually push the importer's number higher. For four straight years India's ran lower instead; in 2023 the gap flipped back.",
+      "date_published": "2026-09-10T18:50:00.000Z",
+      "tags": [
+        "world"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/us-credit-card-rate-spread-record-asymmetry-2026/",
       "url": "https://claridas.com/articles/us-credit-card-rate-spread-record-asymmetry-2026/",
       "title": "The Fed cut rates 1.7 points. Credit card rates dropped less than half as much.",
@@ -496,17 +506,6 @@
       "date_published": "2026-08-25T20:32:37.000Z",
       "tags": [
         "travel"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/us-fed-remittances-deferred-asset-233-billion-2026/",
-      "url": "https://claridas.com/articles/us-fed-remittances-deferred-asset-233-billion-2026/",
-      "title": "The Federal Reserve sent the Treasury about $88 billion a year for the better part of a decade. Since September 2022 it has sent almost nothing — and its own balance sheet carries a $233 billion reason why.",
-      "summary": "Treasury's receipt line for Federal Reserve earnings collapsed from $106.7 billion in fiscal 2022 to $0.58 billion the next year. The Fed's own books explain it: a 'deferred asset' — the losses it must earn back before payments resume — that grew for more than three years to $245.9 billion, peaked in January 2026, and has only just begun to shrink.",
-      "date_published": "2026-08-25T19:12:05.000Z",
-      "date_modified": "2026-08-25T00:00:00.000Z",
-      "tags": [
-        "us"
       ]
     }
   ]
