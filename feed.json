@@ -7,6 +7,16 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://claridas.com/articles/us-credit-card-rate-spread-record-asymmetry-2026/",
+      "url": "https://claridas.com/articles/us-credit-card-rate-spread-record-asymmetry-2026/",
+      "title": "The Fed cut rates 1.7 points. Credit card rates dropped less than half as much.",
+      "summary": "In February 2026, the gap between the Federal Reserve's benchmark rate and the average credit card rate reached the widest level in all 127 readings published since 1994. Three months later, it had barely moved.",
+      "date_published": "2026-09-10T17:30:00.000Z",
+      "tags": [
+        "us"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/us-jolts-quit-rate-mining-logging-only-riser-2026/",
       "url": "https://claridas.com/articles/us-jolts-quit-rate-mining-logging-only-riser-2026/",
       "title": "Ten of eleven major industries quit at or below their pre-COVID rate in July — mining and logging was the exception",
@@ -497,16 +507,6 @@
       "date_modified": "2026-08-25T00:00:00.000Z",
       "tags": [
         "us"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/world-ldc-7-percent-growth-target-4-of-44-2024/",
-      "url": "https://claridas.com/articles/world-ldc-7-percent-growth-target-4-of-44-2024/",
-      "title": "The UN has told the least developed countries to grow 7% a year since 2001. We read all 44's own national accounts: in 2024, 4 cleared it — and across the whole decade only one averaged it",
-      "summary": "Ethiopia is the sole LDC whose 2015-2024 growth averaged the target. Not one of the 44 posted 7% in every year it reported, and across the decade the group never reached the line — it peaked at 4.8% in 2019 and sat at 3.9% in 2024.",
-      "date_published": "2026-08-25T17:10:34.000Z",
-      "tags": [
-        "world"
       ]
     }
   ]
