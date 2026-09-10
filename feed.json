@@ -7,6 +7,16 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://claridas.com/articles/us-jolts-quit-rate-mining-logging-only-riser-2026/",
+      "url": "https://claridas.com/articles/us-jolts-quit-rate-mining-logging-only-riser-2026/",
+      "title": "Ten of eleven major industries quit at or below their pre-COVID rate in July — mining and logging was the exception",
+      "summary": "The national quit rate fell to 1.9% in July, from 2.4% in July 2019, and the normalization reached almost every sector. Mining and logging alone ran higher — 2.6%, up from 1.9%, a 37% rise — while professional and business services fell the most, nearly halving to 1.8% from 3.3%.",
+      "date_published": "2026-09-10T16:00:00.000Z",
+      "tags": [
+        "us"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/mlb-sept9-conversion-rate-wins-2026/",
       "url": "https://claridas.com/articles/mlb-sept9-conversion-rate-wins-2026/",
       "title": "We read the 15 MLB games ESPN listed for September 9: hits matched the winner 10 times — conversion rate matched 14",
@@ -497,16 +507,6 @@
       "date_published": "2026-08-25T17:10:34.000Z",
       "tags": [
         "world"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/wr-2025-median-week-vs-season-average-skew/",
-      "url": "https://claridas.com/articles/wr-2025-median-week-vs-season-average-skew/",
-      "title": "The average WR week overstates the typical one: rank 2025's top 36 by median, not mean, and 16 move five-plus spots",
-      "summary": "We scored all 18 regular-season weeks in full PPR for every receiver who played at least 14 of them. For 78 of 94, the season average sat above the median game — a few booms lifting a number a weekly lineup never collects. Michael Wilson ranked WR13 by average and WR35 by the game he turned in half the time.",
-      "date_published": "2026-08-25T15:12:25.000Z",
-      "tags": [
-        "sports"
       ]
     }
   ]
