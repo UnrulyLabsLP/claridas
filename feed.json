@@ -7,6 +7,16 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://claridas.com/articles/world-wto-bound-vs-applied-tariff-water-2021/",
+      "url": "https://claridas.com/articles/world-wto-bound-vs-applied-tariff-water-2021/",
+      "title": "Bangladesh's average bound tariff at the WTO is 159%. It applied 13% in 2021. It is far from the only economy with that much room.",
+      "summary": "Across 139 economies with comparable World Bank data, the median gap between a country's average bound tariff and its average applied rate was 13 percentage points in 2021; nearly three in five exceed 10 points, and two in five exceed 20 — average headroom the rules leave in principle, though the binding constraint is set line by line.",
+      "date_published": "2026-09-11T00:00:00.000Z",
+      "tags": [
+        "world"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/world-china-india-trade-bilateral-mirror-reversed-2022-2023/",
       "url": "https://claridas.com/articles/world-china-india-trade-bilateral-mirror-reversed-2022-2023/",
       "title": "China's export tally topped India's import count by $16 billion in 2022 — reversing the usual freight-cost expectation.",
@@ -496,16 +506,6 @@
       "date_published": "2026-08-25T23:08:57.000Z",
       "tags": [
         "world"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/uk-fcdo-boilerplate-note-206-of-226-pages-2025/",
-      "url": "https://claridas.com/articles/uk-fcdo-boilerplate-note-206-of-226-pages-2025/",
-      "title": "The UK updated 206 of its 226 travel-advice pages on one December day with the same sentence — and for 38 countries it is still the newest change",
-      "summary": "Read one country page and the update date looks like fresh local intelligence. Read all 226 at once and it resolves into a single note about British dual nationals, pasted across the world in a day — the third time since 2020 one sentence has landed on 200-plus pages at once.",
-      "date_published": "2026-08-25T20:32:37.000Z",
-      "tags": [
-        "travel"
       ]
     }
   ]
