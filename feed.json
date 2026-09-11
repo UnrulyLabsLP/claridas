@@ -7,6 +7,16 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://claridas.com/articles/nfl-seahawks-patriots-red-zone-paradox-2026/",
+      "url": "https://claridas.com/articles/nfl-seahawks-patriots-red-zone-paradox-2026/",
+      "title": "Seattle went 0-for-2 in the red zone and won. Both trips scored.",
+      "summary": "New England ran 67 plays, held the ball 34 minutes, and converted the game's only red-zone touchdown — then Drake Maye threw three interceptions on three straight drives.",
+      "date_published": "2026-09-11T00:00:00.000Z",
+      "tags": [
+        "sports"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/world-wto-bound-vs-applied-tariff-water-2021/",
       "url": "https://claridas.com/articles/world-wto-bound-vs-applied-tariff-water-2021/",
       "title": "Bangladesh's average bound tariff at the WTO is 159%. It applied 13% in 2021. It is far from the only economy with that much room.",
@@ -495,17 +505,6 @@
       "date_published": "2026-08-26T02:20:30.000Z",
       "tags": [
         "sports"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/us-net-interest-function-second-growth-driver-fy2026/",
-      "url": "https://claridas.com/articles/us-net-interest-function-second-growth-driver-fy2026/",
-      "title": "Read by function, not by agency, the second-largest increase in federal spending through July was interest",
-      "summary": "We pulled the Monthly Treasury Statement's functional ledger, which files spending by purpose rather than by department. Of 19 budget functions, net interest added $90.6 billion year-over-year — the largest increase of any function except Medicare, and more than Social Security, defense or veterans' care. The department ledger hides it inside Treasury; this one puts it on its own line.",
-      "date_published": "2026-08-26T01:10:04.000Z",
-      "date_modified": "2026-08-25T00:00:00.000Z",
-      "tags": [
-        "us"
       ]
     }
   ]
