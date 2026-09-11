@@ -97,6 +97,16 @@
       ]
     },
     {
+      "id": "https://claridas.com/articles/mlb-2026-expected-wins-xwinloss-all-30-clubs/",
+      "url": "https://claridas.com/articles/mlb-2026-expected-wins-xwinloss-all-30-clubs/",
+      "title": "We computed expected wins for all 30 MLB clubs — the team with zero run differential has 77 wins",
+      "summary": "Tampa leads the AL East despite a run-margin gap of 70 runs behind the Yankees. Cincinnati is 8 games above what a -108 run differential suggests. A full read of the MLB's own formula, all 30 clubs through September 7.",
+      "date_published": "2026-09-08T00:00:00.000Z",
+      "tags": [
+        "sports"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/mls-shot-on-target-leaders-lost-3-of-7-september-5-2026/",
       "url": "https://claridas.com/articles/mls-shot-on-target-leaders-lost-3-of-7-september-5-2026/",
       "title": "We read all 13 completed September 5 MLS games: the shots-on-target leader won 4 of 7 decided — the Galaxy won with 3",
@@ -493,16 +503,6 @@
       "title": "We read all 33 NFL preseason games so far: scoring peaks in the second quarter and craters in the third",
       "summary": "The fourth quarter, played almost entirely by backups, outscored the starters' opening quarter by 78 points. The scoring doesn't follow the talent off the field.",
       "date_published": "2026-08-26T03:15:51.000Z",
-      "tags": [
-        "sports"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/fantasy-carry-vs-target-opportunity-value-2025/",
-      "url": "https://claridas.com/articles/fantasy-carry-vs-target-opportunity-value-2025/",
-      "title": "We priced all 31,210 fantasy opportunities of 2025: in PPR a target is worth 2.64 carries, 1.60 in standard",
-      "summary": "A carry and a target are the two atoms of fantasy scoring, and they are not priced alike. Read the complete 2025 ledger and the gap holds even inside the running-back pool — the 55 backs with 100-plus opportunities ran on 81% of their chances but banked only 63% of their points there, and made the other 37% on the 19% that came through the air.",
-      "date_published": "2026-08-26T02:20:30.000Z",
       "tags": [
         "sports"
       ]
