@@ -7,6 +7,16 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://claridas.com/articles/mlb-sept11-three-contact-leaders-zero-homers-lost-2026/",
+      "url": "https://claridas.com/articles/mlb-sept11-three-contact-leaders-zero-homers-lost-2026/",
+      "title": "We read the 15 MLB games ESPN listed as Final for September 11: 3 out-hit their opponents and lost — all 3 hit zero home runs",
+      "summary": "Houston reached base 10 times and scored once. Tampa Bay reached base 6 times and scored 3. Three teams generated more hits — and fewer results.",
+      "date_published": "2026-09-12T09:22:09.000Z",
+      "tags": [
+        "sports"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/nfl-seahawks-patriots-red-zone-paradox-2026/",
       "url": "https://claridas.com/articles/nfl-seahawks-patriots-red-zone-paradox-2026/",
       "title": "Seattle went 0-for-2 in the red zone and won. Both trips scored.",
@@ -495,16 +505,6 @@
       "date_published": "2026-08-26T07:13:13.000Z",
       "tags": [
         "us"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/nfl-preseason-quarter-scoring-shape-q2-peak-q3-trough-2026/",
-      "url": "https://claridas.com/articles/nfl-preseason-quarter-scoring-shape-q2-peak-q3-trough-2026/",
-      "title": "We read all 33 NFL preseason games so far: scoring peaks in the second quarter and craters in the third",
-      "summary": "The fourth quarter, played almost entirely by backups, outscored the starters' opening quarter by 78 points. The scoring doesn't follow the talent off the field.",
-      "date_published": "2026-08-26T03:15:51.000Z",
-      "tags": [
-        "sports"
       ]
     }
   ]
