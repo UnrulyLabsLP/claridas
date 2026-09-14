@@ -1,11 +1,144 @@
 {
   "note": "GAM-012 The Number — one bounded statistic a day. STARTER SET = engine-demo neutral verifiable figures with sensible range bounds (so it's answerable, not a blind guess). The DATA-NATIVE questions (drawn from Claridas article findings, each with the true value + source + retrieval date + articleUrl, factual series only) are EDITORIAL/DATA (Onett) — same plumbing as GAM-011. These starters make the engine playable day one. Each item: prompt, answer (number), unit, min, max, optional step, context, source, retrieved, optional articleUrl.",
   "items": [
-    { "prompt": "How many member states belong to the United Nations?", "answer": 193, "unit": "states", "min": 150, "max": 220, "context": "South Sudan, admitted in 2011, was the most recent to join.", "source": "United Nations (illustrative starter)", "retrieved": "2024" },
-    { "prompt": "How many elements are on the periodic table?", "answer": 118, "unit": "elements", "min": 90, "max": 150, "context": "The four newest were formally named in 2016.", "source": "IUPAC (illustrative starter)", "retrieved": "2024" },
-    { "prompt": "How many bones are in the adult human body?", "answer": 206, "unit": "bones", "min": 150, "max": 260, "context": "Infants are born with about 270; some fuse with age.", "source": "Standard anatomy reference (illustrative starter)", "retrieved": "2024" },
-    { "prompt": "How many countries share a land border with Brazil?", "answer": 10, "unit": "countries", "min": 3, "max": 16, "context": "Every South American country except Ecuador and Chile.", "source": "UN geographic data (illustrative starter)", "retrieved": "2024" },
-    { "prompt": "How many time zones does Russia officially span?", "answer": 11, "unit": "time zones", "min": 4, "max": 15, "context": "From Kaliningrad in the west to Kamchatka in the east.", "source": "Government of Russia (illustrative starter)", "retrieved": "2024" },
-    { "prompt": "How many keys are on a standard full-size piano?", "answer": 88, "unit": "keys", "min": 60, "max": 110, "context": "52 white and 36 black, spanning just over seven octaves.", "source": "Standard reference (illustrative starter)", "retrieved": "2024" }
+    {
+      "prompt": "How many member states belong to the United Nations?",
+      "answer": 193,
+      "unit": "states",
+      "min": 150,
+      "max": 220,
+      "context": "South Sudan, admitted in 2011, was the most recent to join.",
+      "source": "United Nations (illustrative starter)",
+      "retrieved": "2024"
+    },
+    {
+      "prompt": "How many elements are on the periodic table?",
+      "answer": 118,
+      "unit": "elements",
+      "min": 90,
+      "max": 150,
+      "context": "The four newest were formally named in 2016.",
+      "source": "IUPAC (illustrative starter)",
+      "retrieved": "2024"
+    },
+    {
+      "prompt": "How many bones are in the adult human body?",
+      "answer": 206,
+      "unit": "bones",
+      "min": 150,
+      "max": 260,
+      "context": "Infants are born with about 270; some fuse with age.",
+      "source": "Standard anatomy reference (illustrative starter)",
+      "retrieved": "2024"
+    },
+    {
+      "prompt": "How many countries share a land border with Brazil?",
+      "answer": 10,
+      "unit": "countries",
+      "min": 3,
+      "max": 16,
+      "context": "Every South American country except Ecuador and Chile.",
+      "source": "UN geographic data (illustrative starter)",
+      "retrieved": "2024"
+    },
+    {
+      "prompt": "How many time zones does Russia officially span?",
+      "answer": 11,
+      "unit": "time zones",
+      "min": 4,
+      "max": 15,
+      "context": "From Kaliningrad in the west to Kamchatka in the east.",
+      "source": "Government of Russia (illustrative starter)",
+      "retrieved": "2024"
+    },
+    {
+      "prompt": "How many keys are on a standard full-size piano?",
+      "answer": 88,
+      "unit": "keys",
+      "min": 60,
+      "max": 110,
+      "context": "52 white and 36 black, spanning just over seven octaves.",
+      "source": "Standard reference (illustrative starter)",
+      "retrieved": "2024"
+    },
+    {
+      "prompt": "Claridas ranked every qualifying skill-position player by 2025 PPR points. How many players cleared the thresholds?",
+      "answer": 284,
+      "unit": "players",
+      "min": 100,
+      "max": 500,
+      "context": "Across four positions — quarterback, running back, wide receiver and tight end.",
+      "source": "Claridas — 2025 PPR positional tier gaps",
+      "retrieved": "2026",
+      "articleUrl": "https://claridas.com/articles/nfl-2025-ppr-tier-gaps-positional-structure/"
+    },
+    {
+      "prompt": "As the Fed cut its benchmark 170 basis points in 2024-2026, the 10-year Treasury yield moved the opposite way. By how many basis points did it rise?",
+      "answer": 99,
+      "unit": "basis points",
+      "min": 0,
+      "max": 250,
+      "context": "Thirty-year mortgages price off the 10-year, so the Fed's cuts gave homebuyers no direct relief.",
+      "source": "Claridas — mortgage-to-Treasury spread",
+      "retrieved": "2026",
+      "articleUrl": "https://claridas.com/articles/us-mortgage-spread-treasury-fed-decomposition-2026-09/"
+    },
+    {
+      "prompt": "How many basis points did the Federal Reserve raise its benchmark rate between November 2021 and August 2023?",
+      "answer": 525,
+      "unit": "basis points",
+      "min": 200,
+      "max": 800,
+      "context": "From 0.08 percent to 5.33 percent — one of the fastest tightening cycles on record.",
+      "source": "Claridas — credit-card rate spread",
+      "retrieved": "2026",
+      "articleUrl": "https://claridas.com/articles/us-credit-card-rate-spread-record-asymmetry-2026/"
+    },
+    {
+      "prompt": "In 2025, what share of the retail beef dollar went to the farmer, per USDA's Meat Price Spreads series?",
+      "answer": 53.5,
+      "unit": "percent",
+      "min": 20,
+      "max": 80,
+      "step": 0.1,
+      "context": "Up from 37.3 percent in 2020 — the farmer's share rose even as beef packing stayed concentrated.",
+      "source": "Claridas — beef-market concentration",
+      "retrieved": "2026",
+      "articleUrl": "https://claridas.com/articles/beef-4-meatpacker-concentration-doj-antitrust-2026/"
+    },
+    {
+      "prompt": "Of the 217 economies in the 2023 World Bank fertility series, how many reported fertility below the 2.1 replacement rate?",
+      "answer": 117,
+      "unit": "economies",
+      "min": 40,
+      "max": 217,
+      "context": "A majority — up from 98 in 2013 and 80 in 2000.",
+      "source": "Claridas — below-replacement fertility",
+      "retrieved": "2026",
+      "articleUrl": "https://claridas.com/articles/below-replacement-fertility-majority-economies-2023/"
+    },
+    {
+      "prompt": "On a 2025 city-council docket, what share of the instruments the council adopts were resolutions rather than bills?",
+      "answer": 81.4,
+      "unit": "percent",
+      "min": 40,
+      "max": 95,
+      "step": 0.1,
+      "context": "1,346 resolutions to 308 bills — a 4.4-to-1 ratio; much of a council's work is not lawmaking.",
+      "source": "Claridas — what a city council does",
+      "retrieved": "2026",
+      "articleUrl": "https://claridas.com/articles/denver-council-resolutions-contracts-composition-2025/"
+    },
+    {
+      "prompt": "Claridas ran a Pythagorean expected-wins formula on all 30 MLB clubs through Sept 7, 2026. How many finished exactly at their projected win total?",
+      "answer": 4,
+      "unit": "clubs",
+      "min": 0,
+      "max": 15,
+      "context": "12 clubs outperformed the formula and 14 fell short.",
+      "source": "Claridas — expected wins versus record",
+      "retrieved": "2026",
+      "articleUrl": "https://claridas.com/articles/mlb-2026-expected-wins-xwinloss-all-30-clubs/"
+    }
   ]
 }
