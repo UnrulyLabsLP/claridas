@@ -1,0 +1,44 @@
+{
+  "note": "GAM-009 Stacks — a level PACK (not a daily). Every level is proven solvable by the BFS solver in public/js/stacks.js (scripts/test-stacks.mjs runs it on all levels). Legend: '#' brick, 'b' block, '@' player start, 'D' door, '.' empty. Difficulty curve: 1-5 teach one idea each, 6+ combine. Original name/levels/art.",
+  "levels": [
+    { "id": 1, "name": "First steps", "hint": "Walk to the door.", "grid": [
+      "..........",
+      "..........",
+      "@........D",
+      "##########"
+    ]},
+    { "id": 2, "name": "Up one", "hint": "Face a wall one tile high and climb it.", "grid": [
+      "..........",
+      "......D...",
+      "@.....#...",
+      "##########"
+    ]},
+    { "id": 3, "name": "Two steps", "hint": "Climb a staircase one tile at a time.", "grid": [
+      "..........",
+      ".......D..",
+      "......##..",
+      "@....###..",
+      "##########"
+    ]},
+    { "id": 4, "name": "Grab", "hint": "Pick up the block in front of you, then set it down.", "grid": [
+      "...........",
+      ".........D.",
+      "@...b....#.",
+      "###########"
+    ]},
+    { "id": 5, "name": "One block up", "hint": "Carry the block to the wall, set it down as a step, then climb over.", "grid": [
+      "...........",
+      "...........",
+      "......#....",
+      "@.b...#...D.",
+      "###########"
+    ]},
+    { "id": 6, "name": "Carry across", "hint": "Bring the block the long way to build your step at the wall.", "grid": [
+      ".............",
+      ".............",
+      "........#....",
+      "@...b...#...D",
+      "#############"
+    ]}
+  ]
+}
