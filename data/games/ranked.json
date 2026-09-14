@@ -1,0 +1,40 @@
+{
+  "note": "GAM-013 Ranked — weekly ordering lists. STARTER SET = engine-demo neutral verifiable orderings (five items, distinct values, factual). The correct order is DERIVED from the values (direction 'desc' = most first, 'asc' = least first) — single source of truth. The DATA-NATIVE rankings (from Claridas article datasets, with the reveal bar chart drawn from the same data, source + article link) are EDITORIAL/DATA (Onett) — same plumbing as GAM-011. These starters make the engine playable day one. Each list: question, direction, items[{label,value,unit}], context, source, retrieved, optional articleUrl.",
+  "lists": [
+    { "question": "Order these countries by population, most to least.", "direction": "desc", "items": [
+      {"label":"United States","value":340,"unit":"million"},
+      {"label":"India","value":1428,"unit":"million"},
+      {"label":"Indonesia","value":277,"unit":"million"},
+      {"label":"China","value":1411,"unit":"million"},
+      {"label":"Pakistan","value":240,"unit":"million"}
+    ], "context": "India overtook China as the most populous country around 2023.", "source": "UN World Population Prospects (illustrative starter)", "retrieved": "2024" },
+    { "question": "Order these planets by diameter, largest to smallest.", "direction": "desc", "items": [
+      {"label":"Earth","value":12742,"unit":"km"},
+      {"label":"Jupiter","value":139820,"unit":"km"},
+      {"label":"Neptune","value":49244,"unit":"km"},
+      {"label":"Saturn","value":116460,"unit":"km"},
+      {"label":"Uranus","value":50724,"unit":"km"}
+    ], "context": "The two gas giants dwarf the ice giants, which dwarf Earth.", "source": "NASA planetary fact sheet (illustrative starter)", "retrieved": "2024" },
+    { "question": "Order these oceans by area, largest to smallest.", "direction": "desc", "items": [
+      {"label":"Atlantic","value":106,"unit":"million km²"},
+      {"label":"Arctic","value":14,"unit":"million km²"},
+      {"label":"Pacific","value":165,"unit":"million km²"},
+      {"label":"Indian","value":70,"unit":"million km²"},
+      {"label":"Southern","value":20,"unit":"million km²"}
+    ], "context": "The Pacific alone is larger than all of Earth's land area combined.", "source": "UN / NOAA (illustrative starter)", "retrieved": "2024" },
+    { "question": "Order these countries by land area, largest to smallest.", "direction": "desc", "items": [
+      {"label":"China","value":9597,"unit":"thousand km²"},
+      {"label":"Russia","value":17098,"unit":"thousand km²"},
+      {"label":"Brazil","value":8516,"unit":"thousand km²"},
+      {"label":"Canada","value":9985,"unit":"thousand km²"},
+      {"label":"United States","value":9834,"unit":"thousand km²"}
+    ], "context": "Russia is nearly twice the size of the next-largest country.", "source": "UN Statistics Division (illustrative starter)", "retrieved": "2024" },
+    { "question": "Order these countries by number of official time zones, most to least.", "direction": "desc", "items": [
+      {"label":"Australia","value":3,"unit":"zones"},
+      {"label":"Russia","value":11,"unit":"zones"},
+      {"label":"United States","value":6,"unit":"zones"},
+      {"label":"Brazil","value":4,"unit":"zones"},
+      {"label":"China","value":1,"unit":"zone"}
+    ], "context": "China spans five geographic zones but officially uses one.", "source": "National governments (illustrative starter)", "retrieved": "2024" }
+  ]
+}
