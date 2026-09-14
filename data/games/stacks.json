@@ -39,6 +39,48 @@
       "........#....",
       "@...b...#...D",
       "#############"
+    ]},
+    { "id": 7, "name": "Two high", "hint": "One block is not enough. Build a two-step staircase to clear the tall wall.", "grid": [
+      "............",
+      ".........#..",
+      ".........#..",
+      "@..b.b...#.D",
+      "############"
+    ]},
+    { "id": 8, "name": "Three steps", "hint": "A taller wall needs a taller staircase — three blocks, three steps.", "grid": [
+      ".............",
+      "........#....",
+      "........#....",
+      "........#....",
+      "@..b.b.b.#..D",
+      "#############"
+    ]},
+    { "id": 9, "name": "Two walls", "hint": "Two low walls, two blocks. Spend each one where it counts.", "grid": [
+      ".............",
+      "....#....#...",
+      "@.b.#..b.#..D",
+      "#############"
+    ]},
+    { "id": 10, "name": "Reach", "hint": "The blocks are far from the wall. Ferry them over one at a time.", "grid": [
+      "..............",
+      "..........#...",
+      "..........#...",
+      "@...b...b.#..D",
+      "##############"
+    ]},
+    { "id": 11, "name": "Long haul", "hint": "A tall wall and a long walk. Plan the staircase before you start.", "grid": [
+      "...............",
+      "..........#....",
+      "..........#....",
+      "..........#....",
+      "@..b.b.b..#...D",
+      "###############"
+    ]},
+    { "id": 12, "name": "Over and down", "hint": "Climb the wall; the door sits low on the far side.", "grid": [
+      ".............",
+      ".....#.......",
+      "@..b.#.....D.",
+      "#############"
     ]}
   ]
 }

@@ -46,12 +46,6 @@ function solid(level, s, y, x) {
 function settle(level, s) {
   while (!solid(level, s, s.y + 1, s.x)) s.y++;
 }
-// A dropped/placed block falls in its column to rest on the nearest solid below.
-function settleBlock(level, s, y, x) {
-  while (!solid(level, s, y + 1, x) && y + 1 < level.rows) y++;
-  return y;
-}
-
 function clone(s) { return { x: s.x, y: s.y, face: s.face, carry: s.carry, blocks: new Set(s.blocks) }; }
 
 // The ONE move function. action ∈ {'left','right','up','act'}. Returns a NEW state, or
@@ -93,10 +87,12 @@ export function step(level, state) {
         s.carry = true;
         return s;
       }
-      // drop: the carried block moves off the head into the column in front and falls to rest
-      if (solid(level, s, s.y - 1, fx)) return null;     // blocked in front at head height
-      const ry = settleBlock(level, s, s.y - 1, fx);
-      s.blocks.add(ry + ',' + fx);
+      // drop: the carried block is set down at feet level in the cell in front. Blocks do
+      // NOT fall — they stay where placed, which is exactly what lets you build a staircase
+      // upward (stand on a block, drop the next one one step higher and further).
+      if (solid(level, s, s.y, fx)) return null;         // feet-front cell occupied
+      if (solid(level, s, s.y - 1, fx)) return null;     // head-front cell blocks the path out
+      s.blocks.add(s.y + ',' + fx);
       s.carry = false;
       return s;
     }
