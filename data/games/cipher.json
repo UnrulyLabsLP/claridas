@@ -1,0 +1,10 @@
+{
+  "note": "GAM-010 The Cipher — corpus of primary-document sentences to encipher. STARTER SET = neutral, public-domain, intelligible-standalone, non-inflammatory sentences from real cited documents (per AC editorial filter). Ongoing corpus + binding each quote to the live Claridas article that cited it (articleUrl) is EDITORIAL (Onett). Each entry: text (90-140 chars, letters + spaces + basic punctuation), source, date, optional articleUrl.",
+  "quotes": [
+    { "text": "All human beings are born free and equal in dignity and rights, endowed with reason and conscience.", "source": "Universal Declaration of Human Rights, Article 1", "date": "1948" },
+    { "text": "Everyone has the right to a standard of living adequate for the health and well-being of himself and his family.", "source": "Universal Declaration of Human Rights, Article 25", "date": "1948" },
+    { "text": "The right of peaceful assembly shall be recognized, and no restrictions may be placed on its exercise without law.", "source": "International Covenant on Civil and Political Rights, Article 21", "date": "1966" },
+    { "text": "Education shall be directed to the full development of the human personality and to the strengthening of respect for rights.", "source": "Universal Declaration of Human Rights, Article 26", "date": "1948" },
+    { "text": "All peoples have the right of self-determination, and by that right they freely determine their political status.", "source": "International Covenant on Economic, Social and Cultural Rights, Article 1", "date": "1966" }
+  ]
+}
