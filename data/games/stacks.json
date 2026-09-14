@@ -166,6 +166,52 @@
       ".....#.....#....",
       "@.b..#..b..#..D.",
       "################"
+    ]},
+    { "id": 25, "name": "The long wall", "hint": "Four tiles high, three blocks, and a long walk. Build the whole staircase.", "grid": [
+      "...............",
+      "...........#...",
+      "...........#...",
+      "...........#...",
+      "@bbb.......#..D",
+      "###############"
+    ]},
+    { "id": 26, "name": "Twin steps", "hint": "Two walls, one block for each. Do not spend both in the same place.", "grid": [
+      "...............",
+      "...............",
+      "......#....#...",
+      "@.b...#..b.#..D",
+      "###############"
+    ]},
+    { "id": 27, "name": "The great tower", "hint": "Five tiles high. Four blocks, one perfect staircase, nothing to spare.", "grid": [
+      "...............",
+      "..........#....",
+      "..........#....",
+      "..........#....",
+      "..........#....",
+      "@bbbb.....#..D",
+      "###############"
+    ]},
+    { "id": 28, "name": "Mind the gap", "hint": "A pit you cannot climb out of. Set a block down as a bridge before you cross.", "grid": [
+      "..............",
+      "..........#...",
+      "..........#...",
+      "@.b.....#.#..D",
+      "####...#######",
+      "##############"
+    ]},
+    { "id": 29, "name": "Gauntlet", "hint": "Three gates, three blocks. Clear them in a single run.", "grid": [
+      "................",
+      "....#...#...#...",
+      "@.b.#.b.#.b.#..D",
+      "################"
+    ]},
+    { "id": 30, "name": "The last door", "hint": "Everything you have learned: a tall wall, spare blocks, and one way through.", "grid": [
+      "................",
+      "...........#....",
+      "...........#....",
+      "...........#....",
+      "@bbb...bb..#...D",
+      "################"
     ]}
   ]
 }
