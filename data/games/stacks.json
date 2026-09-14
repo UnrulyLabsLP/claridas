@@ -124,6 +124,48 @@
       "............#...",
       "@..b.b.b....#..D",
       "################"
+    ]},
+    { "id": 19, "name": "Long approach", "hint": "Three blocks by your feet, a tall wall far away. Carry them the distance.", "grid": [
+      "...............",
+      "..........#....",
+      "..........#....",
+      "@bbb......#...D",
+      "###############"
+    ]},
+    { "id": 20, "name": "Two gates", "hint": "Two low walls, two blocks. Spend each one where it counts.", "grid": [
+      "...............",
+      "...#.....#.....",
+      "@.b.#..b.#...D.",
+      "###############"
+    ]},
+    { "id": 21, "name": "High and far", "hint": "A four-tile wall with the blocks spread down the room.", "grid": [
+      "................",
+      "............#...",
+      "............#...",
+      "............#...",
+      "@..b..b..b..#..D",
+      "################"
+    ]},
+    { "id": 22, "name": "Two steps up", "hint": "A wall, a gap, and a second wall. Read where each block has to land.", "grid": [
+      "...............",
+      "......#....#...",
+      "@.b...#.b..#..D",
+      "###############"
+    ]},
+    { "id": 23, "name": "The tower", "hint": "Five tiles high. Four blocks, one long staircase, no room for waste.", "grid": [
+      "...............",
+      "..........#....",
+      "..........#....",
+      "..........#....",
+      "..........#....",
+      "@.b.b.b.b.#...D",
+      "###############"
+    ]},
+    { "id": 24, "name": "Switchback", "hint": "Climb, cross, and climb again — a wall on each side of the room.", "grid": [
+      "................",
+      ".....#.....#....",
+      "@.b..#..b..#..D.",
+      "################"
     ]}
   ]
 }
