@@ -117,6 +117,16 @@
       ]
     },
     {
+      "id": "https://claridas.com/articles/nfl-2025-ppr-tier-gaps-positional-structure/",
+      "url": "https://claridas.com/articles/nfl-2025-ppr-tier-gaps-positional-structure/",
+      "title": "We ranked the 284 qualifying skill-position players by 2025 PPR: the WR12-WR13 gap was 0.2 points, the QB12-QB13 gap was 30",
+      "summary": "Across the 284 qualifying players in four positions, the largest rank-12-to-13 step — the last-starter boundary in a standard 12-team single-QB PPR league — belonged to quarterback, not tight end.",
+      "date_published": "2026-09-08T15:28:34.000Z",
+      "tags": [
+        "sports"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/us-gdp-gdi-income-side-gap-15-quarters/",
       "url": "https://claridas.com/articles/us-gdp-gdi-income-side-gap-15-quarters/",
       "title": "The government measures the size of the economy two ways — and for 15 straight quarters, the spending count has topped the income count",
@@ -134,6 +144,16 @@
       "date_published": "2026-09-08T00:00:00.000Z",
       "tags": [
         "sports"
+      ]
+    },
+    {
+      "id": "https://claridas.com/articles/us-mortgage-spread-treasury-fed-decomposition-2026-09/",
+      "url": "https://claridas.com/articles/us-mortgage-spread-treasury-fed-decomposition-2026-09/",
+      "title": "The federal funds rate fell 170 basis points. The 30-year mortgage rose anyway — the data show why.",
+      "summary": "As of September 3, 2026, mortgage markets had compressed the spread over Treasuries by 37 basis points since the first rate cut — even as the 10-year Treasury rose 99.",
+      "date_published": "2026-09-07T19:29:10.000Z",
+      "tags": [
+        "us"
       ]
     },
     {
@@ -485,26 +505,6 @@
       "date_published": "2026-08-26T17:12:18.000Z",
       "tags": [
         "world"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/qb-passing-yards-after-catch-share-goff-stafford-2025/",
-      "url": "https://claridas.com/articles/qb-passing-yards-after-catch-share-goff-stafford-2025/",
-      "title": "We read all 36 qualified 2025 passers: 38% to 64% of each one's passing yards came after the catch",
-      "summary": "Standard fantasy scoring pays 0.04 points a passing yard whether the quarterback drove it downfield or dumped it to a receiver who ran the rest. Jared Goff and Matthew Stafford each threw for about 4,600 yards in 2025 — Goff's came 53% after the catch, Stafford's 39%.",
-      "date_published": "2026-08-26T15:14:31.000Z",
-      "tags": [
-        "sports"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/federal-civilian-workforce-october-cliff-then-plateau-2026/",
-      "url": "https://claridas.com/articles/federal-civilian-workforce-october-cliff-then-plateau-2026/",
-      "title": "Outside the Postal Service, the federal workforce shed 165,000 jobs in one month — then all but stopped shrinking for six months",
-      "summary": "We read every monthly federal payroll print since 1939. The 2025–26 downsizing was a single October cliff, not a glide — and by July 2026 it had held roughly flat for half a year, at the fewest civilian federal workers since 2009.",
-      "date_published": "2026-08-26T13:27:12.000Z",
-      "tags": [
-        "us"
       ]
     }
   ]

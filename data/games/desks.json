@@ -1,0 +1,35 @@
+{
+  "note": "GAM-008 The Desks — starter GENERAL-KNOWLEDGE puzzles. PENDING ONETT HUMAN-PASS (AC1: exactly one valid grouping, human-verified). Each tile belongs to exactly one group; difficulty 1=easiest..4=hardest. Claridas-edition puzzles (groups drawn from live beats/articles, with articleUrl) are authored by editorial.",
+  "puzzles": [
+    {
+      "id": "desks-g1",
+      "edition": "general",
+      "groups": [
+        { "name": "Oceans", "difficulty": 1, "explanation": "Four of the world's oceans.", "members": ["PACIFIC", "ATLANTIC", "INDIAN", "ARCTIC"] },
+        { "name": "Chess pieces", "difficulty": 2, "explanation": "Pieces on a chessboard.", "members": ["ROOK", "BISHOP", "KNIGHT", "PAWN"] },
+        { "name": "Coffee drinks", "difficulty": 3, "explanation": "Ways to take an espresso.", "members": ["LATTE", "MOCHA", "ESPRESSO", "AMERICANO"] },
+        { "name": "___ + light", "difficulty": 4, "explanation": "Each precedes 'light': moonlight, spotlight, flashlight, daylight.", "members": ["MOON", "SPOT", "FLASH", "DAY"] }
+      ]
+    },
+    {
+      "id": "desks-g2",
+      "edition": "general",
+      "groups": [
+        { "name": "Planets", "difficulty": 1, "explanation": "Planets of the solar system.", "members": ["MERCURY", "VENUS", "MARS", "JUPITER"] },
+        { "name": "Card suits", "difficulty": 2, "explanation": "The four suits in a deck.", "members": ["HEARTS", "SPADES", "CLUBS", "DIAMONDS"] },
+        { "name": "Dog breeds", "difficulty": 3, "explanation": "Breeds of dog.", "members": ["BOXER", "POODLE", "BEAGLE", "HUSKY"] },
+        { "name": "___ + ball", "difficulty": 4, "explanation": "Each precedes 'ball': baseball, basketball, football, pinball.", "members": ["BASE", "BASKET", "FOOT", "PIN"] }
+      ]
+    },
+    {
+      "id": "desks-g3",
+      "edition": "general",
+      "groups": [
+        { "name": "Shades of red", "difficulty": 1, "explanation": "Reddish colours.", "members": ["CRIMSON", "SCARLET", "RUBY", "CHERRY"] },
+        { "name": "Board games", "difficulty": 2, "explanation": "Classic board games (also everyday words).", "members": ["CLUE", "RISK", "SORRY", "TROUBLE"] },
+        { "name": "Card ranks", "difficulty": 3, "explanation": "Ranks in a deck of cards.", "members": ["ACE", "JACK", "KING", "QUEEN"] },
+        { "name": "___ + berry", "difficulty": 4, "explanation": "Each precedes 'berry': strawberry, blueberry, raspberry, blackberry.", "members": ["STRAW", "BLUE", "RASP", "BLACK"] }
+      ]
+    }
+  ]
+}
