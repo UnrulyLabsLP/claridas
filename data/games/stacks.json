@@ -81,6 +81,49 @@
       ".....#.......",
       "@..b.#.....D.",
       "#############"
+    ]},
+    { "id": 13, "name": "Higher still", "hint": "A three-tile wall with the blocks spread out. Gather them at the wall.", "grid": [
+      "..............",
+      "..........#...",
+      "..........#...",
+      "@..b...b..#..D",
+      "##############"
+    ]},
+    { "id": 14, "name": "In two acts", "hint": "Clear the first wall, then build again for the second.", "grid": [
+      "................",
+      "....#.......#...",
+      "@.b.#....b..#..D",
+      "################"
+    ]},
+    { "id": 15, "name": "Staircase", "hint": "Four tiles high. You will need every block and a full staircase.", "grid": [
+      "...............",
+      "...........#...",
+      "...........#...",
+      "...........#...",
+      "@..b.b.b...#..D",
+      "###############"
+    ]},
+    { "id": 16, "name": "Ferry", "hint": "The blocks sit past the wall's foot. Bring each one back into place.", "grid": [
+      "...............",
+      ".........#.....",
+      ".........#.....",
+      "@.....b.b.#...D",
+      "###############"
+    ]},
+    { "id": 17, "name": "Step and over", "hint": "A step up, then a wall to scale. Read the whole board first.", "grid": [
+      "...............",
+      "...............",
+      "....#...#......",
+      "@.b.#.b.#....D.",
+      "###############"
+    ]},
+    { "id": 18, "name": "The climb", "hint": "The hardest yet: a four-tile wall and a long approach.", "grid": [
+      "................",
+      "............#...",
+      "............#...",
+      "............#...",
+      "@..b.b.b....#..D",
+      "################"
     ]}
   ]
 }
