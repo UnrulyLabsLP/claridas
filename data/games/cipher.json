@@ -1,10 +1,126 @@
 {
   "note": "GAM-010 The Cipher — corpus of primary-document sentences to encipher. STARTER SET = neutral, public-domain, intelligible-standalone, non-inflammatory sentences from real cited documents (per AC editorial filter). Ongoing corpus + binding each quote to the live Claridas article that cited it (articleUrl) is EDITORIAL (Onett). Each entry: text (90-140 chars, letters + spaces + basic punctuation), source, date, optional articleUrl.",
   "quotes": [
-    { "text": "All human beings are born free and equal in dignity and rights, endowed with reason and conscience.", "source": "Universal Declaration of Human Rights, Article 1", "date": "1948" },
-    { "text": "Everyone has the right to a standard of living adequate for the health and well-being of himself and his family.", "source": "Universal Declaration of Human Rights, Article 25", "date": "1948" },
-    { "text": "The right of peaceful assembly shall be recognized, and no restrictions may be placed on its exercise without law.", "source": "International Covenant on Civil and Political Rights, Article 21", "date": "1966" },
-    { "text": "Education shall be directed to the full development of the human personality and to the strengthening of respect for rights.", "source": "Universal Declaration of Human Rights, Article 26", "date": "1948" },
-    { "text": "All peoples have the right of self-determination, and by that right they freely determine their political status.", "source": "International Covenant on Economic, Social and Cultural Rights, Article 1", "date": "1966" }
+    {
+      "text": "All human beings are born free and equal in dignity and rights, endowed with reason and conscience.",
+      "source": "Universal Declaration of Human Rights, Article 1",
+      "date": "1948"
+    },
+    {
+      "text": "Everyone has the right to a standard of living adequate for the health and well-being of himself and his family.",
+      "source": "Universal Declaration of Human Rights, Article 25",
+      "date": "1948"
+    },
+    {
+      "text": "The right of peaceful assembly shall be recognized, and no restrictions may be placed on its exercise without law.",
+      "source": "International Covenant on Civil and Political Rights, Article 21",
+      "date": "1966"
+    },
+    {
+      "text": "Education shall be directed to the full development of the human personality and to the strengthening of respect for rights.",
+      "source": "Universal Declaration of Human Rights, Article 26",
+      "date": "1948"
+    },
+    {
+      "text": "All peoples have the right of self-determination, and by that right they freely determine their political status.",
+      "source": "International Covenant on Economic, Social and Cultural Rights, Article 1",
+      "date": "1966"
+    },
+    {
+      "text": "The line the world is described as approaching, on this measure, has already been passed by more than half the board.",
+      "source": "Claridas — global below-replacement fertility",
+      "date": "2026",
+      "articleUrl": "https://claridas.com/articles/below-replacement-fertility-majority-economies-2023/"
+    },
+    {
+      "text": "Read one economy at a time, below-replacement fertility is a national story a demographer files from Seoul or Rome.",
+      "source": "Claridas — global below-replacement fertility",
+      "date": "2026",
+      "articleUrl": "https://claridas.com/articles/below-replacement-fertility-majority-economies-2023/"
+    },
+    {
+      "text": "The Abuja pledge is unusual among international commitments in that the yardstick and the counter-record share an author.",
+      "source": "Claridas — the Abuja health-spending pledge",
+      "date": "2026",
+      "articleUrl": "https://claridas.com/articles/abuja-declaration-health-budget-pledge-2023/"
+    },
+    {
+      "text": "Obligations are a record of decisions already made — where money has actually been put to work.",
+      "source": "Claridas — federal budget authority vs obligations",
+      "date": "2026",
+      "articleUrl": "https://claridas.com/articles/budget-authority-obligation-rerank-execution-fy2026-q3/"
+    },
+    {
+      "text": "The farmer's rising share today does not prove the market is competitive, any more than the concentration proves it is not.",
+      "source": "Claridas — beef-market concentration",
+      "date": "2026",
+      "articleUrl": "https://claridas.com/articles/beef-4-meatpacker-concentration-doj-antitrust-2026/"
+    },
+    {
+      "text": "Reported here as a delta, not a defect: a diff surfaces edits a summary hides, which is the entire reason to read the text.",
+      "source": "Claridas — reading the regulatory diff",
+      "date": "2026",
+      "articleUrl": "https://claridas.com/articles/backup-withholding-threshold-roundtrip-ratchet-2026-08/"
+    },
+    {
+      "text": "Four games is a thin slice, and a thin slice is exactly where a clean-looking pattern is most likely to be noise.",
+      "source": "Claridas — possession versus results",
+      "date": "2026",
+      "articleUrl": "https://claridas.com/articles/brazil-serie-a-possession-lost-matchday-2026-08-08/"
+    },
+    {
+      "text": "The comparison is not a judgment about offensive quality in some broader sense — it is about which runs actually crossed the plate.",
+      "source": "Claridas — contact hitters versus home runs",
+      "date": "2026",
+      "articleUrl": "https://claridas.com/articles/mlb-sept11-three-contact-leaders-zero-homers-lost-2026/"
+    },
+    {
+      "text": "The inherited-to-made ratio behaves like a fingerprint of network structure rather than a measure of quality.",
+      "source": "Claridas — airline delay composition",
+      "date": "2026",
+      "articleUrl": "https://claridas.com/articles/delay-composition-carrier-fingerprint-2026-05/"
+    },
+    {
+      "text": "The strongest counter is that late-aircraft is a residual, not a root cause, so the ratio measures propagation rather than blame.",
+      "source": "Claridas — airline delay composition",
+      "date": "2026",
+      "articleUrl": "https://claridas.com/articles/delay-composition-carrier-fingerprint-2026-05/"
+    },
+    {
+      "text": "The permissive reading is that suspension is a consensus instrument, not an evasion of one.",
+      "source": "Claridas — a city council's rule suspensions",
+      "date": "2026",
+      "articleUrl": "https://claridas.com/articles/boston-council-rule-33-suspension-same-day-passage-2026/"
+    },
+    {
+      "text": "A city council is, by name and by civics-class reputation, a legislature — a body that makes law.",
+      "source": "Claridas — what a city council does",
+      "date": "2026",
+      "articleUrl": "https://claridas.com/articles/denver-council-resolutions-contracts-composition-2025/"
+    },
+    {
+      "text": "The honest position is that this design has not yet earned trust; it has only made trust checkable.",
+      "source": "Claridas — how Claridas earns trust",
+      "date": "2026",
+      "articleUrl": "https://claridas.com/articles/a-newsroom-of-machines/"
+    },
+    {
+      "text": "Enumeration at a scale no newsroom staffs is the only thing Claridas claims to do better than the outlets it admires.",
+      "source": "Claridas — the Claridas method",
+      "date": "2026",
+      "articleUrl": "https://claridas.com/articles/a-newsroom-of-machines/"
+    },
+    {
+      "text": "The pattern is consistent with close-game performance accounting for much of the formula gap.",
+      "source": "Claridas — expected wins versus record",
+      "date": "2026",
+      "articleUrl": "https://claridas.com/articles/mlb-2026-expected-wins-xwinloss-all-30-clubs/"
+    },
+    {
+      "text": "A single-country energy desk files one of two stories: the grid reached the last village, or households still cook over smoke.",
+      "source": "Claridas — energy access versus clean cooking",
+      "date": "2026",
+      "articleUrl": "https://claridas.com/articles/energy-access-electricity-vs-clean-cooking-2023/"
+    }
   ]
 }
