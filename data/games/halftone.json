@@ -1,0 +1,11 @@
+{
+  "note": "GAM-015 Halftone — weekly nonograms. Each puzzle is a 1-bit solution grid; the engine DERIVES the row/col clues from it (so clues always match) and the build-time line-solver (scripts/test-halftone.mjs) asserts every grid is UNIQUELY solvable by logic alone — no guessing (AC1). These launch grids are recognizable shapes verified by the line-solver. FOLLOW-ON (editorial/Forge): 15x15 pictures of objects from Claridas coverage (a plane, a ballot box, a gavel, a container) — source image → 1-bit → must pass the line-solver + a human recognizability check before shipping. solution = rows of 0/1.",
+  "puzzles": [
+    { "title": "Plus", "size": 5, "solution": [[0,0,1,0,0],[0,0,1,0,0],[1,1,1,1,1],[0,0,1,0,0],[0,0,1,0,0]] },
+    { "title": "Heart", "size": 7, "solution": [[0,1,1,0,1,1,0],[1,1,1,1,1,1,1],[1,1,1,1,1,1,1],[0,1,1,1,1,1,0],[0,0,1,1,1,0,0],[0,0,0,1,0,0,0],[0,0,0,0,0,0,0]] },
+    { "title": "Arrow", "size": 7, "solution": [[0,0,0,1,0,0,0],[0,0,1,1,1,0,0],[0,1,1,1,1,1,0],[1,1,1,1,1,1,1],[0,0,0,1,0,0,0],[0,0,0,1,0,0,0],[0,0,0,1,0,0,0]] },
+    { "title": "House", "size": 7, "solution": [[0,0,0,1,0,0,0],[0,0,1,1,1,0,0],[0,1,1,1,1,1,0],[1,1,1,1,1,1,1],[0,1,0,0,0,1,0],[0,1,0,1,0,1,0],[0,1,0,0,0,1,0]] },
+    { "title": "Letter C", "size": 7, "solution": [[0,1,1,1,1,1,0],[1,1,0,0,0,1,1],[1,1,0,0,0,0,0],[1,1,0,0,0,0,0],[1,1,0,0,0,0,0],[1,1,0,0,0,1,1],[0,1,1,1,1,1,0]] },
+    { "title": "Diamond", "size": 7, "solution": [[0,0,0,1,0,0,0],[0,0,1,1,1,0,0],[0,1,1,1,1,1,0],[1,1,1,1,1,1,1],[0,1,1,1,1,1,0],[0,0,1,1,1,0,0],[0,0,0,1,0,0,0]] }
+  ]
+}
