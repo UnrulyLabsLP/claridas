@@ -7,6 +7,16 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://claridas.com/articles/us-bank-loan-delinquency-card-mortgage-divergence-2026/",
+      "url": "https://claridas.com/articles/us-bank-loan-delinquency-card-mortgage-divergence-2026/",
+      "title": "Credit cards hit a 13-year high, mortgages a 17-year low — the rate cycle split the bank loan book in two",
+      "summary": "Reading all five Federal Reserve delinquency and charge-off series: unsecured consumer credit absorbed the shock; the mortgage ledger barely registered it",
+      "date_published": "2026-09-14T00:00:00.000Z",
+      "tags": [
+        "us"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/us-personal-saving-rate-rebuild-reversed-2026/",
       "url": "https://claridas.com/articles/us-personal-saving-rate-rebuild-reversed-2026/",
       "title": "The U.S. saving rate's post-2022 recovery has nearly fully reversed",
@@ -495,16 +505,6 @@
       "date_published": "2026-08-26T23:12:16.000Z",
       "tags": [
         "world"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/usopen-2026-qualifying-first-set-coin-flip-deciders/",
-      "url": "https://claridas.com/articles/usopen-2026-qualifying-first-set-coin-flip-deciders/",
-      "title": "We read every US Open qualifying opener: the first-set winner won 84% of matches — and exactly half the deciders",
-      "summary": "Across all 128 completed first-round qualifying matches at the 2026 US Open — 64 men, 64 women — the player who won the opening set won the match 105 of 125 times that finished on court. But that entire edge is straight-sets. Once a match reached a third set, the first-set winner went 20-20.",
-      "date_published": "2026-08-26T21:15:39.000Z",
-      "tags": [
-        "sports"
       ]
     }
   ]
