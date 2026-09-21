@@ -7,6 +7,16 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://claridas.com/articles/us-household-debt-service-mortgage-vs-consumer-2026/",
+      "url": "https://claridas.com/articles/us-household-debt-service-mortgage-vs-consumer-2026/",
+      "title": "Mortgage payments are back to pre-pandemic territory as a share of household income — consumer credit payments are not",
+      "summary": "The Federal Reserve's quarterly debt service data, across all 85 readings since 2005, show the two components moved in opposite directions for six straight quarters",
+      "date_published": "2026-09-21T00:00:00.000Z",
+      "tags": [
+        "us"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/us-bank-loan-delinquency-card-mortgage-divergence-2026/",
       "url": "https://claridas.com/articles/us-bank-loan-delinquency-card-mortgage-divergence-2026/",
       "title": "Credit cards hit a 13-year high, mortgages a 17-year low — the rate cycle split the bank loan book in two",
@@ -493,16 +503,6 @@
       "title": "The world pledged electricity for everyone by 2030. On its own 2024 numbers 655 million people are still without it — and among the 210 countries that report both rates, 83% of the unpowered live in the countryside",
       "summary": "We read the World Bank's 2024 access figures for all 215 reporting economies. Access is nearly universal in the cities — 98% globally — and the shortfall has collapsed onto the village: DR Congo reaches 55% of its urban residents and 1% of its rural ones, and eight countries hold half the people still in the dark.",
       "date_published": "2026-08-28T23:33:21.000Z",
-      "tags": [
-        "world"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/world-population-decline-emigration-not-fertility-2024/",
-      "url": "https://claridas.com/articles/world-population-decline-emigration-not-fertility-2024/",
-      "title": "42 economies shrank in 2024 — and 17 of them recorded more births than deaths. Fertility does not cleanly sort the declines; the pattern is consistent with net outward movement",
-      "summary": "We read every economy's own vital statistics: 7 of the 42 shrinking economies have fertility at or above replacement, while the famous low-fertility giants — China, Italy, Thailand — sit at the shallow end of the decline, not the steep one.",
-      "date_published": "2026-08-26T23:12:16.000Z",
       "tags": [
         "world"
       ]
