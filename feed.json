@@ -7,6 +7,16 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://claridas.com/articles/nhl-2026-preseason-opener-shots-efficiency-gap/",
+      "url": "https://claridas.com/articles/nhl-2026-preseason-opener-shots-efficiency-gap/",
+      "title": "We read 8 NHL preseason games: every home team won — and 3 did it with fewer shots",
+      "summary": "Colorado put 32 shots on net and scored once — 3 home teams won despite being outshot. The power play managed 5 goals on 47 chances, none at all in 5 of the 8 games.",
+      "date_published": "2026-09-22T00:00:00.000Z",
+      "tags": [
+        "sports"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/us-household-debt-service-mortgage-vs-consumer-2026/",
       "url": "https://claridas.com/articles/us-household-debt-service-mortgage-vs-consumer-2026/",
       "title": "Mortgage payments are back to pre-pandemic territory as a share of household income — consumer credit payments are not",
@@ -495,16 +505,6 @@
       "date_published": "2026-08-29T00:00:00.000Z",
       "tags": [
         "travel"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/world-electricity-access-2030-rural-deficit-2024/",
-      "url": "https://claridas.com/articles/world-electricity-access-2030-rural-deficit-2024/",
-      "title": "The world pledged electricity for everyone by 2030. On its own 2024 numbers 655 million people are still without it — and among the 210 countries that report both rates, 83% of the unpowered live in the countryside",
-      "summary": "We read the World Bank's 2024 access figures for all 215 reporting economies. Access is nearly universal in the cities — 98% globally — and the shortfall has collapsed onto the village: DR Congo reaches 55% of its urban residents and 1% of its rural ones, and eight countries hold half the people still in the dark.",
-      "date_published": "2026-08-28T23:33:21.000Z",
-      "tags": [
-        "world"
       ]
     }
   ]
