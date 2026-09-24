@@ -7,6 +7,16 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://claridas.com/articles/us-diesel-export-ban-price-mechanics-2026/",
+      "url": "https://claridas.com/articles/us-diesel-export-ban-price-mechanics-2026/",
+      "title": "A diesel export ban can cut the U.S. diesel price without cutting the fuel bill",
+      "summary": "Blocking exports strands barrels at home and cuts the U.S. price off from the world price traders normally chase — that can lower diesel in the short run. A ban adds no crude and no refining, so the idea that it lowers the overall fuel bill is a separate, weaker claim. We read the EIA data behind both.",
+      "date_published": "2026-09-23T18:30:00.000Z",
+      "tags": [
+        "us"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/nhl-2026-preseason-opener-shots-efficiency-gap/",
       "url": "https://claridas.com/articles/nhl-2026-preseason-opener-shots-efficiency-gap/",
       "title": "We read 8 NHL preseason games: every home team won — and 3 did it with fewer shots",
@@ -495,16 +505,6 @@
       "date_published": "2026-08-29T00:00:00.000Z",
       "tags": [
         "sports"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/travel-advisory-country-badge-hides-do-not-travel-zone-2026-08/",
-      "url": "https://claridas.com/articles/travel-advisory-country-badge-hides-do-not-travel-zone-2026-08/",
-      "title": "Nineteen countries the U.S. rates at its two lowest travel-risk tiers each hide a formal 'Do Not Travel' zone — and Georgia, rated at the scale's very lowest, is one",
-      "summary": "We read all 215 advisories the State Department publishes at once. The single top-level rating is a destination-wide floor, not the local reality: 19 of the 164 countries and areas badged Level 1 or 2 carry a 'Do Not Travel To' region in their text.",
-      "date_published": "2026-08-29T00:00:00.000Z",
-      "tags": [
-        "travel"
       ]
     }
   ]
