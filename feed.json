@@ -67,6 +67,16 @@
       ]
     },
     {
+      "id": "https://claridas.com/articles/us-real-wages-april-reversal-34-month-streak-2026/",
+      "url": "https://claridas.com/articles/us-real-wages-april-reversal-34-month-streak-2026/",
+      "title": "Across 34 monthly readings, private wages outpaced prices. April ended the run.",
+      "summary": "Production workers held more real ground — up 5 percent in real terms since pre-COVID — but have run negative year-over-year since April.",
+      "date_published": "2026-09-16T19:45:45.000Z",
+      "tags": [
+        "us"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/us-bank-loan-delinquency-card-mortgage-divergence-2026/",
       "url": "https://claridas.com/articles/us-bank-loan-delinquency-card-mortgage-divergence-2026/",
       "title": "Credit cards hit a 13-year high, mortgages a 17-year low — the rate cycle split the bank loan book in two",
@@ -494,16 +504,6 @@
       "date_published": "2026-08-29T09:15:31.000Z",
       "tags": [
         "sports"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/cfr-regulatory-volume-concentration-title-40-2026/",
-      "url": "https://claridas.com/articles/cfr-regulatory-volume-concentration-title-40-2026/",
-      "title": "One title holds nearly a fifth of the entire federal rulebook — environmental regulation, bigger than the 27 smallest CFR titles combined",
-      "summary": "We measured all 49 active titles of the Code of Federal Regulations by the size the eCFR records for each. The code totals about 830 MB of regulatory text; Title 40 alone is 19.3% of it and 1.8x the next-largest — and over the past year the whole code moved less than 1%.",
-      "date_published": "2026-08-29T07:12:01.000Z",
-      "tags": [
-        "us"
       ]
     }
   ]
