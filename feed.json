@@ -27,6 +27,16 @@
       ]
     },
     {
+      "id": "https://claridas.com/articles/us-jolts-manufacturing-openings-hires-gap-july-2026/",
+      "url": "https://claridas.com/articles/us-jolts-manufacturing-openings-hires-gap-july-2026/",
+      "title": "Manufacturing's openings rate is back to its December 2023 level. Its hires rate is not.",
+      "summary": "In July JOLTS data, manufacturing was the only one — among the eight private-sector groups examined — that added job openings without also adding hires; its openings rate rose 1.1 points year-over-year while its hiring rate stayed flat.",
+      "date_published": "2026-09-22T19:22:12.000Z",
+      "tags": [
+        "us"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/nhl-2026-preseason-opener-shots-efficiency-gap/",
       "url": "https://claridas.com/articles/nhl-2026-preseason-opener-shots-efficiency-gap/",
       "title": "We read 8 NHL preseason games: every home team won — and 3 did it with fewer shots",
@@ -494,17 +504,6 @@
       "date_published": "2026-08-29T03:15:14.000Z",
       "tags": [
         "sports"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/us-fed-balance-sheet-runoff-reverse-repo-absorbed-reserves-2026/",
-      "url": "https://claridas.com/articles/us-fed-balance-sheet-runoff-reverse-repo-absorbed-reserves-2026/",
-      "title": "The Fed's balance sheet is $2.235 trillion smaller than its 2022 peak — and bank reserves absorbed less than half the drop. The reverse-repo liability line gave up the most, $1.714 trillion, and the overnight facility inside it has drained to $175 million",
-      "summary": "We read all 229 weekly Fed balance-sheet releases since the April 2022 peak and traced where the runoff came out. Of the $2.235 trillion in assets shed, the reverse-repo liability line gave up the largest single share — $1.714 trillion, 77% — while reserves fell $899 billion (40%) and the Treasury's cash balance and currency both rose. The overnight facility inside that line has drained to $175 million; the Fed concluded its runoff on Dec. 1, 2025, citing money-market signs that reserves had finally tightened.",
-      "date_published": "2026-08-29T01:17:43.000Z",
-      "date_modified": "2026-08-28T00:00:00.000Z",
-      "tags": [
-        "us"
       ]
     }
   ]
