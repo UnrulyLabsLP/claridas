@@ -7,6 +7,16 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://claridas.com/articles/world-remittances-exceed-fdi-lower-middle-income-2022/",
+      "url": "https://claridas.com/articles/world-remittances-exceed-fdi-lower-middle-income-2022/",
+      "title": "In 37 of 49 lower-middle-income economies, personal remittances outpaced net foreign direct investment in 2022",
+      "summary": "Nepal received 143 times more via personal remittances than via FDI; among the 49 of 54 World Bank lower-middle-income economies with data for both series, 76 percent ran the same imbalance",
+      "date_published": "2026-09-26T00:00:00.000Z",
+      "tags": [
+        "world"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/nhl-2026-preseason-hits-losers-saves-winners-sept24/",
       "url": "https://claridas.com/articles/nhl-2026-preseason-hits-losers-saves-winners-sept24/",
       "title": "We read 4 NHL preseason games: losers out-hit winners every time — and the winning goalie had the higher save rate in all 4",
@@ -494,16 +504,6 @@
       "date_published": "2026-08-30T03:14:00.000Z",
       "tags": [
         "sports"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/world-us-mexico-trade-mirror-southbound-gap-2024/",
-      "url": "https://claridas.com/articles/world-us-mexico-trade-mirror-southbound-gap-2024/",
-      "title": "The US says it shipped $334 billion of goods to Mexico in 2024; Mexico says it received $263 billion — a $71 billion gap that runs the wrong way, and has widened every year since 2021",
-      "summary": "We read both governments' filings to UN Comtrade for 2021-2024. On goods heading north the two ledgers agree within about 1%. On goods heading south the importer records a fifth less than the exporter ships — the opposite of what freight costs predict — and the hole grew every year: $55B, $58B, $61B, $71B from 2021 to 2024.",
-      "date_published": "2026-08-29T23:17:30.000Z",
-      "tags": [
-        "world"
       ]
     }
   ]
