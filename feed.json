@@ -7,6 +7,16 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://claridas.com/articles/nhl-2026-preseason-hits-losers-saves-winners-sept24/",
+      "url": "https://claridas.com/articles/nhl-2026-preseason-hits-losers-saves-winners-sept24/",
+      "title": "We read 4 NHL preseason games: losers out-hit winners every time — and the winning goalie had the higher save rate in all 4",
+      "summary": "Anaheim landed 32 hits, outshot Los Angeles 25 to 19, and lost. Dallas gave the puck away 27 times and won. Across all 4 games, the winning goalie stopped shots at a higher rate than the losing goalie — no exceptions.",
+      "date_published": "2026-09-24T00:00:00.000Z",
+      "tags": [
+        "sports"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/world-renewable-electricity-share-decline-35-economies-2015-2021/",
       "url": "https://claridas.com/articles/world-renewable-electricity-share-decline-35-economies-2015-2021/",
       "title": "Thirty-five of 202 electricity systems lost more than a percentage point of renewable share from 2015 to 2021 -- and the highest-share economies led the retreat",
@@ -34,6 +44,16 @@
       "date_published": "2026-09-23T18:30:00.000Z",
       "tags": [
         "us"
+      ]
+    },
+    {
+      "id": "https://claridas.com/articles/nwsl-weekend-goalkeeper-save-rate-sept-2026/",
+      "url": "https://claridas.com/articles/nwsl-weekend-goalkeeper-save-rate-sept-2026/",
+      "title": "We read all 7 NWSL games ESPN's scoreboard listed last weekend: the winning goalkeeper had a higher save rate in 6 of them",
+      "summary": "A full read of the 7 games the ESPN endpoint listed as Final for September 19-20 shows the winning keeper outperforming the losing one in 6. Three winning keepers stopped every shot they faced.",
+      "date_published": "2026-09-23T09:27:57.000Z",
+      "tags": [
+        "sports"
       ]
     },
     {
@@ -67,6 +87,16 @@
       ]
     },
     {
+      "id": "https://claridas.com/articles/sports-ncaaf-sept12-halftime-split-blowout-vs-onescore-2026/",
+      "url": "https://claridas.com/articles/sports-ncaaf-sept12-halftime-split-blowout-vs-onescore-2026/",
+      "title": "We read all 80 games ESPN's college-football scoreboard listed Saturday: halftime leads held 79% overall — but just 47% in close games",
+      "summary": "The second quarter produced 35% of the 4,310 points scored in regulation. In the 80 games ESPN's scoreboard listed, the halftime leader won 95% of the blowouts but under half of the one-score games.",
+      "date_published": "2026-09-18T09:26:05.000Z",
+      "tags": [
+        "sports"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/us-employment-cost-wages-benefits-flip-2026/",
       "url": "https://claridas.com/articles/us-employment-cost-wages-benefits-flip-2026/",
       "title": "Wages led benefit costs in every annual comparison from 2019 through 2025. In the year through Q2 2026, benefits led.",
@@ -92,6 +122,16 @@
       "title": "We read the 80 Week 2 college games ESPN listed for September 12: yards led 14 of 31 close games — turnovers led 18 of 22",
       "summary": "In blowouts the yardage leader won 95% of the time. In close games it won less than half.",
       "date_published": "2026-09-16T00:00:00.000Z",
+      "tags": [
+        "sports"
+      ]
+    },
+    {
+      "id": "https://claridas.com/articles/nfl-week1-2026-total-yards-vs-red-zone-efficiency/",
+      "url": "https://claridas.com/articles/nfl-week1-2026-total-yards-vs-red-zone-efficiency/",
+      "title": "We read all 16 Week 1 NFL games ESPN listed: total yards called 14 of them. Red zone efficiency called 6.",
+      "summary": "Buffalo converted one red zone trip to a touchdown. Houston converted four. Buffalo won.",
+      "date_published": "2026-09-15T00:00:00.000Z",
       "tags": [
         "sports"
       ]
@@ -244,6 +284,16 @@
       "date_published": "2026-09-09T20:00:00.000Z",
       "tags": [
         "sports"
+      ]
+    },
+    {
+      "id": "https://claridas.com/articles/us-federal-rules-apa-30day-effective-date-threshold-2026/",
+      "url": "https://claridas.com/articles/us-federal-rules-apa-30day-effective-date-threshold-2026/",
+      "title": "The APA sets a 30-day floor before final rules take effect, absent an exception. Among 2,060 rules published in 2026 so far, 209 land on exactly that floor — while 29 days appears just 5 times.",
+      "summary": "We read the effective date on every final rule the Federal Register published from January 1 through September 7, 2026. The APA's 30-day minimum appears 209 times; 29 days appears 5 times — a 42-to-1 ratio. The same lopsided pattern held in 2024 and 2025 (79-to-1 and 19-to-1).",
+      "date_published": "2026-09-08T19:39:00.000Z",
+      "tags": [
+        "us"
       ]
     },
     {
@@ -454,56 +504,6 @@
       "date_published": "2026-08-29T23:17:30.000Z",
       "tags": [
         "world"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/treasury-reporting-rates-exchange-amendments-bolivia-peg-2026/",
-      "url": "https://claridas.com/articles/treasury-reporting-rates-exchange-amendments-bolivia-peg-2026/",
-      "title": "Four currencies tripped the U.S. Treasury's 10-percent revaluation tripwire this quarter — and the biggest jump was a rate that had not moved in a decade",
-      "summary": "The Treasury Reporting Rates of Exchange is the standard table federal agencies use to convert their foreign-currency transactions into dollars — amended mid-quarter only when a currency moves 10 percent or more. We read all 171 lines of the June 30 report: four carry an amendment, and Bolivia's boliviano — near 6.85 since 2016 — jumped to 10.35.",
-      "date_published": "2026-08-29T19:15:48.000Z",
-      "tags": [
-        "us"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/whole-argument-fed-hold-vs-cut-rates-inflation-2026-08/",
-      "url": "https://claridas.com/articles/whole-argument-fed-hold-vs-cut-rates-inflation-2026-08/",
-      "title": "The rate-cut fight, checked against the data: inflation is still above 2% on every gauge the Fed watches — including headline PCE, the measure its formal 2% target is set on — and in July the job market started to shrink. The two halves of the Fed's mandate now pull opposite ways",
-      "summary": "One camp says hold higher until inflation breaks; the other says cut before a softening labor market cracks. We pulled the numbers the argument turns on. Inflation is above the 2% goal on both the headline PCE gauge the Fed targets and the core reading it forecasts with — so the 'inflation is beaten' case isn't in the data. But July payrolls turned negative and the prior two months were revised down by 103,000, giving the cut side its own hard evidence. This is a genuine dual-mandate conflict, not a lean.",
-      "date_published": "2026-08-29T17:35:00.000Z",
-      "tags": [
-        "us"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/world-eu-maastricht-fiscal-rules-16-of-27-breach-2024/",
-      "url": "https://claridas.com/articles/world-eu-maastricht-fiscal-rules-16-of-27-breach-2024/",
-      "title": "The EU writes two numbers into its own treaties — debt under 60% of GDP, deficit under 3%. On its 2024 books, 16 of 27 members breach at least one, and only 11 clear both",
-      "summary": "We read Eurostat's own excessive-deficit filings for all 27 members. Twelve exceed the debt ceiling, eleven the deficit limit — but only seven breach both, and the biggest debtors are rarely the biggest deficit-runners. Greece carries the bloc's largest debt, 154% of GDP, and still ran a surplus.",
-      "date_published": "2026-08-29T17:09:02.000Z",
-      "tags": [
-        "world"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/whole-argument-trump-beef-ranchers-process-own-food-2026-08/",
-      "url": "https://claridas.com/articles/whole-argument-trump-beef-ranchers-process-own-food-2026-08/",
-      "title": "Trump says he'll let ranchers 'process their own food.' They already can — the rule that stops them selling it is a federal inspection law only Congress can change",
-      "summary": "The president named a real problem: four companies buy roughly 85% of U.S. fed cattle. His fix — 'legal documents' giving ranchers the right to process their own beef. A rancher's reply named the gap: that right already exists, but the meat is stamped 'Not For Sale.' We read the actual law. Each side is right about a different half.",
-      "date_published": "2026-08-29T16:20:00.000Z",
-      "tags": [
-        "us"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/nfl-rb-2025-goal-line-carries-drive-rushing-touchdowns/",
-      "url": "https://claridas.com/articles/nfl-rb-2025-goal-line-carries-drive-rushing-touchdowns/",
-      "title": "We read all 49 workhorse backs of 2025: rushing touchdowns tracked goal-line carries, not total volume",
-      "summary": "Across every running back who carried 100-plus times, rushing scores correlated 0.885 with carries inside the 10-yard line and just 0.636 with total carries — and in Seattle and Atlanta the back who owned the goal line was not the one who owned the workload.",
-      "date_published": "2026-08-29T15:15:52.000Z",
-      "tags": [
-        "sports"
       ]
     }
   ]
