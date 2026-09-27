@@ -7,6 +7,16 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://claridas.com/articles/nfl-2026-passing-efficiency-rushing-yards-weeks-1-3/",
+      "url": "https://claridas.com/articles/nfl-2026-passing-efficiency-rushing-yards-weeks-1-3/",
+      "title": "The rushing team won 7 of 16 NFL Week 2 games. The passing-efficiency team won 13.",
+      "summary": "Across the 33 completed 2026 NFL games the ESPN endpoint returned, net yards per pass play tracked the winner more often than rushing yards did — and Week 2 showed how often the run-game box score sat on the losing side.",
+      "date_published": "2026-09-26T00:00:00.000Z",
+      "tags": [
+        "sports"
+      ]
+    },
+    {
       "id": "https://claridas.com/articles/world-remittances-exceed-fdi-lower-middle-income-2022/",
       "url": "https://claridas.com/articles/world-remittances-exceed-fdi-lower-middle-income-2022/",
       "title": "In 37 of 49 lower-middle-income economies, personal remittances outpaced net foreign direct investment in 2022",
@@ -492,16 +502,6 @@
       "title": "All 32 passing offenses: a lead pass-catcher's fantasy value tracked target concentration more closely than pass volume",
       "summary": "Rank all 32 NFL offenses by the share of targets its single busiest pass-catcher commanded and the lead receiver's full-PPR points follow it — correlation 0.74, against 0.38 for how many passes the team threw. Buffalo charged more targets than New Orleans and produced no startable receiver; New Orleans funneled 27.6% to Chris Olave and made him a WR6.",
       "date_published": "2026-08-30T20:15:00.000Z",
-      "tags": [
-        "sports"
-      ]
-    },
-    {
-      "id": "https://claridas.com/articles/golf-tour-championship-2026-par-5s-half-scoring-east-lake/",
-      "url": "https://claridas.com/articles/golf-tour-championship-2026-par-5s-half-scoring-east-lake/",
-      "title": "Two par-5s made nearly half the Tour Championship's under-par scoring — the other 16 holes played almost even",
-      "summary": "Through 54 holes at East Lake, we scored every player who finished all three rounds: the 6th and 18th holes, 11% of the course, produced 112 of the field's 231 strokes under par — one shy of what all twelve par-4s made combined, at a 63.8% birdie rate.",
-      "date_published": "2026-08-30T03:14:00.000Z",
       "tags": [
         "sports"
       ]
